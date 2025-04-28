@@ -1,6 +1,6 @@
 ### Trouver ma traduction
 
-# Utilité : Site pour trouver des traductions de chansons traduites par des utilisateurs
+-- Utilité : Site pour trouver des traductions de chansons traduites par des utilisateurs --
 
 Objectifs (backend) :
 
