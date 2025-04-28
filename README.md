@@ -1,8 +1,8 @@
-### Trouver ma traduction
+## Trouver ma traduction
 
 # Utilité : Site pour trouver des traductions de chansons traduites par des utilisateurs
 
-Objectifs :
+Objectifs (backend) :
 
 - Créer une DB qui stockera les fichiers (formats pdf, word...)
 - Créer une DB qui stockera les données utilisateurs (mdp, username...)
