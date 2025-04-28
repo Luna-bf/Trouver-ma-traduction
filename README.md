@@ -1,4 +1,4 @@
-## Trouver ma traduction
+### Trouver ma traduction
 
 # Utilité : Site pour trouver des traductions de chansons traduites par des utilisateurs
 
