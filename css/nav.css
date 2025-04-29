@@ -122,9 +122,9 @@ DROPDOWN ET LANGUE
 }
 
 .drop-link {
-    padding: 0 5px;
-    text-decoration: none;
-    color: #000000;
+    padding-top: 0.5em;
+    justify-content: center;
+    align-self: center;
 }
 
 /*Le contenu du dropdown est caché par défaut*/
@@ -159,10 +159,16 @@ DROPDOWN ET LANGUE
     text-decoration: underline;
 }
 
+.big {
+    width: 45%;
+}
+
 .flag {
     width: 35%;
     height: 39%;
     padding-right: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 /***THEMES***/
