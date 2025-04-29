@@ -6,6 +6,11 @@
     <title>Trouver ma traduction</title>
 </head>
 <body>
-    <h1>hi</h1>
+
+    <?php
+        require("php/nav.php");
+    ?>
+
+    <img src="imgs/translation.png" alt="Translation">
 </body>
 </html>
