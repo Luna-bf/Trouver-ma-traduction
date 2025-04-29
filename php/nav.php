@@ -19,8 +19,8 @@
                             <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M479.77-288Q400-288 344-344.23q-56-56.22-56-136Q288-560 344.23-616q56.22-56 136-56Q560-672 616-615.77q56 56.22 56 136Q672-400 615.77-344q-56.22 56-136 56ZM216-444H48v-72h168v72Zm696 0H744v-72h168v72ZM444-744v-168h72v168h-72Zm0 696v-168h72v168h-72ZM269-642 166-742l51-55 102 104-50 51Zm474 475L642-268l49-51 103 101-51 51ZM640-691l102-101 51 49-100 103-53-51ZM163-217l105-99 49 47-98 104-56-52Z"/></svg>
                         </button>
                     
-                <div class="dropdown-menu">
-                    <a href="#" class="drop-link">Langue</a>
+                <div class="dropdown-menu d-flex">
+                    <a href="#" class="drop-link d-flex"><img src="imgs/flags/france-flag-80x53.png" alt="France flag big" class="big"></a>
                     <div class="dropdown-content">
                         <a href="index.php?lang=fr" class="lang-change" id="fr"><img src="imgs/flags/france-flag.png" alt="France flag" class="flag">Français</a>
                         <a href="index.php?lang=en" class="lang-change" id="en"><img src="imgs/flags/uk-flag.png" alt="UK flag" class="flag">English</a>
@@ -30,9 +30,9 @@
             </div>
                 
             <ul class="d-flex">
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects"><? __('Projets') ?></a></li>
+                <li><a href="#competences"><? __('Compétences') ?></a></li>
+                <li><a href="#contact"><? __('Contact') ?></a></li>
             </ul>
         </div>
     </nav>
