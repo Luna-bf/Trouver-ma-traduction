@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trouver ma traduction</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <nav>
@@ -16,7 +18,7 @@
                 </button>
                     
                 <div class="dropdown-menu d-flex">
-                    <a href="#" class="drop-link d-flex"><img src="imgs/flags/france-flag-80x53.png" alt="France flag big" class="big"></a>
+                    <a href="#" class="drop-link d-flex"><img src="imgs/flags/france-flag-80x53.png" alt="France flag big" class="big"><i class="fa-solid fa-sort-down"></i></a>
                     <div class="dropdown-content">
                         <a href="index.php?lang=fr" class="lang-change" id="fr"><img src="imgs/flags/france-flag.png" alt="France flag" class="flag">Français</a>
                         <a href="index.php?lang=en" class="lang-change" id="en"><img src="imgs/flags/uk-flag.png" alt="UK flag" class="flag">English</a>
@@ -25,7 +27,7 @@
                 </div>
             </div>
                 
-            <ul class="d-flex">
+            <ul class="d-flex" id="nav-ul">
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
