@@ -1,0 +1,217 @@
+:root {
+    --base-bg-color: #fff;
+    --text-color: #000000;
+    --hr-color: #808080;
+    --skills-hr-color: #808080;
+    --nav-bg-color: rgba(202, 229, 255, 0.7);
+    --theme-lang-border-color: #aaa;
+    --theme-lang-bg-color: #fff;
+    --theme-lang-btn-bg-color: #333333;
+    --theme-lang-icon-color: #fff;
+    --theme-lang-bg-color-hover: #FFFAFA;
+    --theme-lang-color-focus: #b22222;
+    --nav-a-color: #000000;
+    --nav-a-focus-color: #fff;
+    --skills-bg-color: rgba(202, 229, 255, 1);
+    --github-link: blue;
+}
+
+/***Reset***/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease; /* Pour changer le mode de façon moins statique */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*************
+DISPLAY FLEX
+*************/
+
+.d-flex {
+    display: flex;
+}
+
+/***Dark mode***/
+.dark-mode {
+    --base-bg-color: #333333;
+    --text-color: #fff;
+    --hr-color: #fff;
+    --skills-hr-color: black;
+    --nav-bg-color: rgba(132, 182, 230, 0.7);
+    --theme-lang-border-color: #555555;
+    --theme-lang-bg-color: #333333;
+    --theme-lang-btn-bg-color: #fff;
+    --theme-lang-icon-color: #333333;
+    --theme-lang-bg-color-hover: #444444;
+    --theme-lang-color-focus: #fff;
+    --nav-a-color: #fff;
+    --nav-a-focus-color: #fff;
+    --skills-bg-color: rgba(132, 182, 230, 1);
+    --github-link: powderblue;
+}
+
+/*****
+NAV
+*****/
+
+nav {
+    position: fixed;
+    z-index: 10; /*Pour que les éléments animés restent derrière la nav*/
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: var(--nav-bg-color);
+}
+
+#space-between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 5px;
+    transition: none;
+}
+
+nav ul li a:hover {
+    list-style: none;
+    text-decoration: underline;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav ul li a:focus {
+    list-style: none;
+    color: var(--nav-a-focus-color);
+    text-decoration: underline;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/******************
+DROPDOWN ET LANGUE
+******************/
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-link {
+    padding-top: 0.5em;
+    justify-content: center;
+    align-self: center;
+}
+
+/*Le contenu du dropdown est caché par défaut*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--theme-lang-bg-color);
+    border: 1px solid var(--theme-lang-border-color);
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: var(--text-color);
+    padding: 1em 2em;
+    text-decoration: none;
+    min-width: 11em;
+    transition: none;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--theme-lang-bg-color-hover);
+    border-radius: 5px;
+}
+
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+}
+
+.lang-change:focus {
+    color: var(--theme-lang-color-focus);
+    text-decoration: underline;
+}
+
+.big {
+    width: 45%;
+}
+
+.flag {
+    width: 35%;
+    height: 39%;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/***THEMES***/
+
+.drop-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#change-theme {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--theme-lang-btn-bg-color);
+    border: 1px solid var(--theme-lang-btn-bg-color);
+    cursor: pointer;
+}
+
+.dropdown-menu:hover #themes {
+    display: block;
+    width: 500px;
+}
+
+#change-theme svg {
+    fill: var(--theme-lang-icon-color);
+}
+
+/*Je veux montrer une seule icône quand le mode lumineux (par défaut) est actif*/
+#change-theme svg:last-child {
+    display: none;
+    fill: var(--theme-lang-icon-color);
+}
+
+/*Je fais donc pareil pour le mode sombre*/
+.dark-mode #change-theme svg:first-child {
+    display: none; /*Je rend l'icône lune invisible*/
+    fill: var(--theme-lang-icon-color);
+}
+
+.dark-mode #change-theme svg:last-child {
+    display: block; /*Et j'affiche celle du soleil*/
+    fill: var(--theme-lang-icon-color);
+}
