@@ -2,6 +2,6 @@
 
 require "html/accueil.php";
 
-require "languages/lang.php";
+#require "languages/lang.php";
 
 ?>
