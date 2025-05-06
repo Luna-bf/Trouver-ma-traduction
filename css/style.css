@@ -251,3 +251,9 @@ DROPDOWN ET LANGUE
 #nav-ul {
     align-items: center;
 }
+
+#profile {
+    color: black;
+    width: 500px;
+    padding: 2em;
+}
