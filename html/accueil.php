@@ -26,11 +26,10 @@
                 </div>
             </div>
                 
-            <ul class="d-flex" id="nav-ul">
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="d-flex" id="nav-ul">
+                <input type="text" value="Rechercher...">
+                <a href="php/signin.php" id="profile"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
         </div>
     </nav>
 
