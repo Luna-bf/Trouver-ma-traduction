@@ -34,8 +34,23 @@
     </nav>
 
     <form action="form.php">
+        <h1>Se connecter au compte</h1>
+
         <label for="Username-email">Nom d'utilisateur ou email</label>
         <input type="text" class="form-input">
+
+        <label for="password">Mot de passe</label>
+        <input type="password" class="form-input">
+
+        <p>Mot de passe oublié ?</p>
+
+        <input type="checkbox" name="rebember">
+        <label for="scales">Se souvenir de moi</label>
+
+        <input type="submit" value="Se connecter">
+
+        <p>Vous n'avez pas de compte ?</p>
+        <a href="signup.php">Créer un compte</a>
     </form>
 </body>
 </html>
