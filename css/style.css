@@ -1,19 +1,17 @@
+@import "form.css";
+
 :root {
     --base-bg-color: #fff;
     --text-color: #000000;
-    --hr-color: #808080;
-    --skills-hr-color: #808080;
     --nav-bg-color: #fff;
-    --theme-lang-border-color: #aaa;
-    --theme-lang-bg-color: #fff;
-    --theme-lang-btn-bg-color: #333333;
-    --theme-lang-icon-color: #fff;
-    --theme-lang-bg-color-hover: #FFFAFA;
-    --theme-lang-color-focus: #b22222;
-    --nav-a-color: #000000;
-    --nav-a-focus-color: #fff;
-    --skills-bg-color: rgba(202, 229, 255, 1);
-    --github-link: blue;
+    --lang-bg-color: #fff;
+    --lang-border-color: #aaa;
+    --lang-bg-color: #fff;
+    --lang-bg-color-hover: #FFFAFA;
+    --theme-btn-bg-color: #333333;
+    --theme-icon-color: #fff;
+    --translation-bg-color: rgb(220, 235, 255, 0.4);
+    --footer-bg-color: #DCEBFF;
 }
 
 /***Reset***/
@@ -66,23 +64,55 @@ DISPLAY FLEX
 .dark-mode {
     --base-bg-color: #333333;
     --text-color: #fff;
-    --hr-color: #fff;
-    --skills-hr-color: black;
     --nav-bg-color: #333333;
-    --theme-lang-border-color: #555555;
-    --theme-lang-bg-color: #333333;
-    --theme-lang-btn-bg-color: #fff;
-    --theme-lang-icon-color: #333333;
-    --theme-lang-bg-color-hover: #444444;
-    --theme-lang-color-focus: #fff;
-    --nav-a-color: #fff;
-    --nav-a-focus-color: #fff;
-    --skills-bg-color: rgba(132, 182, 230, 1);
-    --github-link: powderblue;
+    --lang-border-color: #555555;
+    --lang-bg-color: #333333;
+    --lang-bg-color-hover: #444444;
+    --lang-color-focus: #fff;
+    --theme-icon-color: #333333;
+    --theme-btn-bg-color: #fff;
+    --translation-bg-color: rgba(185, 215, 255, 0.8);
+    --footer-bg-color: #B9D7FF;
 }
 
 body {
     background-color: var(--base-bg-color);
+}
+
+/*********
+ICONS
+*********/
+
+.fa-sort-down {
+    vertical-align: center;
+    margin-left: 5px;
+}
+
+.fa-circle-user {
+    color: var(--text-color);
+    font-size: 35px;
+}
+
+.icon {
+    background: url("../imgs/icons/magnifying-glass.png") no-repeat left;
+    background-size: 17px;
+    background-position: 5px;
+}
+
+.fa-square-facebook {
+    color: #1877F2;
+}
+
+.fa-square-instagram {
+    color: #d62976;
+}
+
+.fa-square-twitter {
+    color: #1DA1F2;
+}
+
+.fa-square-snapchat {
+    color: #fffc00;
 }
 
 /*****
@@ -90,7 +120,7 @@ NAV
 *****/
 
 nav {
-    position: fixed;
+    /* position: fixed; */
     z-index: 10; /*Pour que les éléments animés restent derrière la nav*/
     padding: 1em;
     text-align: center;
@@ -161,8 +191,8 @@ DROPDOWN ET LANGUE
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--theme-lang-bg-color);
-    border: 1px solid var(--theme-lang-border-color);
+    background-color: var(--lang-bg-color);
+    border: 1px solid var(--lang-border-color);
     border-radius: 5px;
     margin: 0.3em 0 0 1.2em;
 }
@@ -177,7 +207,7 @@ DROPDOWN ET LANGUE
 }
 
 .dropdown-content a:hover {
-    background-color: var(--theme-lang-bg-color-hover);
+    background-color: var(--lang-bg-color-hover);
     border-radius: 5px;
 }
 
@@ -186,13 +216,8 @@ DROPDOWN ET LANGUE
 }
 
 .lang-change:focus {
-    color: var(--theme-lang-color-focus);
+    color: var(--lang-color-focus);
     text-decoration: underline;
-}
-
-.fa-sort-down {
-    vertical-align: center;
-    margin-left: 5px;
 }
 
 .big {
@@ -221,8 +246,8 @@ DROPDOWN ET LANGUE
     width: 40px;
     padding: 0;
     border-radius: 50%;
-    background-color: var(--theme-lang-btn-bg-color);
-    border: 1px solid var(--theme-lang-btn-bg-color);
+    background-color: var(--theme-btn-bg-color);
+    border: 1px solid var(--theme-btn-bg-color);
     cursor: pointer;
 }
 
@@ -232,24 +257,24 @@ DROPDOWN ET LANGUE
 }
 
 #change-theme svg {
-    fill: var(--theme-lang-icon-color);
+    fill: var(--theme-icon-color);
 }
 
 /*Je veux montrer une seule icône quand le mode lumineux (par défaut) est actif*/
 #change-theme svg:last-child {
     display: none;
-    fill: var(--theme-lang-icon-color);
+    fill: var(--theme-icon-color);
 }
 
 /*Je fais donc pareil pour le mode sombre*/
 .dark-mode #change-theme svg:first-child {
     display: none; /*Je rend l'icône lune invisible*/
-    fill: var(--theme-lang-icon-color);
+    fill: var(--theme-icon-color);
 }
 
 .dark-mode #change-theme svg:last-child {
     display: block; /*Et j'affiche celle du soleil*/
-    fill: var(--theme-lang-icon-color);
+    fill: var(--theme-icon-color);
 }
 
 #nav-ul {
@@ -257,24 +282,53 @@ DROPDOWN ET LANGUE
 }
 
 #nav-search-input {
-    padding: 3px;
+    transition: none;
+    padding: 6px 6px 6px 22px;
     background-color: #E6E6E6;
-    color: #aaa;
+    color: #000000;
     border: 2px solid #E6E6E6;
     border-radius: 5px;
-}
-
-.icon {
-    margin-left: 55px;
-    background: url("../imgs/icons/magnifying-glass.png") no-repeat left;
-    background-size: 17px;
-    padding: 3px;
+    margin-right: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #nav-search-input::placeholder {
-    padding-left: 25px;
+    color: #aaa;
+    padding-left: 5px;
+    vertical-align: middle;
 }
 
-#profile {
-    color: black;   
+.translation-parent {
+    background-color: var(--translation-bg-color);
+    padding: 2em;
+    width: 98%;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+#translation-img {
+    width: 35%;
+}
+
+/*************
+FOOTER
+*************/
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    background-color: var(--footer-bg-color);
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#footer ul li {
+    list-style: none;
 }
