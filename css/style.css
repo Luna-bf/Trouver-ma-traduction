@@ -29,6 +29,9 @@ SMOOTH SCROLL
 
 html {
     scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /************
@@ -125,9 +128,6 @@ nav {
     padding: 1em;
     text-align: center;
     width: 100%;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     background-color: var(--nav-bg-color);
 }
 
@@ -141,9 +141,6 @@ nav {
 nav ul {
     list-style: none;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 nav ul li a {
@@ -157,9 +154,6 @@ nav ul li a:hover {
     list-style: none;
     text-decoration: underline;
     border-radius: 5px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 nav ul li a:focus {
@@ -167,9 +161,6 @@ nav ul li a:focus {
     color: var(--nav-a-focus-color);
     text-decoration: underline;
     border-radius: 5px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 /******************
@@ -289,9 +280,6 @@ DROPDOWN ET LANGUE
     border: 2px solid #E6E6E6;
     border-radius: 5px;
     margin-right: 5px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 #nav-search-input::placeholder {
@@ -324,9 +312,6 @@ FOOTER
     padding: 1em;
     width: 100%;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 #footer ul li {

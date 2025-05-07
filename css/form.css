@@ -4,10 +4,90 @@
 SIGN IN / CONNEXION
 ********************/
 
+html {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-i-flex {
+    display: inline-flex;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+form {
+    background-color: rgb(220, 235, 255, 0.4);
+    margin: 0 auto;
+    flex-direction: column;
+    width: 90%;
+    padding: 2em;
+}
+
+form h1 {
+    text-align: center;
+}
+
+.form-input-parent {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#remember {
+    flex-direction: row;
+    margin: 0 auto;
+}
+
 .form-input {
     border-left: 2px solid #000000;
     border-bottom: 2px solid #000000;
     border-top: 0;
-    border-right: 0
+    border-right: 0;
 }
 
+#remember {
+    font-weight: 400;
+}
+
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #1B6779;
+}
+
+.submit-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #1B6779;
+    color: #fff;
+    border: 1px solid #1B6779;
+    padding: 0.6em 5em 0.6em 5em;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.other-btn {
+    background-color: #fff;
+    color: #1B6779;
+    border: 1px solid #1B6779;
+    padding: 0.6em 5em 0.6em 5em;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
