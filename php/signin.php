@@ -33,24 +33,36 @@
         </div>
     </nav>
 
-    <form action="form.php">
-        <h1>Se connecter au compte</h1>
+    <form action="form.php" class="d-flex">
+            <h1>Se connecter au compte</h1>
 
-        <label for="Username-email">Nom d'utilisateur ou email</label>
-        <input type="text" class="form-input">
+            <div class="w-400 d-i-flex form-input-parent">
+                <label for="Username-email" class="w-50">Nom d'utilisateur ou email</label>
+                <input type="text" class="form-input">
+            </div>
 
-        <label for="password">Mot de passe</label>
-        <input type="password" class="form-input">
+            <div class="w-400 d-i-flex form-input-parent">
+                <label for="password">Mot de passe</label>
+                <input type="password" class="form-input">
+            </div>
 
-        <p>Mot de passe oublié ?</p>
+            <div class="w-400 d-i-flex form-input-parent">
+                <p>Mot de passe oublié ?</p>
+            </div>
 
-        <input type="checkbox" name="rebember">
-        <label for="scales">Se souvenir de moi</label>
+            <div class="w-400 d-i-flex" id="remember">
+                <input type="checkbox" name="rebember">
+                <label for="remember">Se souvenir de moi</label>
+            </div>
 
-        <input type="submit" value="Se connecter">
+            <div class="w-400 d-i-flex form-input-parent">
+                <input type="submit" value="Se connecter" class="submit-btn w-400">
+            </div>
 
-        <p>Vous n'avez pas de compte ?</p>
-        <a href="signup.php">Créer un compte</a>
+            <div class="w-400 d-i-flex form-input-parent">
+                <p>Vous n'avez pas de compte ?</p>
+                <a href="signup.php" class="other-btn w-400">Créez en un</a>
+            </div>
     </form>
 </body>
 </html>
