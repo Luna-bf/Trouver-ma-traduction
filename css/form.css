@@ -1,6 +1,13 @@
+/* Fichier CSS pour le formulaire de connexion et d'inscription*/
+
+/*******************
+SIGN IN / CONNEXION
+*******************/
+
 .form-input {
     border-left: 2px solid #000000;
     border-bottom: 2px solid #000000;
     border-top: 0;
     border-right: 0
 }
+
