@@ -3,7 +3,7 @@
     --text-color: #000000;
     --hr-color: #808080;
     --skills-hr-color: #808080;
-    --nav-bg-color: rgba(202, 229, 255, 0.7);
+    --nav-bg-color: #fff;
     --theme-lang-border-color: #aaa;
     --theme-lang-bg-color: #fff;
     --theme-lang-btn-bg-color: #333333;
@@ -68,7 +68,7 @@ DISPLAY FLEX
     --text-color: #fff;
     --hr-color: #fff;
     --skills-hr-color: black;
-    --nav-bg-color: rgba(132, 182, 230, 0.7);
+    --nav-bg-color: #333333;
     --theme-lang-border-color: #555555;
     --theme-lang-bg-color: #333333;
     --theme-lang-btn-bg-color: #fff;
@@ -79,6 +79,10 @@ DISPLAY FLEX
     --nav-a-focus-color: #fff;
     --skills-bg-color: rgba(132, 182, 230, 1);
     --github-link: powderblue;
+}
+
+body {
+    background-color: var(--base-bg-color);
 }
 
 /*****
@@ -252,8 +256,25 @@ DROPDOWN ET LANGUE
     align-items: center;
 }
 
+#nav-search-input {
+    padding: 3px;
+    background-color: #E6E6E6;
+    color: #aaa;
+    border: 2px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-left: 55px;
+    background: url("../imgs/icons/magnifying-glass.png") no-repeat left;
+    background-size: 17px;
+    padding: 3px;
+}
+
+#nav-search-input::placeholder {
+    padding-left: 25px;
+}
+
 #profile {
-    color: black;
-    width: 500px;
-    padding: 2em;
+    color: black;   
 }
