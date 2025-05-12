@@ -28,7 +28,7 @@
                 
             <div class="d-flex" id="nav-ul">
                 <input type="text" placeholder="Rechercher..." id="nav-search-input" class="icon">
-                <a href="php/signin.php" id="profile"><i class="fa-solid fa-circle-user"></i></a>
+                <a href="signin.php" id="profile"><i class="fa-solid fa-circle-user"></i></a>
             </div>
         </div>
     </nav>
