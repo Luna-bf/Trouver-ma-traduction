@@ -64,5 +64,7 @@
                 <a href="signup.php" class="other-btn w-400">Créez en un</a>
             </div>
     </form>
+    
+    <script type="text/javascript" src="../js/app.js" defer></script>
 </body>
 </html>
