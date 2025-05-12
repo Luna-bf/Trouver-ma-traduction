@@ -39,16 +39,16 @@
 
     <footer id="footer">
         <ul class="contacts">
-            <li>Nos réseaux sociaux</li>
+            <li><?= ('Nos réseaux sociaux') ?></li>
             <li><i class="fa-brands fa-square-facebook"></i></li>
             <li><i class="fa-brands fa-square-instagram"></i></li>
             <li><i class="fa-brands fa-square-twitter"></i></li>
             <li><i class="fa-brands fa-square-snapchat"></i></li>
         </ul>
         
-        <ul class="contacts">
+        <!-- <ul class="contacts">
             <li id="logo"><a href="#"><img src="imgs/logo-160x160.png" alt="Logo et favicon de mon portfolio"></a></li>
-        </ul>
+        </ul> -->
     </footer>
     
     <script type="text/javascript" src="js/app.js" defer></script>

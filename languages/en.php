@@ -1,7 +1,7 @@
 <?php
 
 $lang = [
-    'Compétences' => 'Skills',
+    'Nos réseaux sociaux' => 'Our social medias',
     'Projets' => 'Projects',
     'Contact' => 'Contact',
 ];
