@@ -47,12 +47,12 @@
             </div>
 
             <div class="w-400 d-i-flex form-input-parent">
-                <p>Mot de passe oublié ?</p>
+                <p id="forgotten-password">Mot de passe oublié ?</p>
             </div>
 
             <div class="w-400 d-i-flex" id="remember">
                 <input type="checkbox" name="rebember">
-                <label for="remember">Se souvenir de moi</label>
+                <label for="remember" id="remember-me">Se souvenir de moi</label>
             </div>
 
             <div class="w-400 d-i-flex form-input-parent">
@@ -64,7 +64,21 @@
                 <a href="signup.php" class="other-btn w-400">Créez en un</a>
             </div>
     </form>
+
+    <footer id="footer">
+        <ul class="contacts">
+            <li><?= ('Nos réseaux sociaux') ?></li>
+            <li><i class="fa-brands fa-square-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-square-twitter"></i></li>
+            <li><i class="fa-brands fa-square-snapchat"></i></li>
+        </ul>
+        
+        <!-- <ul class="contacts">
+            <li id="logo"><a href="#"><img src="imgs/logo-160x160.png" alt="Logo et favicon de mon portfolio"></a></li>
+        </ul> -->
+    </footer>
     
-    <script type="text/javascript" src="../js/app.js" defer></script>
+    <script type="text/javascript" src="js/app.js" defer></script>
 </body>
 </html>
