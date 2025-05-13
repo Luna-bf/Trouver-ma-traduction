@@ -4,8 +4,15 @@
 SIGN IN / CONNEXION
 ********************/
 
+body {
+    background-color: var(--base-bg-color);
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+body, button {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -33,6 +40,7 @@ form {
 
 form h1 {
     text-align: center;
+    font-weight: 600;
 }
 
 .form-input-parent {
@@ -40,20 +48,32 @@ form h1 {
     margin: 0 auto;
 }
 
+#forgotten-password {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 #remember {
     flex-direction: row;
     margin: 0 auto;
 }
 
-.form-input {
-    border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
-    border-top: 0;
-    border-right: 0;
+#remember-me {
+    margin-left: 10px;
+    font-weight: 500;
 }
 
-#remember {
-    font-weight: 400;
+.form-input {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    height: 35px;
+    direction: left; 
+    text-indent: 10px;
+    background-color: #ebeaea;
+}
+
+input[type=checkbox] {
+    transform: scale(1.2);
 }
 
 input[type=checkbox]:hover {
@@ -72,7 +92,7 @@ input[type="checkbox"]:checked {
     color: #fff;
     border: 1px solid #1B6779;
     padding: 0.6em 5em 0.6em 5em;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .submit-btn:hover {
@@ -87,7 +107,13 @@ input[type="checkbox"]:checked {
     color: #1B6779;
     border: 1px solid #1B6779;
     padding: 0.6em 5em 0.6em 5em;
-    border-radius: 5px;
+    border-radius: 3px;
     text-align: center;
     text-decoration: none;
+}
+
+.incorrect {
+    border-color: firebrick;
+    color: firebrick;
+    border-radius: 3px;
 }
