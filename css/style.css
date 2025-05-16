@@ -8,6 +8,7 @@
     --lang-border-color: #aaa;
     --lang-bg-color: #fff;
     --lang-bg-color-hover: #FFFAFA;
+    --sort-color: #000000;
     --theme-btn-bg-color: #333333;
     --theme-icon-color: #fff;
     --translation-bg-color: rgb(220, 235, 255, 0.4);
@@ -72,6 +73,7 @@ DISPLAY FLEX
     --lang-bg-color: #333333;
     --lang-bg-color-hover: #444444;
     --lang-color-focus: #fff;
+    --sort-color: #fff;
     --theme-icon-color: #333333;
     --theme-btn-bg-color: #fff;
     --translation-bg-color: rgba(185, 215, 255, 0.8);
@@ -89,6 +91,7 @@ ICONS
 .fa-sort-down {
     vertical-align: center;
     margin-left: 5px;
+    color: var(--sort-color);
 }
 
 .fa-circle-user {
@@ -163,6 +166,10 @@ nav ul li a:focus {
     border-radius: 5px;
 }
 
+#nav-ul {
+    align-items: center;
+}
+
 /******************
 DROPDOWN ET LANGUE
 ******************/
@@ -173,9 +180,10 @@ DROPDOWN ET LANGUE
 }
 
 .drop-link {
-    padding-top: 0.5em;
     justify-content: center;
     align-self: center;
+    text-decoration: none;
+    color: #000000;
 }
 
 /*Le contenu du dropdown est caché par défaut*/
@@ -185,7 +193,8 @@ DROPDOWN ET LANGUE
     background-color: var(--lang-bg-color);
     border: 1px solid var(--lang-border-color);
     border-radius: 5px;
-    margin: 0.3em 0 0 1.2em;
+    margin: 0.3em 1em 0 0;
+    right: 0;
 }
 
 .dropdown-content a {
@@ -225,11 +234,6 @@ DROPDOWN ET LANGUE
 
 /***THEMES***/
 
-.drop-link {
-    text-decoration: none;
-    color: #000000;
-}
-
 #change-theme {
     justify-content: center;
     align-items: center;
@@ -240,11 +244,6 @@ DROPDOWN ET LANGUE
     background-color: var(--theme-btn-bg-color);
     border: 1px solid var(--theme-btn-bg-color);
     cursor: pointer;
-}
-
-.dropdown-menu:hover #themes {
-    display: block;
-    width: 500px;
 }
 
 #change-theme svg {
@@ -268,25 +267,10 @@ DROPDOWN ET LANGUE
     fill: var(--theme-icon-color);
 }
 
-#nav-ul {
-    align-items: center;
-}
 
-#nav-search-input {
-    transition: none;
-    padding: 6px 6px 6px 22px;
-    background-color: #E6E6E6;
-    color: #000000;
-    border: 2px solid #E6E6E6;
-    border-radius: 5px;
-    margin-right: 5px;
-}
-
-#nav-search-input::placeholder {
-    color: #aaa;
-    padding-left: 5px;
-    vertical-align: middle;
-}
+/**************
+BODY
+**************/
 
 .translation-parent {
     background-color: var(--translation-bg-color);
