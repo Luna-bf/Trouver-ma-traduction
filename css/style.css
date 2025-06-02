@@ -39,20 +39,112 @@ html {
 FONTS
 ************/
 
-/*Poppins light - pour le texte*/
-@font-face {
-    /* src: url(""); */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-/*Poppins medium - pour les titres*/
-@font-face {
-    /* src: url(""); */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
 
 
@@ -84,41 +176,54 @@ body {
     background-color: var(--base-bg-color);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p, li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*********
 ICONS
 *********/
 
-.fa-sort-down {
+#website-logo {
+    width: 11%;
+}
+
+/* .fa-sort-down {
     vertical-align: center;
     margin-left: 5px;
     color: var(--sort-color);
-}
+} */
 
 .fa-circle-user {
+    transition: none;
     color: var(--text-color);
     font-size: 35px;
 }
 
-.icon {
-    background: url("../imgs/icons/magnifying-glass.png") no-repeat left;
-    background-size: 17px;
-    background-position: 5px;
+.fa-circle-user:hover {
+    transition: none;
+    color: #B5C7EB;
+    font-size: 35px;
 }
 
-.fa-square-facebook {
-    color: #1877F2;
+.facebook {
+    width: 2%;
 }
 
-.fa-square-instagram {
-    color: #d62976;
+.instagram {
+    width: 2%;
 }
 
-.fa-square-twitter {
-    color: #1DA1F2;
-}
-
-.fa-square-snapchat {
-    color: #fffc00;
+.youtube {
+    width: 2.5%;
 }
 
 /*****
@@ -273,16 +378,57 @@ BODY
 **************/
 
 .translation-parent {
+    justify-content: center;
+}
+
+.translation {
     background-color: var(--translation-bg-color);
+    margin-top: 4em;
     padding: 2em;
     width: 98%;
     border-radius: 25px;
-    margin: 0 auto;
 }
 
 #translation-img {
     width: 35%;
 }
+
+.title {
+    flex-direction: column;
+    padding-left: 8em;
+    justify-content: center;
+}
+
+#translation-title {
+    font-size: 32px;
+}
+
+#search {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    padding: 0.5em;
+    width: 50%;
+    background-color: #E6E6E6;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#search h3 {
+    padding-left: 0.8em;
+    font-weight: 400;
+}
+
+#searching-glass {
+    width: 6%;
+}
+
+#start-searching {
+    font-size: 22px;
+}
+
 
 /*************
 FOOTER
