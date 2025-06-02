@@ -12,7 +12,7 @@
     <nav>
         <div id="space-between">
             <a href="#" class="d-flex">
-                <img src="../imgs/logo.png" alt="website logo" id="website-logo">
+                <img src="../imgs/logo.png" alt="website logo" id="website-logo-nav">
             </a>
             <!--<div class="d-flex">
                 <button id="change-theme" class="d-flex">
@@ -30,12 +30,13 @@
             </div> -->
 
             <div class="d-flex" id="nav-ul">
-                <a href="front/signin.php" id="profile"><i class="fa-solid fa-circle-user"></i></a>
+                <a href="#" id="profile"><i class="fa-solid fa-circle-user"></i></a>
             </div>
         </div>
     </nav>
 
-    <form action="form.php" class="d-flex">
+    <div id="margin-auto">
+        <form action="form.php" class="d-flex">
             <h1>Se connecter au compte</h1>
 
             <div class="w-400 d-i-flex form-input-parent">
@@ -65,20 +66,45 @@
                 <p>Vous n'avez pas de compte ?</p>
                 <a href="signup.php" class="other-btn w-400">Créez en un</a>
             </div>
-    </form>
+        </form>
+    </div>
 
-    <footer id="footer">
-        <ul class="contacts">
-            <li><?= ('Nos réseaux sociaux') ?></li>
-            <li><i class="fa-brands fa-square-facebook"></i></li>
-            <li><i class="fa-brands fa-square-instagram"></i></li>
-            <li><i class="fa-brands fa-square-twitter"></i></li>
-            <li><i class="fa-brands fa-square-snapchat"></i></li>
-        </ul>
-        
-        <!-- <ul class="contacts">
-            <li id="logo"><a href="#"><img src="imgs/logo-160x160.png" alt="Logo et favicon de mon portfolio"></a></li>
-        </ul> -->
+    <footer class="d-flex">
+        <div class="d-flex logo-text">
+            <div class="parent-logo">
+                <a href="#">
+                    <img src="../imgs/logo.png" alt="website logo" id="website-logo-footer">
+                </a>
+            </div>
+
+            <div class="d-flex parent-text">
+                <div class="text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat, dolorem tenetur a dolores quos assumenda architecto quaerat deserunt commodi nulla rerum quas eius. Eveniet modi, minima minus amet pariatur praesentium natus quo consequuntur.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="d-flex socials-pages">
+            <div class="d-flex parent-pages">
+                <h3 id="pages-title">Toutes les pages</h3>
+                <ul class="pages">
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="front/accueil.php">Accueil du site</a></li>
+                    <li><a href="#">Accueil (traductions)</a></li>
+                </ul>
+            </div>
+                    
+            <div class="d-flex parent-socials">
+                <h3 id="socials-title">Nos réseaux sociaux</h3>
+                <ul class="socials">
+                    <li><img src="../imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></li>
+                    <li><img src="../imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></li>
+                    <li><img src="../imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     
     <script type="text/javascript" src="js/app.js" defer></script>
