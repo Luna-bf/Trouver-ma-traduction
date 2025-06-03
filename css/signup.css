@@ -1,0 +1,314 @@
+/* Fichier CSS pour le formulaire de connexion et d'inscription*/
+
+/*******************
+SIGN IN / CONNEXION
+********************/
+
+:root {
+    --base-bg-color: #fff;
+    --text-color: #000000;
+    --nav-bg-color: #fff;
+    --lang-bg-color: #fff;
+    --lang-border-color: #aaa;
+    --lang-bg-color: #fff;
+    --lang-bg-color-hover: #FFFAFA;
+    --sort-color: #000000;
+    --theme-btn-bg-color: #333333;
+    --theme-icon-color: #fff;
+    --translation-bg-color: rgb(220, 235, 255, 0.4);
+    --footer-bg-color: #DCEBFF;
+}
+
+/***Reset***/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease; /* Pour changer le mode de façon moins statique */
+}
+
+/*************
+SMOOTH SCROLL
+*************/
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/************
+FONTS
+************/
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/*************
+DISPLAY FLEX
+*************/
+
+.d-flex {
+    display: flex;
+}
+
+/***Dark mode***/
+.dark-mode {
+    --base-bg-color: #333333;
+    --text-color: #fff;
+    --nav-bg-color: #333333;
+    --lang-border-color: #555555;
+    --lang-bg-color: #333333;
+    --lang-bg-color-hover: #444444;
+    --lang-color-focus: #fff;
+    --sort-color: #fff;
+    --theme-icon-color: #333333;
+    --theme-btn-bg-color: #fff;
+    --translation-bg-color: rgba(185, 215, 255, 0.8);
+    --footer-bg-color: #B9D7FF;
+}
+
+body {
+    background-color: var(--base-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.d-i-flex {
+    display: inline-flex;
+}
+
+.w-50-percent {
+    width: 60%;
+}
+
+.form-parent {
+    justify-content: center;
+}
+
+form {
+    background-color: rgb(220, 235, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 2em 0 4em 0;
+    margin: 4em 0 8em 0;
+    border-radius: 25px;
+}
+
+form h1 {
+    text-align: center;
+    margin: 10px 0 3em 0;
+}
+
+.form-input-parent {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 400;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+#password-div {
+    margin-bottom: 1em;
+}
+
+#remember {
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#remember:hover {
+    cursor: pointer;
+}
+
+#remember-input {
+    margin-right: 0.4rem;
+}
+
+.form-input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    height: 45px;
+    direction: left; 
+    text-indent: 10px;
+    background-color: #EEEEEE;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.2);
+}
+
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #1B6779;
+}
+
+.submit-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    background-color: #1B6779;
+    color: #fff;
+    border: 2px solid #1B6779;
+    border-radius: 6px;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+    margin : 80px auto 0 auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
+    width: 40%;
+}
+
+.submit-btn:hover {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#no-account-p {
+    margin: 8em 0 0 240px;
+}
+
+.other-btn {
+    font-weight: 400;
+    background-color: #fff;
+    color: #1B6779;
+    border: 2px solid #1B6779;
+    text-align: center;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+    border-radius: 6px;
+    margin : 15px auto 30px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
+    width: 40%;
+}
+
+.incorrect {
+    border-color: firebrick;
+    color: firebrick;
+    border-radius: 3px;
+}
