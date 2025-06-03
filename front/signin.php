@@ -35,36 +35,36 @@
         </div>
     </nav>
 
-    <div id="margin-auto">
+    <div class="form-parent d-flex">
         <form action="form.php" class="d-flex">
             <h1>Se connecter au compte</h1>
 
-            <div class="w-400 d-i-flex form-input-parent">
-                <label for="Username-email" class="w-50">Nom d'utilisateur ou email</label>
-                <input type="text" class="form-input">
+            <div class="w-50-percent d-i-flex form-input-parent">
+                <label for="username-email" class="w-50-percent mb-10">Nom d'utilisateur ou email</label>
+                <input type="text" class="form-input mb-50" id="username-email">
             </div>
 
-            <div class="w-400 d-i-flex form-input-parent">
-                <label for="password">Mot de passe</label>
-                <input type="password" class="form-input">
+            <div class="w-50-percent d-i-flex form-input-parent">
+                <label for="password" class="mb-10">Mot de passe</label>
+                <input type="password" id="password" class="form-input">
+                <a href="#" id="forgotten-password">Mot de passe oublié ?</a>
+            </div>
+                    
+            <div class="w-50-percent d-i-flex" id="remember">
+                <input type="checkbox" name="remember" id="remember-input">
+                <label for="remember-input">Se souvenir de moi</label>
             </div>
 
-            <div class="w-400 d-i-flex form-input-parent">
-                <p id="forgotten-password">Mot de passe oublié ?</p>
+            <div class="d-i-flex d-flex">
+                <input type="submit" value="Se connecter" class="submit-btn">
             </div>
 
-            <div class="w-400 d-i-flex" id="remember">
-                <input type="checkbox" name="rebember">
-                <label for="remember" id="remember-me">Se souvenir de moi</label>
-            </div>
-
-            <div class="w-400 d-i-flex form-input-parent">
-                <input type="submit" value="Se connecter" class="submit-btn w-400">
-            </div>
-
-            <div class="w-400 d-i-flex form-input-parent">
+            <div class="d-flex" id="no-account-p">
                 <p>Vous n'avez pas de compte ?</p>
-                <a href="signup.php" class="other-btn w-400">Créez en un</a>
+            </div>
+            
+            <div class="d-i-flex d-flex">
+                <a href="signup.php" class="other-btn">Créez en un</a>
             </div>
         </form>
     </div>
@@ -106,7 +106,5 @@
             </div>
         </div>
     </footer>
-    
-    <script type="text/javascript" src="js/app.js" defer></script>
 </body>
 </html>
