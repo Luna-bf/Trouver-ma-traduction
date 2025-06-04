@@ -177,7 +177,7 @@ DISPLAY FLEX
 }
 
 body {
-    background-color: var(--base-bg-color);
+    background-color: #EEEEEE;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -196,16 +196,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-parent {
     justify-content: center;
+    width: 55%;
 }
 
 form {
-    background-color: rgb(220, 235, 255, 0.4);
-    border: 1px solid rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
     padding: 2em 0 4em 0;
     margin: 4em 0 8em 0;
     border-radius: 25px;
