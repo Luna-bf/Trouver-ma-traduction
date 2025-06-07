@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <h1>Se connecter au compte</h1>
     <div class="form-parent d-flex">
         <form action="form.php" class="d-flex">
 
-            <div class="w-50-percent d-i-flex form-input-parent">
-                <label for="username-email" class="w-50-percent mb-10">Nom d'utilisateur ou email</label>
+            <div class="w-50-percent d-i-flex form-input-parent" id="mt-first-input">
+                <label for="username-email" class="w-50-percent mb-10 mt-first-label">Nom d'utilisateur ou email</label>
                 <input type="text" class="form-input mb-50" id="username-email">
             </div>
 
@@ -32,23 +31,17 @@
             <div class="d-i-flex d-flex">
                 <input type="submit" value="Se connecter" class="submit-btn">
             </div>
+        </form>
 
-            <div class="d-flex" id="no-account-p">
+        <div class="d-flex account-parent">
+            <div class="d-flex" id="account-p">
                 <p>Vous n'avez pas de compte ?</p>
             </div>
             
             <div class="d-i-flex d-flex">
-                <a href="signup.php" class="other-btn">Créez en un</a>
+                <a href="signup.php" class="other-btn">Inscrivez-vous</a>
             </div>
-        </form>
+        </div>
     </div>
-
-    <footer class="d-flex">
-        <ul id="terms" class="d-flex">
-            <li>Conditions d'utilisations</li>
-            <li>Cookies</li>
-            <li>A propos</li>
-        </ul>
-    </footer>
 </body>
 </html>

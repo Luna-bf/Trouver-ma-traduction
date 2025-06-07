@@ -289,10 +289,6 @@ input[type="checkbox"]:checked {
     cursor: pointer;
 }
 
-#no-account-p {
-    margin: 8em 0 0 240px;
-}
-
 .other-btn {
     font-weight: 400;
     background-color: #fff;

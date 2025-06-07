@@ -177,7 +177,7 @@ DISPLAY FLEX
 }
 
 body {
-    background-color: #EEEEEE;
+    background-color: var(--base-bg-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -195,23 +195,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-parent {
-    justify-content: center;
-    width: 55%;
+    flex-direction: column;
+    align-items: center;
 }
 
 form {
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-    margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
-    padding: 2em 0 4em 0;
-    margin: 4em 0 8em 0;
-    border-radius: 25px;
-}
-
-form h1 {
-    text-align: center;
-    margin: 10px 0 3em 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 40%;
+    padding: 2em 0 2em 0;
+    margin: 3em 0 1em 0;
+    border-radius: 10px;
 }
 
 .form-input-parent {
@@ -223,8 +217,16 @@ label {
     font-weight: 400;
 }
 
+.mt-first-label {
+    margin-top: 1.5em;
+}
+
 .mb-10 {
     margin-bottom: 10px;
+}
+
+#password-div {
+    margin-bottom: 1em;
 }
 
 #forgotten-password {
@@ -236,6 +238,7 @@ label {
 #remember {
     flex-direction: row;
     margin: 0 auto;
+    margin-top: 1.5em;
 }
 
 #remember:hover {
@@ -252,7 +255,7 @@ label {
     height: 45px;
     direction: left; 
     text-indent: 10px;
-    background-color: #EEEEEE;
+    background-color: #F5F5F5;
 }
 
 .mb-50 {
@@ -281,7 +284,7 @@ input[type="checkbox"]:checked {
     border: 2px solid #1B6779;
     border-radius: 6px;
     padding: 0.7em 2.5em 0.7em 2.5em;
-    margin : 80px auto 0 auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
+    margin : 80px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
     width: 40%;
 }
 
@@ -291,8 +294,18 @@ input[type="checkbox"]:checked {
     cursor: pointer;
 }
 
-#no-account-p {
-    margin: 8em 0 0 240px;
+.account-parent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 40%;
+    margin-bottom: 3em;
+}
+
+#account-p {
+    margin-top: 2em;
 }
 
 .other-btn {
@@ -301,10 +314,9 @@ input[type="checkbox"]:checked {
     color: #1B6779;
     border: 2px solid #1B6779;
     text-align: center;
-    padding: 0.7em 2.5em 0.7em 2.5em;
+    padding: 0.7em 4em 0.7em 4em;
     border-radius: 6px;
-    margin : 15px auto 30px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
-    width: 40%;
+    margin : 15px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
 }
 
 .incorrect {

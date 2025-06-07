@@ -11,10 +11,9 @@
 <body>
     <div class="form-parent d-flex">
         <form action="form.php" class="d-flex">
-            <h1>Créer un compte</h1>
 
             <div class="w-50-percent d-i-flex form-input-parent">
-                <label for="username" class="w-50-percent mb-10">Nom d'utilisateur</label>
+                <label for="username" class="w-50-percent mb-10 mt-first-label">Nom d'utilisateur</label>
                 <input type="text" class="form-input mb-50" id="username">
             </div>
 
@@ -36,25 +35,17 @@
             <div class="d-i-flex d-flex">
                 <input type="submit" value="S'inscrire" class="submit-btn">
             </div>
+        </form>
 
-            <div class="d-flex" id="no-account-p">
+        <div class="d-flex account-parent">
+            <div class="d-flex" id="account-p">
                 <p>Vous avez déjà un compte ?</p>
             </div>
             
             <div class="d-i-flex d-flex">
                 <a href="signin.php" class="other-btn">Connectez-vous</a>
             </div>
-        </form>
+        </div>
     </div>
-
-    
-
-    <footer class="d-flex">
-        <ul id="terms" class="d-flex">
-            <li>Conditions d'utilisations</li>
-            <li>Cookies</li>
-            <li>A propos</li>
-        </ul>
-    </footer>
 </body>
 </html>
