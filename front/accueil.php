@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+    <!--DEMANDER CONSEIL A HENRY POUR LA PAGE ACCUEIL ET LE RESTE-->
     <nav>
         <div id="space-between">
             <a href="#" class="d-flex">
@@ -31,9 +32,10 @@
                 </div>
             </div> -->
 
-            <div class="d-flex" id="nav-ul">
-                <a href="front/signin.php" id="profile"><i class="fa-solid fa-circle-user"></i></a>
-            </div>
+            <ul class="d-flex" id="nav-ul">
+                <li><a href="front/signup.php">Inscription</a></li>
+                <li><a href="front/signin.php">Connexion</a></li>
+            </ul>
         </div>
     </nav>
 
