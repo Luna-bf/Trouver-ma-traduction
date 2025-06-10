@@ -265,7 +265,8 @@ nav ul li a {
 
 nav ul li a:hover {
     list-style: none;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #B5C7EB;
     border-radius: 5px;
 }
 
