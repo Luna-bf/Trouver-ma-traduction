@@ -20,28 +20,23 @@
             <div class="w-50-percent d-i-flex form-input-parent">
                 <label for="password" class="mb-10">Mot de passe</label>
                 <input type="password" id="password" class="form-input">
-                <a href="#" id="forgotten-password">Mot de passe oublié ?</a>
-            </div>
-                    
-            <div class="w-50-percent d-i-flex" id="remember">
-                <input type="checkbox" name="remember" id="remember-input">
-                <label for="remember-input">Se souvenir de moi</label>
+                
+                <div id="remember">
+                    <input type="checkbox" name="remember" id="remember-input">
+                    <label for="remember-input">Se souvenir de moi</label>
+                </div>
             </div>
 
             <div class="d-i-flex d-flex">
                 <input type="submit" value="Se connecter" class="submit-btn">
             </div>
+                    
+            <div class="account-parent d-flex">
+                <a href="accueil-connect.php">Page d'accueil</a>
+                <a href="#">Mot de passe oublié ?</a>
+                <a href="signup.php">Vous n'avez pas de compte ? Inscrivez-vous</a>
+            </div>
         </form>
-
-        <div class="d-flex account-parent">
-            <div class="d-flex" id="account-p">
-                <p>Vous n'avez pas de compte ?</p>
-            </div>
-            
-            <div class="d-i-flex d-flex">
-                <a href="signup.php" class="other-btn">Inscrivez-vous</a>
-            </div>
-        </div>
     </div>
 </body>
 </html>

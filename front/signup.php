@@ -14,38 +14,33 @@
 
             <div class="w-50-percent d-i-flex form-input-parent">
                 <label for="username" class="w-50-percent mb-10 mt-first-label">Nom d'utilisateur</label>
-                <input type="text" class="form-input mb-50" id="username">
+                <input type="text" class="form-input" id="username">
             </div>
 
             <div class="w-50-percent d-i-flex form-input-parent">
-                <label for="email" class="w-50-percent mb-10">Adresse mail</label>
+                <label for="email" class="w-50-percent mb-10 mt-first-label">Email</label>
                 <input type="email" class="form-input mb-50" id="email">
             </div>
 
-            <div class="w-50-percent d-i-flex form-input-parent" id="password-div">
+            <div class="w-50-percent d-i-flex form-input-parent">
                 <label for="password" class="mb-10">Mot de passe</label>
                 <input type="password" id="password" class="form-input">
-            </div>
-                    
-            <div class="w-50-percent d-i-flex" id="remember">
-                <input type="checkbox" name="remember" id="remember-input">
-                <label for="remember-input">Se souvenir de moi</label>
+                
+                <div id="remember">
+                    <input type="checkbox" name="remember" id="remember-input">
+                    <label for="remember-input">Se souvenir de moi</label>
+                </div>
             </div>
 
             <div class="d-i-flex d-flex">
                 <input type="submit" value="S'inscrire" class="submit-btn">
             </div>
+                    
+            <div class="account-parent d-flex">
+                <a href="accueil-connect.php">Page d'accueil</a>
+                <a href="signin.php">Vous avez déjà un compte ? Connectez-vous</a>
+            </div>
         </form>
-
-        <div class="d-flex account-parent">
-            <div class="d-flex" id="account-p">
-                <p>Vous avez déjà un compte ?</p>
-            </div>
-            
-            <div class="d-i-flex d-flex">
-                <a href="signin.php" class="other-btn">Connectez-vous</a>
-            </div>
-        </div>
     </div>
 </body>
 </html>
