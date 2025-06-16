@@ -256,25 +256,22 @@ nav ul {
     text-decoration: none;
 }
 
-nav ul li a {
+a {
     text-decoration: none;
     color: #000000;
     padding: 0 5px;
     transition: none;
 }
 
-nav ul li a:hover {
-    list-style: none;
+a:hover {
     text-decoration: none;
     color: #B5C7EB;
-    border-radius: 5px;
 }
 
-nav ul li a:focus {
+a:active {
     list-style: none;
-    color: var(--nav-a-focus-color);
     text-decoration: underline;
-    border-radius: 5px;
+    color: #B5C7EB;
 }
 
 #nav-ul {
