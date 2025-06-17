@@ -16,7 +16,7 @@
         <nav>
             <div id="space-between">
                 <a href="#" class="d-flex">
-                    <img src="imgs/logo.png" alt="website logo" id="website-logo-nav">
+                    <img src="assets/imgs/logo.png" alt="website logo" id="website-logo-nav">
                 </a>
 
                 <ul class="d-flex" id="nav-ul">
@@ -29,13 +29,13 @@
 
     <div class="translation-parent d-flex">
         <div class="translation d-flex">
-            <img src="imgs/translation.png" alt="Translation" id="translation-img">
+            <img src="assets/imgs/translation.png" alt="Translation" id="translation-img">
             
             <div class="title d-flex">
                 <h2 id="translation-title">Toutes vos traductions musicales rassemblées à un seul endroit</h2>
                 
                 <a href="front/signin.php" class="d-flex" id="search">
-                    <img src="imgs/icons/magnifying-glass.png" alt="Magnifying glass" id="searching-glass">
+                    <img src="assets/imgs/icons/magnifying-glass.png" alt="Magnifying glass" id="searching-glass">
                     <h3 id="start-searching">Commencez vos recherches</h3>
                 </a>
             </div>
@@ -46,7 +46,7 @@
         <div class="d-flex logo-text">
             <div class="parent-logo">
                 <a href="#">
-                    <img src="imgs/logo.png" alt="website logo" id="website-logo-footer">
+                    <img src="assets/imgs/logo.png" alt="website logo" id="website-logo-footer">
                 </a>
             </div>
 
@@ -72,9 +72,9 @@
             <div class="d-flex parent-socials">
                 <h3 id="socials-title">Nos réseaux sociaux</h3>
                 <ul class="socials">
-                    <li><img src="imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></li>
-                    <li><img src="imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></li>
-                    <li><img src="imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></li>
+                    <li><img src="assets/imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></li>
+                    <li><img src="assets/imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></li>
+                    <li><img src="assets/imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></li>
                 </ul>
             </div>
         </div>
