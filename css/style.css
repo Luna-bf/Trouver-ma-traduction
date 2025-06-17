@@ -12,7 +12,7 @@
     --theme-btn-bg-color: #333333;
     --theme-icon-color: #fff;
     --translation-bg-color: rgb(220, 235, 255, 0.4);
-    --footer-bg-color: #DCEBFF;
+    --footer-bg-color: #DCAC4D;
 }
 
 /***Reset***/
@@ -196,18 +196,6 @@ ICONS
     margin-left: 5px;
     color: var(--sort-color);
 } */
-
-.fa-circle-user {
-    transition: none;
-    color: var(--text-color);
-    font-size: 35px;
-}
-
-.fa-circle-user:hover {
-    transition: none;
-    color: #B5C7EB;
-    font-size: 35px;
-}
 
 .facebook {
     width: 3%;
@@ -409,6 +397,7 @@ footer {
 
 hr {
     width: 80%;
+    border-bottom: 1px solid #242424;
     margin: 0 auto;
 }
 
