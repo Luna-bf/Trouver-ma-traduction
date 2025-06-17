@@ -10,6 +10,8 @@
 </head>
 <body>
     <div class="form-parent d-flex">
+        <img src="../assets/imgs/general/translate.png" alt="Form img" id="form-image">
+
         <form action="form.php" class="d-flex">
 
             <div class="w-50-percent d-i-flex form-input-parent" id="mt-first-input">
@@ -23,6 +25,7 @@
                 
                 <div id="remember">
                     <input type="checkbox" name="remember" id="remember-input">
+                    <span class="checkmark"></span>
                     <label for="remember-input">Se souvenir de moi</label>
                 </div>
             </div>
@@ -34,7 +37,7 @@
             <div class="account-parent d-flex">
                 <a href="accueil-connect.php">Page d'accueil</a>
                 <a href="#">Mot de passe oublié ?</a>
-                <a href="signup.php">Vous n'avez pas de compte ? Inscrivez-vous</a>
+                <div>Vous n'avez pas de compte ? <a href="signup.php" class="register-link">Inscrivez-vous</a></div>
             </div>
         </form>
     </div>

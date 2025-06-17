@@ -10,6 +10,8 @@
 </head>
 <body>
     <div class="form-parent d-flex">
+        <img src="../assets/imgs/general/translate.png" alt="Form img" id="form-image">
+
         <form action="form.php" class="d-flex">
 
             <div class="w-50-percent d-i-flex form-input-parent">
@@ -37,8 +39,7 @@
             </div>
                     
             <div class="account-parent d-flex">
-                <a href="accueil-connect.php">Page d'accueil</a>
-                <a href="signin.php">Vous avez déjà un compte ? Connectez-vous</a>
+                <div>Vous avez déjà un compte ? <a href="signin.php" id="connect-link">Connectez-vous</a></div>
             </div>
         </form>
     </div>
