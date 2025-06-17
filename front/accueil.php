@@ -74,6 +74,8 @@
                 </ul>
             </div>
         </div>
+
+        <p>Toutes les images viennent de<a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
     </footer>
 </body>
 </html>
