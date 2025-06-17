@@ -181,7 +181,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "PoppinsMedium", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -273,7 +273,7 @@ input[type="checkbox"]:checked {
 }
 
 .submit-btn {
-    font-family: "Poppins", sans-serif;
+    font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     font-size: 15px;
     text-align: center;
@@ -287,7 +287,7 @@ input[type="checkbox"]:checked {
 }
 
 .submit-btn:hover {
-    font-family: "Poppins", sans-serif;
+    font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     cursor: pointer;
 }
