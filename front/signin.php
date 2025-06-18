@@ -37,7 +37,7 @@
             <div class="account-parent d-flex">
                 <a href="accueil-connect.php">Page d'accueil</a>
                 <a href="#">Mot de passe oublié ?</a>
-                <div>Vous n'avez pas de compte ? <a href="signup.php" class="register-link">Inscrivez-vous</a></div>
+                <div>Vous n'avez pas de compte ? <a href="signup.php" class="connect-register-link">Inscrivez-vous</a></div>
             </div>
         </form>
     </div>
