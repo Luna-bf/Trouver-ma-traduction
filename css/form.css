@@ -292,11 +292,11 @@ input[type="checkbox"]:checked {
     color: #8A8A8A;
 }
 
-#register-link {
+.connect-register-link {
     color: #DCAC4D;
 }
 
-#register-link:hover {
+.connect-register-link:hover {
     color: #DB8535;
     text-decoration: underline;
 }
