@@ -10,33 +10,40 @@
 <body>
     <header>
         <nav>
-            <div id="space-between">
-                <a href="#" class="d-flex">
-                    <img src="assets/imgs/logo.png" alt="website logo" id="website-logo-nav">
-                </a>
+            <h1>Toutes vos traductions rassemblées à un seul endroit.</h1>
 
-                <ul class="d-flex" id="nav-ul">
-                    <li><a href="front/signup.php">Inscription</a></li>
-                    <li><a href="front/signin.php">Connexion</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="front/signup.php">S'inscrire</a></li>
+                <li><a href="front/signin.php">Se connecter</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div class="translation-parent d-flex">
-        <div class="translation d-flex">
-            <img src="assets/imgs/translation.png" alt="Translation" id="translation-img">
-            
-            <div class="title d-flex">
-                <h2 id="translation-title">Toutes vos traductions musicales rassemblées à un seul endroit</h2>
+    <main>
+        <section class="translation-parent">
+            <div class="translation-card">
+                <figure>
+                    <img src="assets/imgs/general/books.png" alt="Books">
+                </figure>
                 
-                <a href="front/signin.php" class="d-flex" id="search">
-                    <img src="assets/imgs/icons/magnifying-glass.png" alt="Magnifying glass" id="searching-glass">
-                    <h3 id="start-searching">Commencez vos recherches</h3>
-                </a>
+                <h2>Livres</h2>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia facilis rerum maiores error, libero ut repellat nesciunt? Recusandae ratione dolor deleniti ea quibusdam modi ut quae doloremque culpa, nostrum aliquam obcaecati voluptatem? Ipsam esse vero aut doloribus quisquam, velit eum corporis illum quaerat autem temporibus accusantium nostrum aliquid placeat iusto.</p>
             </div>
-        </div>
-    </div>
+
+            <div class="translation-card">
+                <img src="assets/imgs/general/books.png" alt="Text img">
+                <h2>Livres</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+            <div class="translation-card">
+                <img src="assets/imgs/general/books.png" alt="Text img">
+                <h2>Livres</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </section>
+    </main>
+    
 
     <footer class="d-flex">
         <div class="d-flex logo-text">
@@ -75,7 +82,7 @@
             </div>
         </div>
 
-        <p>Toutes les images viennent de<a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
+        <p>Toutes les images viennent de <a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
     </footer>
 </body>
 </html>
