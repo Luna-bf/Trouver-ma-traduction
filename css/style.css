@@ -184,7 +184,7 @@ a {
 
 /***NAV***/
 
-header {
+.accueil {
     min-height: 50vh;
     background-image: url("../assets/imgs/general/header-img.jpg");
     background-size: cover;
