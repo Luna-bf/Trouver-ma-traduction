@@ -290,6 +290,7 @@ input[type="checkbox"]:checked {
 .account-parent a, .account-parent div {
     margin-bottom: 14px;
     color: #8A8A8A;
+    transition: none;
 }
 
 .connect-register-link {
@@ -299,6 +300,7 @@ input[type="checkbox"]:checked {
 .connect-register-link:hover {
     color: #DB8535;
     text-decoration: underline;
+    transition: none;
 }
 
 #connect-link {
@@ -308,4 +310,5 @@ input[type="checkbox"]:checked {
 #connect-link:hover {
     color: #DB8535;
     text-decoration: underline;
+    transition: none;
 }

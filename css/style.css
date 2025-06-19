@@ -140,13 +140,12 @@ FONT - Poppins
 }
 
 
-/*************
-DISPLAY FLEX
-*************/
+/***DISPLAY FLEX***/
 
 .d-flex {
     display: flex;
 }
+
 
 /***Dark mode***/
 .dark-mode {
@@ -183,180 +182,66 @@ a {
     text-decoration: none;
 }
 
-/*********
-ICONS
-*********/
+/***NAV***/
 
-#website-logo-nav {
-    width: 11%;
+header {
+    min-height: 50vh;
+    background-image: url("../assets/imgs/general/header-img.jpg");
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    vertical-align: middle;
 }
 
-/* .fa-sort-down {
-    vertical-align: center;
-    margin-left: 5px;
-    color: var(--sort-color);
-} */
-
-.facebook {
-    width: 3%;
-}
-
-.instagram {
-    width: 3%;
-}
-
-.youtube {
-    width: 3.5%;
-}
-
-/*****
-NAV
-*****/
-
-nav {
-    /* position: fixed; */
-    z-index: 10; /*Pour que les éléments animés restent derrière la nav*/
-    padding: 1em;
+header>nav h1 {
+    color: white;
     text-align: center;
-    width: 100%;
-    background-color: var(--nav-bg-color);
 }
 
-#space-between {
+header>nav ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-    padding: 0 5px;
-    transition: none;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #B5C7EB;
-}
-
-a:active {
-    list-style: none;
-    text-decoration: underline;
-    color: #B5C7EB;
-}
-
-#nav-ul {
-    align-items: center;
-}
-
-#profile-picture img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-}
-
-/***THEMES***/
-
-#change-theme {
     justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    padding: 0;
-    border-radius: 50%;
-    background-color: var(--theme-btn-bg-color);
-    border: 1px solid var(--theme-btn-bg-color);
-    cursor: pointer;
+    vertical-align: middle;
+    gap: 2vh;
 }
 
-#change-theme svg {
-    fill: var(--theme-icon-color);
-}
-
-/*Je veux montrer une seule icône quand le mode lumineux (par défaut) est actif*/
-#change-theme svg:last-child {
-    display: none;
-    fill: var(--theme-icon-color);
-}
-
-/*Je fais donc pareil pour le mode sombre*/
-.dark-mode #change-theme svg:first-child {
-    display: none; /*Je rend l'icône lune invisible*/
-    fill: var(--theme-icon-color);
-}
-
-.dark-mode #change-theme svg:last-child {
-    display: block; /*Et j'affiche celle du soleil*/
-    fill: var(--theme-icon-color);
-}
-
-
-/**************
-BODY
-**************/
-
-.translation-parent {
-    justify-content: center;
-}
-
-.translation {
-    background-color: var(--translation-bg-color);
-    margin: 4em 0 8em 0;
-    padding: 2em;
-    width: 98%;
-    border-radius: 25px;
-}
-
-#translation-img {
-    width: 35%;
-}
-
-.title {
-    flex-direction: column;
-    padding-left: 8em;
-    justify-content: center;
-}
-
-#translation-title {
-    font-size: 32px;
-}
-
-#search {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3em;
-    padding: 0.5em;
-    width: 50%;
-    background-color: #E6E6E6;
-    color: #000000;
-    text-decoration: none;
+nav>ul li {
+    list-style-type: none;
+    border: 2px solid white;
     border-radius: 10px;
+    padding: 5px 25px 5px 25px;
 }
 
-#search h3 {
-    padding-left: 0.8em;
-    font-weight: 400;
-}
-
-#searching-glass {
-    width: 6%;
-}
-
-#start-searching {
-    font-size: 22px;
+nav>ul li a {
+    color: white;
 }
 
 
-/*************
-FOOTER
-*************/
+/***BODY***/
+
+main {
+    background-color: #592720;
+}
+
+main>section .translation-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    border: 2px solid #DCAC4D;
+}
+
+main>section .translation-card figure {
+    width: 40%;
+}
+
+main>section .translation-card figure img {
+    width: 100%;
+}
+
+/***FOOTER***/
 
 footer {
     z-index: 10;
@@ -443,4 +328,58 @@ footer ul li {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+}
+
+
+/***THEMES***/
+
+#change-theme {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--theme-btn-bg-color);
+    border: 1px solid var(--theme-btn-bg-color);
+    cursor: pointer;
+}
+
+#change-theme svg {
+    fill: var(--theme-icon-color);
+}
+
+/*Je veux montrer une seule icône quand le mode lumineux (par défaut) est actif*/
+#change-theme svg:last-child {
+    display: none;
+    fill: var(--theme-icon-color);
+}
+
+/*Je fais donc pareil pour le mode sombre*/
+.dark-mode #change-theme svg:first-child {
+    display: none; /*Je rend l'icône lune invisible*/
+    fill: var(--theme-icon-color);
+}
+
+.dark-mode #change-theme svg:last-child {
+    display: block; /*Et j'affiche celle du soleil*/
+    fill: var(--theme-icon-color);
+}
+
+/***ICONS***/
+
+#website-logo-nav {
+    width: 11%;
+}
+
+.facebook {
+    width: 3%;
+}
+
+.instagram {
+    width: 3%;
+}
+
+.youtube {
+    width: 3.5%;
 }
