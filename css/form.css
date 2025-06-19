@@ -276,6 +276,14 @@ input[type="checkbox"]:checked {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     cursor: pointer;
+    background-color: #DAA520;
+    border: 2px solid #DAA520;
+}
+
+.submit-btn:active {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
     background-color: #DB8535;
     border: 2px solid #DB8535;
 }
