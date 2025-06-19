@@ -20,13 +20,18 @@
     </header>
 
     <main>
+        <section class="translation-titles">
+            <span>Avide de lecture, mordu de musique ou bien lecteur occasionnel ?</span>
+            <span>Notre site est accessible à tous et propose toute une variété de traductions, tel que :</span>
+        </section>
+
         <section class="translation-parent">
             <div class="translation-card">
                 <figure>
                     <img src="assets/imgs/general/books.png" alt="Books">
                 </figure>
                 
-                <h2>Livres</h2>
+                <span>Livres</span>
                 <p>Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia facilis rerum maiores error, libero ut repellat nesciunt? Recusandae ratione dolor deleniti ea quibusdam modi ut quae doloremque culpa, nostrum aliquam obcaecati voluptatem? Ipsam esse vero aut doloribus quisquam, velit eum corporis illum quaerat autem temporibus accusantium nostrum aliquid placeat iusto.</p>
             </div>
 

@@ -190,7 +190,7 @@ a {
 
 .accueil {
     min-height: 50vh;
-    background-image: url("../assets/imgs/general/header-img.jpg");
+    background-image: url("../assets/imgs/general/header-img.png");
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
     background-size: cover;
     background-position: center center;
@@ -202,7 +202,7 @@ a {
 header>nav h1 {
     color: white;
     text-align: center;
-    line-height: 8em;
+    line-height: 9em;
     font-size: 40px;
 }
 
@@ -264,6 +264,15 @@ main>section .translation-card figure {
 
 main>section .translation-card figure img {
     width: 100%;
+}
+
+.translation-card>span {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.translation-card>p {
+    width: 80%;
 }
 
 /***FOOTER***/
