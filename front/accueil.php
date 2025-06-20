@@ -27,31 +27,37 @@
 
         <section class="translation-parent">
             <div class="translation-card">
-                <figure>
-                    <img src="assets/imgs/general/books.png" alt="Books">
+                <figure class="book">
+                    <img src="assets/imgs/general/books.png" alt="Livres">
                 </figure>
                 
                 <span>Livres</span>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia facilis rerum maiores error, libero ut repellat nesciunt? Recusandae ratione dolor deleniti ea quibusdam modi ut quae doloremque culpa, nostrum aliquam obcaecati voluptatem? Ipsam esse vero aut doloribus quisquam, velit eum corporis illum quaerat autem temporibus accusantium nostrum aliquid placeat iusto.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita rem eveniet assumenda ex nesciunt iure quasi est. Deleniti quaerat aspernatur facilis et repellendus iste inventore saepe nam? Quia quibusdam illo velit blanditiis praesentium?</p>
             </div>
 
             <div class="translation-card">
-                <img src="assets/imgs/general/books.png" alt="Text img">
-                <h2>Livres</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <figure class="book">
+                    <img src="assets/imgs/general/music-sheet.png" alt="Chansons">
+                </figure>
+                
+                <span>Chansons</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nesciunt! Ex consequatur optio praesentium. Suscipit officia enim ratione quaerat consectetur nihil modi dolor officiis facilis labore, vero adipisci nam exercitationem!</p>
             </div>
             
             <div class="translation-card">
-                <img src="assets/imgs/general/books.png" alt="Text img">
-                <h2>Livres</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <figure class="texts">
+                    <img src="assets/imgs/general/handwritten-text.png" alt="Textes">
+                </figure>
+
+                <span>Textes</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ullam unde sed ratione similique soluta et nostrum ex est dolor alias, consectetur cumque nemo, mollitia corrupti in recusandae officiis totam dignissimos magni eveniet aliquid.</p>
             </div>
         </section>
     </main>
     
 
     <footer class="d-flex">
-        <div class="d-flex logo-text">
+        <div class="d-flex logo-text margin-foot">
             <div class="parent-logo">
                 <a href="#">
                     <img src="assets/imgs/logo.png" alt="website logo" id="website-logo-footer">
@@ -60,14 +66,14 @@
 
             <div class="d-flex parent-text">
                 <div class="text">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat, dolorem tenetur a dolores quos assumenda architecto quaerat deserunt commodi nulla rerum quas eius. Eveniet modi, minima minus amet pariatur praesentium natus quo consequuntur.</p>
+                    <p>Ce site a été réalisé dans le cadre de la formation "TP - Développeur Web" de l'AFEC.</p>
                 </div>
             </div>
         </div>
 
         <hr>
 
-        <div class="d-flex socials-pages">
+        <div class="d-flex socials-pages margin-foot">
             <div class="d-flex parent-pages">
                 <h3 id="pages-title">Toutes les pages</h3>
                 <ul class="pages">
@@ -77,15 +83,17 @@
                 </ul>
             </div>
                     
-            <div class="d-flex parent-socials">
+            <div class="d-flex parent-socials margin-foot">
                 <h3 id="socials-title">Nos réseaux sociaux</h3>
                 <ul class="socials">
-                    <li><img src="assets/imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></li>
-                    <li><img src="assets/imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></li>
-                    <li><img src="assets/imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></li>
+                    <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img src="assets/imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></a></li>
                 </ul>
             </div>
         </div>
+
+        <hr>
 
         <p>Toutes les images viennent de <a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
     </footer>
