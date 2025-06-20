@@ -248,18 +248,40 @@ main {
     background-color: #592720;
 }
 
+main>.translation-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0 3.5em 0;
+}
+
+main>.translation-titles span {
+    font-family: "PoppinsRegular", "sans-serif";
+    font-size: 25px;
+    color: #fff;
+    line-height: 70px;
+}
+
+main>.translation-parent {
+    display: flex;
+    justify-content: center;
+    column-gap: 4em;
+    padding-bottom: 3.5em;
+}
+
 main>section .translation-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 30%;
+    width: 23%;
     border: 2px solid #DCAC4D;
 }
 
-main>section .translation-card figure {
-    width: 40%;
+main>section .translation-card .book {
+    width: 80%;
+    margin-top: 1.8em;
 }
 
 main>section .translation-card figure img {
@@ -269,10 +291,17 @@ main>section .translation-card figure img {
 .translation-card>span {
     font-style: italic;
     font-size: 22px;
+    margin-top: 1em;
 }
 
 .translation-card>p {
+    width: 85%;
+    margin: 40px 0 25px 0;
+}
+
+.texts {
     width: 80%;
+    margin-top: 0.3em;
 }
 
 /***FOOTER***/
@@ -286,11 +315,14 @@ footer {
     flex-direction: column;
 }
 
+.margin-foot {
+    margin: 1em 0 1em 0;
+}
+
 .logo-text {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 2em 0 2em 0;
 }
 
 .parent-logo {
@@ -322,7 +354,6 @@ hr {
 
 .socials-pages {
     flex-direction: row;
-    margin: 2em 0 2em 0;
 }
 
 .parent-socials {
@@ -331,11 +362,7 @@ hr {
     width: 50%;
 }
 
-#socials-title {
-    font-weight: 400;
-}
-
-.socials {
+.parent-socials>.socials {
     margin-top: 1em;
 }
 
@@ -364,6 +391,20 @@ footer ul li {
     justify-content: space-evenly;
 }
 
+footer>p {
+    margin-top: 2em;
+}
+
+footer>p a {
+    text-decoration: underline;
+    transition: none;
+}
+
+footer>p a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: none;
+}
 
 /***THEMES***/
 
