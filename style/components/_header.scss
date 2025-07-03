@@ -1,7 +1,13 @@
-/***Header + nav***/
+/************
+HERO + NAV
+************/
 
-.accueil {
-    min-height: 50vh;
+
+
+/***HERO***/
+
+.hero {
+    min-height: 100vh;
     background-image: url("../assets/imgs/general/header-img.png");
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
     background-size: cover;
@@ -11,25 +17,14 @@
     justify-content: center;
 }
 
-header>nav h1 {
+.hero-nav h1 {
     color: white;
     text-align: center;
     line-height: 6em;
     font-size: 40px;
 }
 
-header>nav ul {
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    gap: 10vh;
-}
-
-#website-logo-nav {
-    width: 11%;
-}
-
-nav>ul li {
+.hero-nav>ul li {
     list-style-type: none;
     border: 2px solid white;
     border-radius: 10px;
@@ -37,11 +32,11 @@ nav>ul li {
     transition: none;
 }
 
-nav>ul li a {
+.hero-nav>ul li a {
     color: white;
 }
 
-nav>ul li:hover {
+.hero-nav>ul li:hover {
     border: 2px solid #DAA520;
     background-color: #DAA520;
     border-radius: 10px;
@@ -49,10 +44,40 @@ nav>ul li:hover {
     transition: none;
 }
 
-nav>ul li:active {
+.hero-nav>ul li:active {
     border: 2px solid #DB8535;
     background-color: #DB8535;
     border-radius: 10px;
     padding: 10px 45px 10px 45px;
     transition: none;
+}
+
+.hero-nav> ul {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    gap: 10vh;
+}
+
+
+
+/***NAV***/ 
+
+#website-logo-nav {
+    width: 11%;
+}
+
+/***User profile picture***/
+#nav-ul li {
+    list-style-type: none;
+    background-color: orange;
+}
+
+#nav-ul>#profile-picture {
+    width: 4%;
+}
+
+#nav-ul #profile-picture img {
+    width: 100%;
+    border-radius: 50%;
 }

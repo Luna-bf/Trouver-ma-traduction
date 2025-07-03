@@ -9,8 +9,8 @@
 </head>
 <body>
     <!-- M'inspirer du projet WebNova pour le style du texte -->
-    <header class="accueil">
-        <nav>
+    <header class="hero">
+        <nav class="hero-nav">
             <h1>Toutes vos traductions rassemblées à un seul endroit.</h1>
 
             <ul>
