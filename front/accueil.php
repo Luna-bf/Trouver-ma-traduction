@@ -55,7 +55,6 @@
             </div>
         </section>
     </main>
-    
 
     <footer class="d-flex">
         <div class="d-flex logo-text margin-foot">
@@ -76,7 +75,7 @@
 
         <div class="d-flex socials-pages margin-foot">
             <div class="d-flex parent-pages">
-                <h3 id="pages-title">Toutes les pages</h3>
+                <h3>Toutes les pages</h3>
                 <ul class="pages">
                     <li><a href="#">Accueil du site</a></li>
                     <li><a href="./front/accueil-connect.php">Accueil (traductions)</a></li>
@@ -85,7 +84,7 @@
             </div>
                     
             <div class="d-flex parent-socials margin-foot">
-                <h3 id="socials-title">Nos réseaux sociaux</h3>
+                <h3>Nos réseaux sociaux</h3>
                 <ul class="socials">
                     <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img src="assets/imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></a></li>
                     <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></a></li>
