@@ -6,3 +6,17 @@
 @import "pages/accueil.scss";
 @import "pages/form.scss";
 @import "pages/accueil-connect.scss";
+
+
+// Style
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
