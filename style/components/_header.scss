@@ -1,11 +1,8 @@
-/************
-HERO + NAV
-************/
-
-
+/********************
+HERO, HEADER & NAV
+********************/
 
 /***HERO***/
-
 .hero {
     min-height: 100vh;
     background-image: url("../assets/imgs/general/header-img.png");
@@ -60,21 +57,70 @@ HERO + NAV
 }
 
 
+/***HEADER***/
+header {
+    min-width: 100vw;
+    background-color: #DAA520;
+}
 
-/***NAV***/ 
+
+/***NAV***/
+nav {
+    align-items: center;
+    align-content: center;
+    padding: 8px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
 
 #website-logo-nav {
     width: 11%;
 }
 
+.logo-input {
+    width: 50%;
+    gap: 25px;
+}
+
+.logo-input>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/***Search input***/
+.input-wrapper {
+    width: 40%;
+}
+
+.input-wrapper>input {
+    width: 100%;
+    height: 35px;
+    direction: left;
+    text-indent: 10px;
+    background-color: #F5F5F5;
+    border: 1px solid #B8B8B8;
+    border-radius: 8px;
+}
+
+// .input-wrapper>input::placeholder:before {
+//     font-family: "Font Awesome 6 Free";
+//     content: "\f002";
+//     font-size: 16px;
+// }
+
+
 /***User profile picture***/
-#nav-ul li {
-    list-style-type: none;
-    background-color: orange;
+#nav-ul {
+    justify-content: flex-end;
 }
 
 #nav-ul>#profile-picture {
-    width: 4%;
+    list-style-type: none;
+    width: 5%;
 }
 
 #nav-ul #profile-picture img {
