@@ -1,10 +1,30 @@
 footer {
+    bottom: 0;
     z-index: 10;
     background-color: var(--footer-bg-color);
     padding: 1em;
     width: 100%;
     text-align: center;
     flex-direction: column;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer>p {
+    margin-top: 2em;
+}
+
+footer>p a {
+    text-decoration: underline;
+    transition: none;
+}
+
+footer>p a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: none;
 }
 
 .margin-foot {
@@ -44,18 +64,14 @@ hr {
     margin: 0 auto;
 }
 
+
+/*****************
+PAGE & SOCIALS
+*****************/
+
+/***Pages***/
 .socials-pages {
     flex-direction: row;
-}
-
-.parent-socials {
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-}
-
-.parent-socials>.socials {
-    margin-top: 1em;
 }
 
 .parent-pages {
@@ -64,38 +80,32 @@ hr {
     width: 50%;
 }
 
-#pages-title {
-    font-weight: 400;
+.parent-pages>h3 {
+    font-weight: 300;
 }
 
 .pages {
     margin-top: 1em;
 }
 
-footer ul li {
-    list-style-type: none;
-}
 
-#terms {
-    margin: 3em 0 1em 0;
-    flex-direction: row;
+/***Socials***/
+.parent-socials {
+    flex-direction: column;
     justify-content: center;
-    justify-content: space-evenly;
+    width: 50%;
 }
 
-footer>p {
-    margin-top: 2em;
+.parent-socials>h3 {
+    font-weight: 300;
 }
 
-footer>p a {
-    text-decoration: underline;
-    transition: none;
+.socials {
+    margin-top: 1em;
 }
 
-footer>p a:hover {
-    text-decoration: underline;
-    color: #fff;
-    transition: none;
+.freepik {
+    padding-bottom: 1em;
 }
 
 
