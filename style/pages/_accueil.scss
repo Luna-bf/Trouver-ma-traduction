@@ -1,0 +1,354 @@
+:root {
+    --base-bg-color: #fff;
+    --text-color: #000000;
+    --nav-bg-color: #fff;
+    --lang-bg-color: #fff;
+    --lang-border-color: #aaa;
+    --lang-bg-color: #fff;
+    --lang-bg-color-hover: #FFFAFA;
+    --sort-color: #000000;
+    --theme-btn-bg-color: #333333;
+    --theme-icon-color: #fff;
+    --translation-bg-color: rgb(220, 235, 255, 0.4);
+    --footer-bg-color: #DCAC4D;
+}
+
+/***Reset***/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease; /* Pour changer le mode de façon moins statique */
+}
+
+/*************
+SMOOTH SCROLL
+*************/
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/***DISPLAY FLEX***/
+
+.d-flex {
+    display: flex;
+}
+
+
+/***Dark mode***/
+.dark-mode {
+    --base-bg-color: #333333;
+    --text-color: #fff;
+    --nav-bg-color: #333333;
+    --lang-border-color: #555555;
+    --lang-bg-color: #333333;
+    --lang-bg-color-hover: #444444;
+    --lang-color-focus: #fff;
+    --sort-color: #fff;
+    --theme-icon-color: #333333;
+    --theme-btn-bg-color: #fff;
+    --translation-bg-color: rgba(185, 215, 255, 0.8);
+    --footer-bg-color: #B9D7FF;
+}
+
+body {
+    background-color: var(--base-bg-color);
+}
+
+html, body, .accueil {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PoppinsMedium", sans-serif;
+}
+
+p, li {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/***NAV***/
+
+.accueil {
+    min-height: 50vh;
+    background-image: url("../assets/imgs/general/header-img.png");
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header>nav h1 {
+    color: white;
+    text-align: center;
+    line-height: 6em;
+    font-size: 40px;
+}
+
+header>nav ul {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    gap: 10vh;
+}
+
+nav>ul li {
+    list-style-type: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 45px 10px 45px;
+    transition: none;
+}
+
+nav>ul li a {
+    color: white;
+}
+
+nav>ul li:hover {
+    border: 2px solid #DAA520;
+    background-color: #DAA520;
+    border-radius: 10px;
+    padding: 10px 45px 10px 45px;
+    transition: none;
+}
+
+nav>ul li:active {
+    border: 2px solid #DB8535;
+    background-color: #DB8535;
+    border-radius: 10px;
+    padding: 10px 45px 10px 45px;
+    transition: none;
+}
+
+
+/***BODY***/
+
+main {
+    background-color: #592720;
+}
+
+main>.translation-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0 3.5em 0;
+}
+
+main>.translation-titles span {
+    font-family: "PoppinsRegular", "sans-serif";
+    font-size: 25px;
+    color: #fff;
+    line-height: 70px;
+}
+
+main>.translation-parent {
+    display: flex;
+    justify-content: center;
+    column-gap: 4em;
+    padding-bottom: 3.5em;
+}
+
+main>section .translation-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 23%;
+    border: 2px solid #DCAC4D;
+}
+
+main>section .translation-card .book {
+    width: 80%;
+    margin-top: 1.8em;
+}
+
+main>section .translation-card figure img {
+    width: 100%;
+}
+
+.translation-card>span {
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 1em;
+}
+
+.translation-card>p {
+    width: 85%;
+    margin: 40px 0 25px 0;
+}
+
+.texts {
+    width: 80%;
+    margin-top: 0.3em;
+}
+
+/***FOOTER***/
+
+footer {
+    z-index: 10;
+    background-color: var(--footer-bg-color);
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.margin-foot {
+    margin: 1em 0 1em 0;
+}
+
+.logo-text {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-logo {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#website-logo-footer {
+    width: 35%;
+}
+
+.parent-text {
+    width: 50%;
+}
+
+.text {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+hr {
+    width: 80%;
+    border-bottom: 1px solid #242424;
+    margin: 0 auto;
+}
+
+.socials-pages {
+    flex-direction: row;
+}
+
+.parent-socials {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.parent-socials>.socials {
+    margin-top: 1em;
+}
+
+.parent-pages {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#pages-title {
+    font-weight: 400;
+}
+
+.pages {
+    margin-top: 1em;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+#terms {
+    margin: 3em 0 1em 0;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+footer>p {
+    margin-top: 2em;
+}
+
+footer>p a {
+    text-decoration: underline;
+    transition: none;
+}
+
+footer>p a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: none;
+}
+
+/***THEMES***/
+
+#change-theme {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--theme-btn-bg-color);
+    border: 1px solid var(--theme-btn-bg-color);
+    cursor: pointer;
+}
+
+#change-theme svg {
+    fill: var(--theme-icon-color);
+}
+
+/*Je veux montrer une seule icône quand le mode lumineux (par défaut) est actif*/
+#change-theme svg:last-child {
+    display: none;
+    fill: var(--theme-icon-color);
+}
+
+/*Je fais donc pareil pour le mode sombre*/
+.dark-mode #change-theme svg:first-child {
+    display: none; /*Je rend l'icône lune invisible*/
+    fill: var(--theme-icon-color);
+}
+
+.dark-mode #change-theme svg:last-child {
+    display: block; /*Et j'affiche celle du soleil*/
+    fill: var(--theme-icon-color);
+}
+
+/***ICONS***/
+
+#website-logo-nav {
+    width: 11%;
+}
+
+.facebook {
+    width: 3%;
+}
+
+.instagram {
+    width: 3%;
+}
+
+.youtube {
+    width: 3.5%;
+}
