@@ -1,0 +1,174 @@
+/* Fichier CSS pour le formulaire de connexion et d'inscription */
+
+/*************
+DISPLAY FLEX
+*************/
+
+.d-flex {
+    display: flex;
+}
+
+body {
+    background-color: var(--base-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PoppinsMedium", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.d-i-flex {
+    display: inline-flex;
+}
+
+.w-50-percent {
+    width: 60%;
+}
+
+.form-parent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#form-image {
+    border-radius: 15px;
+}
+
+form {
+    flex-direction: column;
+    width: 40%;
+    padding: 2em 0 2em 0;
+    margin: 3em 0 1em 0;
+    border-radius: 10px;
+}
+
+.form-input-parent {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 400;
+}
+
+.mt-first-label {
+    margin-top: 1.5em;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+#password-div {
+    margin-bottom: 1em;
+}
+
+#forgotten-password {
+    font-weight: 400;
+    margin: 7px 0 30px 0;
+}
+
+#remember {
+    flex-direction: row;
+    margin-top: 1.5em;
+}
+
+#remember-input {
+    margin-right: 0.4rem;
+}
+
+.form-input {
+    border: 1px solid #8A8A8A;
+    border-radius: 3px;
+    height: 40px;
+    direction: left; 
+    text-indent: 10px;
+    background-color: #F5F5F5;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.4);
+}
+
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #DCAC4D;
+}
+
+#username {
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    background-color: #DCAC4D;
+    color: #fff;
+    border: 2px solid #DCAC4D;
+    border-radius: 6px;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+    margin : 80px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
+    width: 40%;
+    transition: none;
+}
+
+.submit-btn:hover {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #DAA520;
+    border: 2px solid #DAA520;
+}
+
+.submit-btn:active {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #DB8535;
+    border: 2px solid #DB8535;
+}
+
+.account-parent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.account-parent a, .account-parent div {
+    margin-bottom: 14px;
+    color: #8A8A8A;
+    transition: none;
+}
+
+.connect-register-link {
+    color: #DCAC4D;
+}
+
+.connect-register-link:hover {
+    color: #DB8535;
+    text-decoration: underline;
+    transition: none;
+}
+
+#connect-link {
+    color: #DCAC4D;
+}
+
+#connect-link:hover {
+    color: #DB8535;
+    text-decoration: underline;
+    transition: none;
+}
