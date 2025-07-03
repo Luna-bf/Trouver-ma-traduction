@@ -1,0 +1,606 @@
+@charset "UTF-8";
+/***************
+FONT - Poppins
+***************/
+/***Thin***/
+@font-face {
+  font-family: "PoppinsThin";
+  src: url("../assets/fonts/Poppins/Poppins-Thin.ttf");
+}
+/***ExtraLight***/
+@font-face {
+  font-family: "PoppinsExtralight";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+/***Light***/
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+/***Regular***/
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+/***Medium***/
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+/***SemiBold***/
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+/***Bold***/
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+/***ExtraBold***/
+@font-face {
+  font-family: "PoppinsExtraBold";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+/***Black***/
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("../assets/fonts/Poppins/Poppins-Black.ttf");
+}
+/***ThinItalic***/
+@font-face {
+  font-family: "PoppinsThinItalic";
+  src: url("../assets/fonts/Poppins/Poppins-ThinItalic.ttf");
+}
+/***ExtraLightItalic***/
+@font-face {
+  font-family: "PoppinsExtraLightItalic";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraLightItalic.ttf");
+}
+/***LightItalic***/
+@font-face {
+  font-family: "PoppinsLightItalic";
+  src: url("../assets/fonts/Poppins/Poppins-LightItalic.ttf");
+}
+/***MediumItalic***/
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../assets/fonts/Poppins/Poppins-MediumItalic.ttf");
+}
+/***SemiBoldItalic***/
+@font-face {
+  font-family: "SemiBoldItalic";
+  src: url("../assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+/***BoldItalic***/
+@font-face {
+  font-family: "BoldItalic";
+  src: url("../assets/fonts/Poppins/Poppins-BoldItalic.ttf");
+}
+/***ExtraBoldItalic***/
+@font-face {
+  font-family: "ExtraBoldItalic";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+}
+/***BlackItalic***/
+@font-face {
+  font-family: "BlackItalic";
+  src: url("../assets/fonts/Poppins/Poppins-BlackItalic.ttf");
+}
+:root {
+  --base-bg-color: #fff;
+  --text-color: #000000;
+  --nav-bg-color: #fff;
+  --lang-bg-color: #fff;
+  --lang-border-color: #aaa;
+  --lang-bg-color: #fff;
+  --lang-bg-color-hover: #FFFAFA;
+  --sort-color: #000000;
+  --theme-btn-bg-color: #333333;
+  --theme-icon-color: #fff;
+  --translation-bg-color: rgb(220, 235, 255, 0.4);
+  --footer-bg-color: #DCAC4D;
+}
+
+/***Reset***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease; /* Pour changer le mode de façon moins statique */
+}
+
+/*************
+SMOOTH SCROLL
+*************/
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/***DISPLAY FLEX***/
+.d-flex {
+  display: flex;
+}
+
+/***Dark mode***/
+.dark-mode {
+  --base-bg-color: #333333;
+  --text-color: #fff;
+  --nav-bg-color: #333333;
+  --lang-border-color: #555555;
+  --lang-bg-color: #333333;
+  --lang-bg-color-hover: #444444;
+  --lang-color-focus: #fff;
+  --sort-color: #fff;
+  --theme-icon-color: #333333;
+  --theme-btn-bg-color: #fff;
+  --translation-bg-color: rgba(185, 215, 255, 0.8);
+  --footer-bg-color: #B9D7FF;
+}
+
+body {
+  background-color: var(--base-bg-color);
+}
+
+html, body, .accueil {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PoppinsMedium", sans-serif;
+}
+
+p, li {
+  font-family: "PoppinsRegular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/***NAV***/
+.accueil {
+  min-height: 50vh;
+  background-image: url("../assets/imgs/general/header-img.png");
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > nav h1 {
+  color: white;
+  text-align: center;
+  line-height: 6em;
+  font-size: 40px;
+}
+
+header > nav ul {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  gap: 10vh;
+}
+
+nav > ul li {
+  list-style-type: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 45px 10px 45px;
+  transition: none;
+}
+
+nav > ul li a {
+  color: white;
+}
+
+nav > ul li:hover {
+  border: 2px solid #DAA520;
+  background-color: #DAA520;
+  border-radius: 10px;
+  padding: 10px 45px 10px 45px;
+  transition: none;
+}
+
+nav > ul li:active {
+  border: 2px solid #DB8535;
+  background-color: #DB8535;
+  border-radius: 10px;
+  padding: 10px 45px 10px 45px;
+  transition: none;
+}
+
+/***BODY***/
+main {
+  background-color: #592720;
+}
+
+main > .translation-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em 0 3.5em 0;
+}
+
+main > .translation-titles span {
+  font-family: "PoppinsRegular", "sans-serif";
+  font-size: 25px;
+  color: #fff;
+  line-height: 70px;
+}
+
+main > .translation-parent {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 4em;
+       column-gap: 4em;
+  padding-bottom: 3.5em;
+}
+
+main > section .translation-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 23%;
+  border: 2px solid #DCAC4D;
+}
+
+main > section .translation-card .book {
+  width: 80%;
+  margin-top: 1.8em;
+}
+
+main > section .translation-card figure img {
+  width: 100%;
+}
+
+.translation-card > span {
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 1em;
+}
+
+.translation-card > p {
+  width: 85%;
+  margin: 40px 0 25px 0;
+}
+
+.texts {
+  width: 80%;
+  margin-top: 0.3em;
+}
+
+/***FOOTER***/
+footer {
+  z-index: 10;
+  background-color: var(--footer-bg-color);
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+}
+
+.margin-foot {
+  margin: 1em 0 1em 0;
+}
+
+.logo-text {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-logo {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#website-logo-footer {
+  width: 35%;
+}
+
+.parent-text {
+  width: 50%;
+}
+
+.text {
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+hr {
+  width: 80%;
+  border-bottom: 1px solid #242424;
+  margin: 0 auto;
+}
+
+.socials-pages {
+  flex-direction: row;
+}
+
+.parent-socials {
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.parent-socials > .socials {
+  margin-top: 1em;
+}
+
+.parent-pages {
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#pages-title {
+  font-weight: 400;
+}
+
+.pages {
+  margin-top: 1em;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+#terms {
+  margin: 3em 0 1em 0;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+footer > p {
+  margin-top: 2em;
+}
+
+footer > p a {
+  text-decoration: underline;
+  transition: none;
+}
+
+footer > p a:hover {
+  text-decoration: underline;
+  color: #fff;
+  transition: none;
+}
+
+/***THEMES***/
+#change-theme {
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--theme-btn-bg-color);
+  border: 1px solid var(--theme-btn-bg-color);
+  cursor: pointer;
+}
+
+#change-theme svg {
+  fill: var(--theme-icon-color);
+}
+
+/*Je veux montrer une seule icône quand le mode lumineux (par défaut) est actif*/
+#change-theme svg:last-child {
+  display: none;
+  fill: var(--theme-icon-color);
+}
+
+/*Je fais donc pareil pour le mode sombre*/
+.dark-mode #change-theme svg:first-child {
+  display: none; /*Je rend l'icône lune invisible*/
+  fill: var(--theme-icon-color);
+}
+
+.dark-mode #change-theme svg:last-child {
+  display: block; /*Et j'affiche celle du soleil*/
+  fill: var(--theme-icon-color);
+}
+
+/***ICONS***/
+#website-logo-nav {
+  width: 11%;
+}
+
+.facebook {
+  width: 3%;
+}
+
+.instagram {
+  width: 3%;
+}
+
+.youtube {
+  width: 3.5%;
+}
+
+/* Fichier CSS pour le formulaire de connexion et d'inscription */
+/*************
+DISPLAY FLEX
+*************/
+.d-flex {
+  display: flex;
+}
+
+body {
+  background-color: var(--base-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PoppinsMedium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.d-i-flex {
+  display: inline-flex;
+}
+
+.w-50-percent {
+  width: 60%;
+}
+
+.form-parent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#form-image {
+  border-radius: 15px;
+}
+
+form {
+  flex-direction: column;
+  width: 40%;
+  padding: 2em 0 2em 0;
+  margin: 3em 0 1em 0;
+  border-radius: 10px;
+}
+
+.form-input-parent {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+}
+
+.mt-first-label {
+  margin-top: 1.5em;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+#password-div {
+  margin-bottom: 1em;
+}
+
+#forgotten-password {
+  font-weight: 400;
+  margin: 7px 0 30px 0;
+}
+
+#remember {
+  flex-direction: row;
+  margin-top: 1.5em;
+}
+
+#remember-input {
+  margin-right: 0.4rem;
+}
+
+.form-input {
+  border: 1px solid #8A8A8A;
+  border-radius: 3px;
+  height: 40px;
+  direction: left;
+  text-indent: 10px;
+  background-color: #F5F5F5;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+input[type=checkbox] {
+  transform: scale(1.4);
+}
+
+input[type=checkbox]:hover {
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+  accent-color: #DCAC4D;
+}
+
+#username {
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  font-family: "PoppinsRegular", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  background-color: #DCAC4D;
+  color: #fff;
+  border: 2px solid #DCAC4D;
+  border-radius: 6px;
+  padding: 0.7em 2.5em 0.7em 2.5em;
+  margin: 80px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
+  width: 40%;
+  transition: none;
+}
+
+.submit-btn:hover {
+  font-family: "PoppinsRegular", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #DAA520;
+  border: 2px solid #DAA520;
+}
+
+.submit-btn:active {
+  font-family: "PoppinsRegular", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #DB8535;
+  border: 2px solid #DB8535;
+}
+
+.account-parent {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.account-parent a, .account-parent div {
+  margin-bottom: 14px;
+  color: #8A8A8A;
+  transition: none;
+}
+
+.connect-register-link {
+  color: #DCAC4D;
+}
+
+.connect-register-link:hover {
+  color: #DB8535;
+  text-decoration: underline;
+  transition: none;
+}
+
+#connect-link {
+  color: #DCAC4D;
+}
+
+#connect-link:hover {
+  color: #DB8535;
+  text-decoration: underline;
+  transition: none;
+}/*# sourceMappingURL=main.css.map */
