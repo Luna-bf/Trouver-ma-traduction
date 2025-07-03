@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <!-- M'inspirer du projet WebNova pour le style du texte -->
+    <!-- M'inspirer du projet WebNova pour le style du texte ! -->
     <header class="hero">
         <nav class="hero-nav">
             <h1>Toutes vos traductions rassemblées à un seul endroit.</h1>
