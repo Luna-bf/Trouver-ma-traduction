@@ -16,9 +16,12 @@
                 </figure> -->
                 <a href="#">Logo</a>
 
-                <div class="input-wrapper">
-                    <input type="search" placeholder="Recherche...">
-                </div>
+                <form action="" class="inline d-flex search-form">
+                    <div class="input-wrapper">
+                        <input type="search" placeholder="Recherche...">
+                    </div>
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
             </div>
 
             <ul class="d-flex" id="nav-ul">
