@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Find My Translation</title>
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
 </head>
+
 <body>
     <header>
         <nav class="d-flex space-between">
             <div class="d-flex logo-input">
-                <!-- <figure>
-                    <img src="../assets/imgs/logo.png" alt="website logo" id="website-logo-nav">
-                </figure> -->
                 <a href="#">Logo</a>
 
-                <form action="" class="inline d-flex search-form">
-                    <div class="input-wrapper">
+                <form action="" class="inline search-form">
+                    <div class="d-flex input-wrapper">
                         <input type="search" placeholder="Recherche...">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
 
@@ -30,10 +30,32 @@
         </nav>
     </header>
 
-    <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tempore sapiente?</p>
+    <main class="container">
+
+        <h2>Nouvelles traductions</h2>
+
+        <div class="slider-container d-flex">
+            <div class="slider">
+                <div>
+                    <figure>
+                        <img src="../assets/imgs/general/handwritten-text.png" alt="image 1">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="../assets/imgs/general/music-sheet.png" alt="image 1">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="../assets/imgs/general/books.png" alt="image 1">
+                    </figure>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer class="d-flex">
         <div class="d-flex logo-text margin-foot">
             <div class="parent-logo">
@@ -60,10 +82,10 @@
                     <li><a href="#">Profil</a></li>
                 </ul>
             </div>
-                    
+
             <div class="d-flex parent-socials margin-foot">
                 <h3 id="socials-title">Nos réseaux sociaux</h3>
-                
+
                 <ul class="socials">
                     <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img src="../assets/imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></a></li>
                     <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/imgs/icons/instagram-logo.png" alt="Instagram logo" class="instagram"></a></li>
@@ -76,5 +98,10 @@
 
         <p class="freepik">Toutes les images viennent de <a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="../assets/js/app.js"></script>
 </body>
+
 </html>
