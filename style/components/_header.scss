@@ -19,6 +19,7 @@ HERO, HEADER & NAV
     text-align: center;
     line-height: 6em;
     font-size: 40px;
+    font-weight: 300;
 }
 
 .hero-nav>ul li {
@@ -60,7 +61,6 @@ HERO, HEADER & NAV
 /***HEADER***/
 header {
     min-width: 100vw;
-    background-color: olive;
 }
 
 
@@ -81,7 +81,7 @@ nav {
 
 .logo-input {
     width: 50%;
-    gap: 25px;
+    gap: 40px;
 }
 
 .logo-input>a {
@@ -97,21 +97,17 @@ SEARCH FORM
 
 /***Form***/
 .search-form {
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
+    width: 100%;
     padding: 0;
     margin: 0;
-    width: 100%;
 }
 
 .input-wrapper {
-    width: 40%;
+    flex-direction: row;
 }
 
 .input-wrapper>input {
     font-family: "PoppinsRegular", "sans-serif";
-    width: 100%;
     height: 35px;
     direction: left;
     text-indent: 10px;
@@ -120,33 +116,30 @@ SEARCH FORM
     border-radius: 8px;
 }
 
-.input-wrapper>input::placeholder:before {
-    position: absolute;
-}
-
-.search-form>button {
-    align-self: flex-start;
-    align-items: center;
-    padding: 3px 10px 3px 10px;
-    background-color: $form-btn-bg-color;
-    border: 1px solid $form-btn-bg-color;
-    border-radius: 5px;
-}
-
-.search-form>button:hover {
-    background-color: $form-btn-bg-color-hover;
-    border: 1px solid $form-btn-bg-color-hover;
-    color: #fff;
-    cursor: pointer;
+.input-wrapper>button {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin-left: 0.5em;
+    padding: 2px 14px 2px 14px;
+    text-align: center;
     transition: none;
 }
 
-.search-form>button:active {
-    background-color: $form-btn-bg-color-active;
-    border: 1px solid $form-btn-bg-color-active;
-    color: #fff;
+.magnifying-glass {
+    font-size: 20px;
+    color: #0000;
+}
+
+.input-wrapper>button:hover {
     cursor: pointer;
-    transition: none;
+}
+
+.input-wrapper>button:active {
+    cursor: pointer;
 }
 
 
