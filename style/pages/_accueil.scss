@@ -25,10 +25,6 @@ html {
     display: flex;
 }
 
-body {
-    background-color: var(--base-bg-color);
-}
-
 html, body, .accueil {
     height: 100%;
 }
@@ -51,32 +47,32 @@ a {
 
 /***Main**/
 
-main {
+.accueil-container  {
     background-color: #592720;
 }
 
-main>.translation-titles {
+.accueil-container>.translation-titles {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 4em 0 3.5em 0;
 }
 
-main>.translation-titles span {
+.accueil-container>.translation-titles span {
     font-family: "PoppinsRegular", "sans-serif";
     font-size: 25px;
     color: #fff;
     line-height: 70px;
 }
 
-main>.translation-parent {
+.accueil-container>.translation-parent {
     display: flex;
     justify-content: center;
     column-gap: 4em;
     padding-bottom: 3.5em;
 }
 
-main>section .translation-card {
+.accueil-container>section .translation-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,12 +82,12 @@ main>section .translation-card {
     border: 2px solid #DCAC4D;
 }
 
-main>section .translation-card .book {
+.accueil-container>section .translation-card .book {
     width: 80%;
     margin-top: 1.8em;
 }
 
-main>section .translation-card figure img {
+.accueil-container>section .translation-card figure img {
     width: 100%;
 }
 
