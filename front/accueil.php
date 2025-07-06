@@ -20,7 +20,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="accueil-container">
         <section class="translation-titles">
             <span>Avide de lecture, mordu de musique ou bien lecteur occasionnel ?</span>
             <span>Notre site est accessible à tous et propose toute une variété de traductions, tel que :</span>
