@@ -96,9 +96,9 @@ input[type="checkbox"]:checked {
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    background-color: #DCAC4D;
+    background-color: $form-btn-bg-color;
     color: #fff;
-    border: 2px solid #DCAC4D;
+    border: 2px solid $form-btn-bg-color;
     border-radius: 6px;
     padding: 0.7em 2.5em 0.7em 2.5em;
     margin : 80px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
@@ -110,16 +110,16 @@ input[type="checkbox"]:checked {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     cursor: pointer;
-    background-color: #DAA520;
-    border: 2px solid #DAA520;
+    background-color: $form-btn-bg-color-hover;
+    border: 2px solid $form-btn-bg-color-hover;
 }
 
 .submit-btn:active {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     cursor: pointer;
-    background-color: #DB8535;
-    border: 2px solid #DB8535;
+    background-color: $form-btn-bg-color-active;
+    border: 2px solid $form-btn-bg-color-active;
 }
 
 .account-parent {
