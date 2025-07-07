@@ -67,12 +67,7 @@ header {
 /***NAV***/
 nav {
     align-items: center;
-    align-content: center;
     padding: 8px;
-}
-
-.space-between {
-    justify-content: space-between;
 }
 
 #website-logo-nav {
@@ -81,7 +76,7 @@ nav {
 
 .logo-input {
     width: 50%;
-    gap: 40px;
+    gap: 15px;
 }
 
 .logo-input>a {
@@ -120,25 +115,29 @@ SEARCH FORM
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color: $form-btn-bg-color;
+    border: 1px solid $form-btn-bg-color;
+    color: #fff;
     border-radius: 6px;
     margin-left: 0.5em;
-    padding: 2px 14px 2px 14px;
+    padding: 2px 10px 2px 10px;
     text-align: center;
     transition: none;
 }
 
 .magnifying-glass {
     font-size: 20px;
-    color: #0000;
 }
 
 .input-wrapper>button:hover {
+    background-color: $form-btn-bg-color-hover;
+    border: 1px solid $form-btn-bg-color-hover;
     cursor: pointer;
 }
 
 .input-wrapper>button:active {
+    background-color: $form-btn-bg-color-active;
+    border: 1px solid $form-btn-bg-color-active;
     cursor: pointer;
 }
 
@@ -146,6 +145,7 @@ SEARCH FORM
 /***User profile picture***/
 #nav-ul {
     justify-content: flex-end;
+    margin-right: 15px;
 }
 
 #nav-ul>#profile-picture {
