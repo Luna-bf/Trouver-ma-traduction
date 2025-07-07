@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="d-flex space-between">
+        <nav class="d-flex">
             <div class="d-flex logo-input">
                 <a href="#">Logo</a>
 
