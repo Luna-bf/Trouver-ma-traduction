@@ -37,20 +37,52 @@
         <div class="slider-container d-flex">
             <div class="slider">
                 <div>
-                    <figure>
-                        <img src="../assets/imgs/general/handwritten-text.png" alt="image 1">
-                    </figure>
+                    <div class="songs-infos">
+                        <figure>
+                            <img src="../assets/imgs/placeholder-img.png" alt="img">
+                        </figure>
+
+                        <div class="infos-list">
+                            <h3>Nom de la chanson</h3>
+
+                            <ul>
+                                <li>Style : (Style)</li>
+                                <li>Artiste : (Nom de l'artiste)</li>
+                                <li>Album : (Nom de l'album)</li>
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                
+                <!-- <div>
+                    <div class="slide-wrap">
+                        <div class="image"></div>
+                        <p>Itaque architecto earum blanditiis corrupti nobis neque, et eligendi totam ipsa sunt molestias inventore</p>
+                    </div>
+                </div>
+
                 <div>
-                    <figure>
-                        <img src="../assets/imgs/general/music-sheet.png" alt="image 1">
-                    </figure>
+                    <div class="slide-wrap">
+                        <div class="image"></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
+
                 <div>
-                    <figure>
-                        <img src="../assets/imgs/general/books.png" alt="image 1">
-                    </figure>
+                    <div class="slide-wrap">
+                        <div class="image"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel adipisci mollitia cumque facere nihil, totam nesciunt quibusdam recusandae.</p>
+                    </div>
                 </div>
+
+                <div>
+                    <div class="slide-wrap">
+                        <div class="image"></div>
+                        <p>Aut nisi nostrum libero eaque dicta maiores eum magni facilis ex? Impedit.</p>
+                    </div>
+                </div> -->
             </div>
         </div>
     </main>
