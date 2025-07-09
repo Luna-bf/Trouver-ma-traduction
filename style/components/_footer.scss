@@ -31,6 +31,8 @@ footer>p a:hover {
     margin: 1em 0 1em 0;
 }
 
+
+/***Logo***/
 .logo-text {
     flex-direction: row;
     justify-content: center;
@@ -40,14 +42,17 @@ footer>p a:hover {
 .parent-logo {
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 25%;
     margin: 0 auto;
 }
 
 #website-logo-footer {
-    width: 35%;
+    width: 100%;
+    border-radius: 50%;
 }
 
+
+/***Texte***/
 .parent-text {
     width: 50%;
 }
