@@ -76,7 +76,8 @@ nav {
 
 .logo-input {
     width: 50%;
-    gap: 15px;
+    gap: 10px;
+    margin-left: 10px;
 }
 
 .logo-input>a {
@@ -145,7 +146,6 @@ SEARCH FORM
 /***User profile picture***/
 #nav-ul {
     justify-content: flex-end;
-    margin-right: 15px;
 }
 
 #nav-ul>#profile-picture {
