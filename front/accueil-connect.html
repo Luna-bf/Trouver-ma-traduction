@@ -15,19 +15,21 @@
     <header>
         <nav class="d-flex">
             <div class="d-flex logo-input">
-                <a href="#">Logo</a>
+                <figure class="nav-logo-parent">
+                    <a href="#"><img src="../assets/imgs/logo-160x160.png" alt="Website logo"
+                            class="nav-logo website-logo"></a>
+                </figure>
 
                 <form action="" class="inline search-form">
                     <div class="d-flex input-wrapper">
-                        <input type="search" placeholder="Recherche...">
-                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="search" class="input-icon" placeholder="&#xf002;&ensp;&ensp;Recherche...">
                     </div>
                 </form>
             </div>
 
-            <ul class="d-flex" id="nav-ul">
-                <li id="profile-picture"><img src="../assets/imgs/profile-picture-example.png" alt="Profile test"></li>
-            </ul>
+            <figure class="d-flex figure-nav">
+                <img src="../assets/imgs/profile-picture-example.png" alt="Profile test">
+            </figure>
         </nav>
     </header>
 
@@ -44,12 +46,14 @@
                         </figure>
 
                         <div class="infos-list">
-                            <h3>Nom de la chanson</h3>
-
                             <ul>
+                                <li>Nom de la chanson</li>
                                 <li>Style : (Style)</li>
                                 <li>Artiste : (Nom de l'artiste)</li>
                                 <li>Album : (Nom de l'album)</li>
+                            </ul>
+
+                            <ul class="user-song-infos d-flex">
                                 <li>Par : Nom de l'utilisateur</li>
                                 <li>Postée le : JJ/MM/AAAA</li>
                             </ul>
@@ -92,7 +96,7 @@
     <footer class="d-flex">
         <div class="d-flex logo-text margin-foot">
             <figure class="parent-logo">
-                <a href="#"><img src="../assets/imgs/logo-160x160.png" alt="website logo"></a>
+                <a href="#"><img src="../assets/imgs/logo-160x160.png" alt="website logo" class="website-logo"></a>
             </figure>
 
             <div class="d-flex parent-text">
@@ -106,7 +110,8 @@
 
         <div class="d-flex socials-pages margin-foot">
             <div class="d-flex parent-pages">
-                <h3 id="pages-title">Toutes les pages</h3>
+                <h3>Toutes les pages</h3>
+
                 <ul class="pages">
                     <li><a href="../index.html">Accueil du site</a></li>
                     <li><a href="#">Accueil (traductions)</a></li>
@@ -115,7 +120,7 @@
             </div>
 
             <div class="d-flex parent-socials margin-foot">
-                <h3 id="socials-title">Nos réseaux sociaux</h3>
+                <h3>Nos réseaux sociaux</h3>
 
                 <ul class="socials">
                     <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img
