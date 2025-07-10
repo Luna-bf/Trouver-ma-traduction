@@ -1,5 +1,4 @@
-/* Fichier CSS pour le formulaire de connexion et d'inscription */
-
+/* Fichier SCSS pour le formulaire de connexion et d'inscription */
 .d-i-flex {
     display: inline-flex;
 }
@@ -133,6 +132,7 @@ input[type="checkbox"]:checked {
     margin-bottom: 14px;
     color: #8A8A8A;
     transition: none;
+    font-weight: 300;
 }
 
 .connect-register-link {
