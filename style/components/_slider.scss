@@ -96,4 +96,18 @@
 
 .infos-list>ul {
   list-style-type: none;
+  margin-bottom: 3em;
+}
+
+.infos-list ul>li {
+    line-height: 2em;
+}
+
+.infos-list .user-song-infos {
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.infos-list .user-song-infos>li {
+    line-height: 2em;
 }
