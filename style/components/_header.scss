@@ -6,7 +6,7 @@ HERO, HEADER & NAV
 .hero {
     min-height: 100vh;
     background-image: url("../assets/imgs/general/accueil/header-img.png");
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -17,15 +17,28 @@ HERO, HEADER & NAV
 .hero-nav h1 {
     color: white;
     text-align: center;
-    line-height: 6em;
-    font-size: 40px;
-    font-weight: 300;
+    line-height: 3em;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.hero-nav>div {
+    justify-content: center;
+}
+
+.hero-nav p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    max-width: 1050px;
+    margin-bottom: 5em;
 }
 
 .hero-nav>ul li {
     list-style-type: none;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 10px 45px 10px 45px;
     transition: none;
 }
@@ -37,16 +50,12 @@ HERO, HEADER & NAV
 .hero-nav>ul li:hover {
     border: 2px solid $form-btn-bg-color-hover;
     background-color: $form-btn-bg-color-hover;
-    border-radius: 10px;
-    padding: 10px 45px 10px 45px;
     transition: none;
 }
 
 .hero-nav>ul li:active {
     border: 2px solid $form-btn-bg-color-active;
     background-color: $form-btn-bg-color-active;
-    border-radius: 10px;
-    padding: 10px 45px 10px 45px;
     transition: none;
 }
 
@@ -60,35 +69,48 @@ HERO, HEADER & NAV
 
 /***HEADER***/
 header {
-    min-width: 100vw;
+    width: 100vw;
 }
 
 
 /***NAV***/
+//Essayer avec display: grid;
 nav {
-    align-items: center;
+    justify-content: space-around;
     padding: 8px;
 }
 
-#website-logo-nav {
-    width: 11%;
-}
-
 .logo-input {
-    // width: 50%;
-    gap: 10px;
-}
-
-.logo-input>a {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 15px;
+}
+
+.nav-logo-parent {
+    width: 20%;
+}
+
+.nav-logo {
+    width: 100%;
+}
+
+.website-logo {
+    border-radius: 10px;
+}
+
+.figure-nav {
+    align-items: center;
+    width: 3.7%;
+}
+
+.figure-nav>img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 
-/**************
-SEARCH FORM
-**************/
+/********************
+SEARCH FORM (input)
+********************/
 
 /***Form***/
 .search-form {
@@ -102,59 +124,16 @@ SEARCH FORM
 }
 
 .input-wrapper>input {
-    font-family: "PoppinsRegular", "sans-serif";
-    height: 35px;
+    font-family: "PoppinsRegular", "sans-serif", "FontAwesome";
+    height: 38px;
     direction: left;
     text-indent: 10px;
     background-color: #F5F5F5;
     border: 1px solid #B8B8B8;
     border-radius: 8px;
-}
-
-.input-wrapper>button {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    background-color: $form-btn-bg-color;
-    border: 1px solid $form-btn-bg-color;
-    color: #fff;
-    border-radius: 6px;
-    margin-left: 0.5em;
-    padding: 2px 10px 2px 10px;
-    text-align: center;
-    transition: none;
-}
-
-.magnifying-glass {
-    font-size: 20px;
-}
-
-.input-wrapper>button:hover {
-    background-color: $form-btn-bg-color-hover;
-    border: 1px solid $form-btn-bg-color-hover;
-    cursor: pointer;
-}
-
-.input-wrapper>button:active {
-    background-color: $form-btn-bg-color-active;
-    border: 1px solid $form-btn-bg-color-active;
-    cursor: pointer;
-}
-
-
-/***User profile picture***/
-nav {
-    justify-content: space-evenly;
-}
-
-#nav-ul>#profile-picture {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    width: 4%;
-}
-
-#nav-ul #profile-picture img {
     width: 100%;
-    border-radius: 50%;
+}
+
+.input-wrapper>input::placeholder {
+    color: #888888;
 }
