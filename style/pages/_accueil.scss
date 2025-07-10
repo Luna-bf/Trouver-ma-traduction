@@ -14,8 +14,6 @@ SMOOTH SCROLL
 html {
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 
@@ -35,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li {
     font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -44,11 +42,15 @@ a {
     text-decoration: none;
 }
 
+.bg-color-brown {   
+    background-color: #592720;
+}
+
 
 /***Main**/
-
-.accueil-container  {
-    background-color: #592720;
+.accueil-container {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .accueil-container>.translation-titles {
@@ -61,6 +63,7 @@ a {
 .accueil-container>.translation-titles span {
     font-family: "PoppinsRegular", "sans-serif";
     font-size: 25px;
+    font-weight: 400;
     color: #fff;
     line-height: 70px;
 }
@@ -78,8 +81,12 @@ a {
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 23%;
     border: 2px solid #DCAC4D;
+}
+
+.accueil-container>section .translation-card .open-book {
+    width: 75%;
+    margin-top: 1.8em;
 }
 
 .accueil-container>section .translation-card .book {
@@ -98,11 +105,6 @@ a {
 }
 
 .translation-card>p {
-    width: 85%;
+    max-width: 260px;
     margin: 40px 0 25px 0;
-}
-
-.texts {
-    width: 80%;
-    margin-top: 0.3em;
 }
