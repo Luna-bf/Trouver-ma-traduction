@@ -15,24 +15,28 @@ HERO, HEADER & NAV
 }
 
 .hero-nav h1 {
+    font-family: "PoppinsMedium", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
     color: white;
     text-align: center;
     line-height: 3em;
-    font-size: 45px;
-    font-weight: 500;
 }
 
 .hero-nav>div {
     justify-content: center;
 }
 
-.hero-nav p {
+.hero-nav h2 {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
     color: #fff;
     text-align: center;
-    font-weight: 400;
-    font-size: 26px;
     max-width: 1050px;
-    margin-bottom: 5em;
+    margin-bottom: 3.5em;
 }
 
 .hero-nav>ul li {
@@ -44,6 +48,10 @@ HERO, HEADER & NAV
 }
 
 .hero-nav>ul li a {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
     color: white;
 }
 
@@ -121,9 +129,8 @@ SEARCH FORM (input)
 }
 
 .input-wrapper>input {
-    font-family: "PoppinsRegular", "sans-serif", "FontAwesome";
+    font-family: "PoppinsRegular", sans-serif, "FontAwesome";
     height: 38px;
-    direction: left;
     text-indent: 10px;
     background-color: #F5F5F5;
     border: 1px solid #B8B8B8;
@@ -132,5 +139,7 @@ SEARCH FORM (input)
 }
 
 .input-wrapper>input::placeholder {
+    font-weight: 400;
+    font-style: normal;
     color: #888888;
 }

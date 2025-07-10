@@ -9,10 +9,16 @@ footer {
 }
 
 footer ul li {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     list-style-type: none;
 }
 
 footer>p {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     margin-top: 2em;
 }
 
@@ -61,10 +67,12 @@ footer>p a:hover {
 }
 
 .text {
-    width: 50%;
-    font-weight: 200;
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     text-align: left;
     margin: 0 auto;
+    max-width: 350px;
 }
 
 hr {
@@ -90,7 +98,9 @@ PAGE & SOCIALS
 }
 
 .parent-pages>h3 {
+    font-family: "PoppinsRegular", sans-serif;
     font-weight: 300;
+    font-style: normal;
 }
 
 .pages {
@@ -106,11 +116,13 @@ PAGE & SOCIALS
 .parent-socials {
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    max-width: 50%;
 }
 
 .parent-socials>h3 {
+    font-family: "PoppinsRegular", sans-serif;
     font-weight: 300;
+    font-style: normal;
 }
 
 .socials {
