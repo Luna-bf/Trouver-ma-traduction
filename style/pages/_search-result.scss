@@ -1,17 +1,12 @@
 .search-result-container {
-    max-width: 10px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
-#songs-infos-result>figure {
-    width: 3%;
+.search-result-container .song-container .songs-infos-result>figure {
+    width: 40%;
 }
 
-#songs-infos-result figure img {
-    width: 5%;
-}
-
-.song-container {
-    width: 4%;
-    background-color: blue;
+.search-result-container .song-container .songs-infos-result figure img {
+    width: 100%;
 }
