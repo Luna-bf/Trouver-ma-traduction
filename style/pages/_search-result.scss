@@ -1,8 +1,7 @@
 .search-result-container {
-    max-width: 1080px;
+    max-width: 1180px;
     margin: 0 auto;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 6em;
 }
 
 //.song-container
@@ -34,7 +33,7 @@
 .infos-list-result {
     display: flex;
     flex-direction: column;
-    row-gap: 80px;
+    row-gap: 150px;
 }
 
 .infos-list-result>ul {
