@@ -31,9 +31,10 @@
 
 /* PROFILE */
 .profile-infos {
-    background-color: bisque;
     flex-direction: column;
     align-items: center;
+    border-bottom: 1px solid #A0A0A0;
+    margin-bottom: 5em;
 }
 
 
@@ -42,9 +43,11 @@
     width: 100%;
 }
 
-.user-profile #separator {
-    justify-content: center;
+.user-profile .hr-profile {
     margin: 2em 0 2em 0;
+}
+
+.user-profile .hr-profile>#separator {
     color: #888888;
 }
 
@@ -76,7 +79,112 @@
     font-family: "PoppinsLightItalic", sans-serif;
     font-weight: 300;
     font-style: italic;
+    font-size: 17px;
     max-width: 50%;
     color: #888888;
     margin: 0 auto;
+}
+
+// .activity-infos
+.activity-infos {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.1em;
+}
+
+.activity-infos div>p {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.activity-infos .translations:before {
+    font-family: "FontAwesome";
+    content: "\f31c";
+    font-size: 22px;
+    align-content: center;
+    color: #199977;
+    margin-right: 10px;
+}
+
+.activity-infos .subscribers:before {
+    font-family: "FontAwesome";
+    content: "\f500";
+    font-size: 22px;
+    align-content: center;
+    color: #1417b4;
+    margin-right: 10px;
+}
+
+.activity-infos .likes:before {
+    font-family: "FontAwesome";
+    content: "\f004";
+    font-size: 22px;
+    align-content: center;
+    color: #ec0b77;
+    margin-right: 10px;
+}
+
+// hr
+.hr-activity>.activity-separator {
+    margin: 0 15px 0 15px;
+    border-bottom: 1px solid #000;
+    height: 50px;
+}
+
+
+/* TRADUCTIONS */
+
+//.song-container
+.song-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    flex-direction: row;
+    gap: 9em;
+}
+
+.song-container .songs-infos-result {
+    width: 100%;
+    gap: 3em;
+    margin-bottom: 8em;
+}
+
+// Figure
+.song-container .songs-infos-result>figure {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+// Figure>img
+.song-container .songs-infos-result figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+//Info-list
+.infos-list-result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+
+.infos-list-result>ul {
+    list-style-type: none;
+}
+
+.infos-list-result ul>li {
+    font-family: "PoppinsRegular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2em;
+}
+
+.song-name {
+    font-size: 20px;
+}
+
+.infos-list-result .user-song-infos-result {
+    flex-direction: column;
 }
