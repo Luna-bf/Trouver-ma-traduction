@@ -1,0 +1,82 @@
+.profile-container {
+    width: 100vw;
+}
+
+// Profile banner
+.profile-banner {
+    background-image: url("../../assets/imgs/placeholders/fungal-wastes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
+    width: 100vw;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-pfp-figure {
+    width: 10%;
+    position: absolute;
+    bottom: 270px;
+}
+
+.user-pfp-figure>img {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid $form-btn-bg-color;
+    box-shadow: 0 2px 15px rgba(0,0,0, 0.5);
+}
+
+
+/* PROFILE */
+.profile-infos {
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+// .user-profile
+.user-profile {
+    width: 100%;
+}
+
+.user-profile #separator {
+    justify-content: center;
+    margin: 2em 0 2em 0;
+    color: #888888;
+}
+
+
+// .parameters-icons
+.user-profile>.parameters-icons {
+    padding: 10px 25px 10px 0;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.parameters-icons>a {
+    font-size: 21px;
+}
+
+
+// .username-and-description
+.username-and-description {
+    text-align: center;
+}
+
+.username-and-description>h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 0 0 0.8em 0;
+}
+
+.username-and-description>p {
+    font-family: "PoppinsLightItalic", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 50%;
+    color: #888888;
+    margin: 0 auto;
+}

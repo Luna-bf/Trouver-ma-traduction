@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
     <link rel="icon" href="../assets/imgs/favicon/favicon-48x48.png">
 </head>
+
 <body>
     <header>
         <nav class="d-flex">
             <div class="d-flex logo-input">
                 <figure class="nav-logo-parent">
-                    <a href="profile.html"><img src="../assets/imgs/logo-160x160.png" alt="Website logo" class="nav-logo"></a>
+                    <a href="profile.html"><img src="../assets/imgs/logo-160x160.png" alt="Website logo"
+                            class="nav-logo"></a>
                 </figure>
 
                 <form action="" class="search-form">
@@ -25,14 +28,180 @@
             </div>
 
             <figure class="d-flex figure-nav">
-                <a href="profile.html"><img src="../assets/imgs/placeholders/profile-picture-example.png" alt="Profile test"></a>
+                <a href="profile.html"><img src="../assets/imgs/placeholders/profile-picture-example.png"
+                        alt="Profile test"></a>
             </figure>
         </nav>
     </header>
-    
+
     <!-- Main -->
-    <main class="container">
-        <div class="profile-banner"></div>
+    <main class="profile-container">
+        <div class="profile-banner d-flex">
+            <figure class="user-pfp-figure">
+                <img src="../assets/imgs/placeholders/profile-picture-example.png" alt="User profile picture">
+            </figure>
+        </div>
+
+        <section class="profile-infos d-flex">
+
+            <article class="user-profile">
+                <div class="parameters-icons d-flex">
+                    <a href="#" class="fa-solid fa-pencil"></a>
+                    <a href="#" class="fa-solid fa-gear"></a>
+                </div>
+
+                <div class="username-and-description">
+                    <h1>John Doe</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestias asperiores alias suscipit voluptas nisi quisquam tenetur, eos exercitationem ipsa. Placeat sed cupiditate repudiandae sequi.</p>
+                </div>
+
+                <hr id="separator" class="d-flex">
+
+                <div class="activity-infos">
+                    <div class="translations">
+                        <p>Traductions : 6</p>
+                    </div>
+
+                    <hr>
+
+                    <div class="subscribers">
+                        <p>Abonnés : 11</p>
+                    </div>
+
+                    <hr>
+
+                    <div class="likes">
+                        <p>J'aimes : 24</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="song-container d-flex">
+            <!-- <div class="songs-infos-result d-flex">
+                <figure>
+                    <img src="../assets/imgs/placeholders/placeholder-img.png" alt="img">
+                </figure>
+
+                <div class="infos-list-result">
+                    <ul>
+                        <li class="song-name">Nom de la chanson</li>
+                        <li>Style : (Style)</li>
+                        <li>Artiste : (Nom de l'artiste)</li>
+                        <li>Album : (Nom de l'album)</li>
+                    </ul>
+
+                    <ul class="user-song-infos-result d-flex">
+                        <li>Par : Nom de l'utilisateur</li>
+                        <li>Postée le : JJ/MM/AAAA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="songs-infos-result d-flex">
+                <figure>
+                    <img src="../assets/imgs/placeholders/placeholder-img.png" alt="img">
+                </figure>
+
+                <div class="infos-list-result">
+                    <ul>
+                        <li class="song-name">Nom de la chanson</li>
+                        <li>Style : (Style)</li>
+                        <li>Artiste : (Nom de l'artiste)</li>
+                        <li>Album : (Nom de l'album)</li>
+                    </ul>
+
+                    <ul class="user-song-infos-result d-flex">
+                        <li>Par : Nom de l'utilisateur</li>
+                        <li>Postée le : JJ/MM/AAAA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="song-container d-flex">
+            <div class="songs-infos-result d-flex">
+                <figure>
+                    <img src="../assets/imgs/placeholders/placeholder-img.png" alt="img">
+                </figure>
+
+                <div class="infos-list-result">
+                    <ul>
+                        <li class="song-name">Nom de la chanson</li>
+                        <li>Style : (Style)</li>
+                        <li>Artiste : (Nom de l'artiste)</li>
+                        <li>Album : (Nom de l'album)</li>
+                    </ul>
+
+                    <ul class="user-song-infos-result d-flex">
+                        <li>Par : Nom de l'utilisateur</li>
+                        <li>Postée le : JJ/MM/AAAA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="songs-infos-result d-flex">
+                <figure>
+                    <img src="../assets/imgs/placeholders/placeholder-img.png" alt="img">
+                </figure>
+
+                <div class="infos-list-result">
+                    <ul>
+                        <li class="song-name">Nom de la chanson</li>
+                        <li>Style : (Style)</li>
+                        <li>Artiste : (Nom de l'artiste)</li>
+                        <li>Album : (Nom de l'album)</li>
+                    </ul>
+
+                    <ul class="user-song-infos-result d-flex">
+                        <li>Par : Nom de l'utilisateur</li>
+                        <li>Postée le : JJ/MM/AAAA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="song-container d-flex">
+            <div class="songs-infos-result d-flex">
+                <figure>
+                    <img src="../assets/imgs/placeholders/placeholder-img.png" alt="img">
+                </figure>
+
+                <div class="infos-list-result">
+                    <ul>
+                        <li class="song-name">Nom de la chanson</li>
+                        <li>Style : (Style)</li>
+                        <li>Artiste : (Nom de l'artiste)</li>
+                        <li>Album : (Nom de l'album)</li>
+                    </ul>
+
+                    <ul class="user-song-infos-result d-flex">
+                        <li>Par : Nom de l'utilisateur</li>
+                        <li>Postée le : JJ/MM/AAAA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="songs-infos-result d-flex">
+                <figure>
+                    <img src="../assets/imgs/placeholders/placeholder-img.png" alt="img">
+                </figure>
+
+                <div class="infos-list-result">
+                    <ul>
+                        <li class="song-name">Nom de la chanson</li>
+                        <li>Style : (Style)</li>
+                        <li>Artiste : (Nom de l'artiste)</li>
+                        <li>Album : (Nom de l'album)</li>
+                    </ul>
+
+                    <ul class="user-song-infos-result d-flex">
+                        <li>Par : Nom de l'utilisateur</li>
+                        <li>Postée le : JJ/MM/AAAA</li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
     </main>
 
     <!-- Footer -->
@@ -83,4 +252,5 @@
         </p>
     </footer>
 </body>
+
 </html>
