@@ -46,19 +46,16 @@ footer>p a:hover {
 }
 
 .parent-logo {
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 
-.footer-logo-parent {
-    width: 70%;
-}
-
-.website-logo {
-    border-radius: 10px;
+.parent-logo a>img {
     width: 100%;
+    border-radius: 10px;
 }
 
 
