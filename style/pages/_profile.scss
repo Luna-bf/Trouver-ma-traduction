@@ -1,5 +1,5 @@
 .profile-container {
-    width: 100vw;
+    width: 100%;
 }
 
 // Profile banner
@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: center center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
-    width: 100vw;
+    width: 100%;
     height: 55vh;
     justify-content: center;
     align-items: center;
@@ -96,35 +96,35 @@
 .activity-infos div>p {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
 }
 
-.activity-infos .translations:before {
-    font-family: "FontAwesome";
-    content: "\f31c";
-    font-size: 22px;
-    align-content: center;
-    color: #199977;
-    margin-right: 10px;
-}
+// .activity-infos .translations:before {
+//     font-family: "FontAwesome";
+//     content: "\f31c";
+//     font-size: 22px;
+//     align-content: center;
+//     color: #199977;
+//     margin-right: 13px;
+// }
 
-.activity-infos .subscribers:before {
-    font-family: "FontAwesome";
-    content: "\f500";
-    font-size: 22px;
-    align-content: center;
-    color: #1417b4;
-    margin-right: 10px;
-}
+// .activity-infos .subscribers:before {
+//     font-family: "FontAwesome";
+//     content: "\f500";
+//     font-size: 22px;
+//     align-content: center;
+//     color: #1417b4;
+//     margin-right: 13px;
+// }
 
-.activity-infos .likes:before {
-    font-family: "FontAwesome";
-    content: "\f004";
-    font-size: 22px;
-    align-content: center;
-    color: #ec0b77;
-    margin-right: 10px;
-}
+// .activity-infos .likes:before {
+//     font-family: "FontAwesome";
+//     content: "\f004";
+//     font-size: 22px;
+//     align-content: center;
+//     color: #ec0b77;
+//     margin-right: 13px;
+// }
 
 // hr
 .hr-activity>.activity-separator {
