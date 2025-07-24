@@ -99,7 +99,7 @@ input[type=checkbox]:hover {
 }
 
 input[type="checkbox"]:checked {
-    accent-color: #DCAC4D;
+    accent-color: $form-btn-bg-color;
 }
 
 #username {
@@ -112,8 +112,8 @@ input[type="checkbox"]:checked {
     font-size: 15px;
     text-align: center;
     background-color: $form-btn-bg-color;
-    color: #fff;
     border: 2px solid $form-btn-bg-color;
+    color: #fff;
     border-radius: 6px;
     padding: 0.7em 2.5em 0.7em 2.5em;
     margin : 80px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
@@ -124,17 +124,9 @@ input[type="checkbox"]:checked {
 .submit-btn:hover {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
-    cursor: pointer;
-    background-color: $form-btn-bg-color-hover;
-    border: 2px solid $form-btn-bg-color-hover;
-}
-
-.submit-btn:active {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    cursor: pointer;
     background-color: $form-btn-bg-color-active;
     border: 2px solid $form-btn-bg-color-active;
+    cursor: pointer;
 }
 
 .account-parent {
@@ -151,7 +143,7 @@ input[type="checkbox"]:checked {
 }
 
 .connect-register-link {
-    color: #DCAC4D;
+    color: $form-btn-bg-color;
 }
 
 .connect-register-link:hover {
@@ -161,11 +153,11 @@ input[type="checkbox"]:checked {
 }
 
 #connect-link {
-    color: #DCAC4D;
+    color: $form-btn-bg-color;
 }
 
 #connect-link:hover {
-    color: #DB8535;
+    color: $form-btn-bg-color-active;
     text-decoration: underline;
     transition: none;
 }
