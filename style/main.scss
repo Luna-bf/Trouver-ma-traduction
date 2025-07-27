@@ -15,8 +15,20 @@
 
 
 // Style
+
+/***Reset***/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .3s ease;
+  /* Pour changer le mode de façon moins statique */
+}
+
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,4 +41,28 @@ body {
 
 main {
   flex: 1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+html,
+body,
+.accueil {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PoppinsMedium", sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
 }
