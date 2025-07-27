@@ -1,39 +1,4 @@
-/***Reset***/
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    transition: all .3s ease; /* Pour changer le mode de façon moins statique */
-}
-
-/*************
-SMOOTH SCROLL
-*************/
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-/***DISPLAY FLEX***/
-
-.d-flex {
-    display: flex;
-}
-
-html, body, .accueil {
-    height: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "PoppinsMedium", sans-serif;
-}
-
-a {
-    color: #000000;
-    text-decoration: none;
-}
+// body
 
 .bg-color-brown {   
     background-color: #592720;
