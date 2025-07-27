@@ -1,4 +1,4 @@
-/* Fichier SCSS pour le formulaire de connexion et d'inscription */
+/* Fichier SCSS pour les formulaires de connexion et d'inscription */
 
 /************
 FONT STYLES
@@ -15,8 +15,11 @@ label {
     font-style: normal;
 }
 
-.d-i-flex {
-    display: inline-flex;
+
+// CODE
+.form-container {
+    align-items: center;
+    justify-content: center;
 }
 
 .w-50-percent {
@@ -26,19 +29,23 @@ label {
 .form-parent {
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 
-#form-image {
+.form-parent>figure {
+    width: 35%;
+}
+
+.form-parent figure>img {
+    width: 100%;
     border-radius: 15px;
 }
 
 form {
+    background-color: #fff;
     flex-direction: column;
     width: 40%;
-    padding: 2em 0 2em 0;
-    margin: 3em 0 1em 0;
     border-radius: 10px;
 }
 
@@ -142,12 +149,15 @@ input[type="checkbox"]:checked {
     transition: none;
 }
 
-.connect-register-link {
+.account-parent div>.connect-register-link {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: $form-btn-bg-color;
 }
 
-.connect-register-link:hover {
-    color: #DB8535;
+.account-parent div>.connect-register-link:hover {
+    color: $form-btn-bg-color-active;
     text-decoration: underline;
     transition: none;
 }
