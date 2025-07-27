@@ -62,9 +62,10 @@ footer>p a:hover {
 /***Texte***/
 .parent-text {
     width: 50%;
+    justify-content: center;
 }
 
-.text {
+.text>p {
     font-family: "PoppinsLight", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -106,7 +107,9 @@ PAGE & SOCIALS
 }
 
 .pages li>a {
-    font-weight: 100;
+    font-family: "PoppinsLight";
+    font-weight: 300;
+    font-style: normal;
 } 
 
 
@@ -141,6 +144,14 @@ PAGE & SOCIALS
 
 /***Freepik***/
 .freepik {
-    font-weight: 200;
+    font-family: "PoppinsLight";
+    font-weight: 300;
+    font-style: normal;
     padding-bottom: 1em;
+}
+
+.freepik>#freepik-link {
+    font-family: "PoppinsLight";
+    font-weight: 300;
+    font-style: normal;
 }
