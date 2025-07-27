@@ -25,13 +25,12 @@
   gap: 2em;
 }
 
-.songs-infos>figure {
-  display: flex;
+.songs-infos figure {
   align-items: center;
   width: 45%;
 }
 
-.songs-infos figure>img {
+.songs-infos figure a>img {
   width: 100%;
   border-radius: 10px;
 }
