@@ -4,27 +4,37 @@
     margin-top: 6em;
 }
 
+
+// section
+.parent-section {
+    margin: 4em 0 4em 0;
+}
+
+
 //.song-container
 .search-result-container>.song-container {
     flex-direction: row;
     gap: 9em;
 }
 
-.search-result-container .song-container .songs-infos-result {
+
+// songs-infos-result
+.songs-infos-result {
     width: 100%;
     gap: 2em;
-    margin-bottom: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 // Figure
-.search-result-container .song-container .songs-infos-result>figure {
-    display: flex;
+.songs-infos-result figure {
     align-items: center;
-    width: 50%;
+    width: 20%;
 }
 
 // Figure>img
-.search-result-container .song-container .songs-infos-result figure img {
+.songs-infos-result figure a>img {
     width: 100%;
     border-radius: 10px;
 }
