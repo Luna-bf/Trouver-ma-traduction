@@ -21,7 +21,7 @@
 .cards-container {
   // background-color: #0077B5;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 25px;
   flex-direction: row;
   justify-content: space-around;
   justify-content: center;
@@ -37,7 +37,7 @@
 }
 
 .card-list {
-  width: 40%;
+  width: 50%;
 }
 
 /* card-item */
@@ -47,27 +47,29 @@
   height: auto !important;
   border: 3px solid #B5C7EB;
   border-radius: 6px;
-  padding: 20px 25px 20px 25px;
+  // padding: 20px 25px 20px 25px;
   margin-bottom: 10px;
 }
 
 .card-item>figure {
-  width: 20%;
+  width: 75%;
   margin: 0 auto;
   margin-bottom: 5px;
+}
+
+.card-item figure>img {
+  border-radius: 10px;
 }
 
 .card-item:active {
   cursor: grabbing;
 }
 
-.card-item>.titles {
+.card-item .title>h3 {
+  font-family: "PoppinsRegular", sans-serif;
+  font-weight: 400;
   text-align: center;
   line-height: 1.6em;
-}
-
-.card-item .titles>h3 {
-  text-transform: none;
 }
 
 .card-item .titles>h4 {
