@@ -1,23 +1,33 @@
-/***SLIDER***/
+// Slider
+new Swiper('.card-wrapper', {
+    loop: true,
+    spaceBetween: 40,
 
-// M'expliquer en commentaire ce que fait ce bout de code !!
-$(document).ready(function() {
-  $('.slider').slick({
-    autoplay: false,
-    arrows: true,
-    // prevArrow: '<button class="fa-solid fa-chevron-left"></button>',
-    // nextArrow: '<button class="fa-solid fa-chevron-right"></button>',
-    slidesToShow: 2, //Mon slider va montrer deux cartes sur chaque slide
-    slidesToScroll: 1, //Les slides vont se tourner un par un, si je déclare '3' alors je vais passer 3 slides d'un coup lorsque je cliquerai sur 'next'
-  });
-});
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
 
-$('.song-infos').slick({
-  variableWidth: true,
-});
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
 
-$('.slick-container').slick({
-  variableWidth: true,
+    // Responsive
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        1024: {
+            slidesPerView: 3
+        },
+    }
 });
 
 
