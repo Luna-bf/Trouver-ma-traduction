@@ -1,32 +1,13 @@
-// .slider-container {
-//   display: flex;
-//   max-width: 100vw;
-//   width: 85%;
-//   margin: 0 auto;
-// }
-
-// .slider {
-//   width: 100%;
-//   margin: 30px 0 50px 0;
-//   padding: 5px;
-// }
-
-// .slick-slide {
-//   padding: 10px;
-//   height: 100vh;
-// }
-
-
 /**CARDS**/
 .cards-container {
   // background-color: #0077B5;
   width: 100%;
   margin-top: 25px;
-  flex-direction: row;
-  justify-content: space-around;
-  justify-content: center;
-  align-items: center;
+  display: flex;
   align-content: center;
+  flex-wrap: wrap;
+  padding: 15px 10px 15px 10px;
+  gap: 2em;
 }
 
 /* card-wrapper */
@@ -45,7 +26,7 @@
   display: flex;
   align-content: center;
   height: auto !important;
-  border: 3px solid #B5C7EB;
+  border: 3px solid #DCAC4D;
   border-radius: 6px;
   // padding: 20px 25px 20px 25px;
   margin-bottom: 10px;
@@ -73,7 +54,7 @@
 }
 
 .card-item .titles>h4 {
-  font-family: "Roboto-LightItalic", sans-serif;
+  font-family: "Poppins-LightItalic", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
@@ -81,11 +62,12 @@
   color: #AAAAAA;
 }
 
-.card-item>.text {
-  font-family: "Roboto-Light", sans-serif;
+.card-item>ul {
+  font-family: "Poppins-Light", sans-serif;
   font-weight: 300;
   margin-top: 20px;
   color: var(--text-color);
+  list-style: none;
 }
 
 .card-item .text>.src {
@@ -93,67 +75,81 @@
   margin-top: 20px;
 }
 
-.card-item .text .src>a {
-  text-decoration: none;
-  color: var(--github-link);
-}
+
+/*** ANCIEN CODE ***/
+// .slider-container {
+//   display: flex;
+//   max-width: 100vw;
+//   width: 85%;
+//   margin: 0 auto;
+// }
+
+// .slider {
+//   width: 100%;
+//   margin: 30px 0 50px 0;
+//   padding: 5px;
+// }
+
+// .slick-slide {
+//   padding: 10px;
+//   height: 100vh;
+// }
+
+// .songs-infos {
+//   width: 100%;
+//   display: flex;
+//   align-content: center;
+//   flex-wrap: wrap;
+//   padding: 15px 10px 15px 10px;
+//   gap: 2em;
+// }
+
+// .songs-infos figure {
+//   align-items: center;
+//   width: 45%;
+// }
+
+// .songs-infos figure a>img {
+//   width: 100%;
+//   border-radius: 10px;
+// }
+
+// .infos-list {
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 175px;
+// }
+
+// .infos-list>ul:first-child {
+//   list-style-type: none;
+//   line-height: 2em;
+// }
+
+// .infos-list .user-song-infos {
+//   flex-direction: column;
+//   list-style-type: none;
+// }
+
+// .infos-list .user-song-infos>li {
+//   line-height: 2em;
+// }
 
 
-.songs-infos {
-  width: 100%;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  padding: 15px 10px 15px 10px;
-  gap: 2em;
-}
+// // Arrows
+// .slick-prev {
+//   position: absolute;
+//   z-index: 1000;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
 
-.songs-infos figure {
-  align-items: center;
-  width: 45%;
-}
-
-.songs-infos figure a>img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.infos-list {
-  display: flex;
-  flex-direction: column;
-  row-gap: 175px;
-}
-
-.infos-list>ul:first-child {
-  list-style-type: none;
-  line-height: 2em;
-}
-
-.infos-list .user-song-infos {
-  flex-direction: column;
-  list-style-type: none;
-}
-
-.infos-list .user-song-infos>li {
-  line-height: 2em;
-}
-
-
-// Arrows
-.slick-prev {
-  position: absolute;
-  z-index: 1000;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.slick-next {
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1000;
-}
+// .slick-next {
+//   position: absolute;
+//   right: 0px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   z-index: 1000;
+// }
 
 // .slick-arrow>.slick-prev {
 //   left: 100px;
