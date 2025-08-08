@@ -1,0 +1,66 @@
+.search-result-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 6em;
+}
+
+
+// section
+.parent-section {
+    margin: 4em 0 4em 0;
+}
+
+
+//.song-container
+.search-result-container>.song-container {
+    flex-direction: row;
+    gap: 9em;
+}
+
+
+// songs-infos-result
+.songs-infos-result {
+    width: 100%;
+    gap: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+// Figure
+.songs-infos-result figure {
+    align-items: center;
+    width: 20%;
+}
+
+// Figure>img
+.songs-infos-result figure a>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+//Info-list
+.infos-list-result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+
+.infos-list-result>ul {
+    list-style-type: none;
+}
+
+.infos-list-result ul>li {
+    font-family: "PoppinsRegular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2em;
+}
+
+.song-name {
+    font-size: 20px;
+}
+
+.infos-list-result .user-song-infos-result {
+    flex-direction: column;
+}

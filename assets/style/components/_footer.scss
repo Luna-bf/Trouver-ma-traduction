@@ -1,0 +1,157 @@
+footer {
+    bottom: 0;
+    z-index: 10;
+    background-color: var(--footer-bg-color);
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer ul li {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    list-style-type: none;
+}
+
+footer>p {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 2em;
+}
+
+footer>p a {
+    text-decoration: underline;
+    transition: none;
+}
+
+footer>p a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: none;
+}
+
+.margin-foot {
+    margin: 1em 0 1em 0;
+}
+
+
+/***Logo***/
+.logo-text {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-logo {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.parent-logo a>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/***Texte***/
+.parent-text {
+    width: 50%;
+    justify-content: center;
+}
+
+.text>p {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+hr {
+    width: 80%;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+}
+
+
+/*****************
+PAGE & SOCIALS
+*****************/
+
+/***Pages***/
+.socials-pages {
+    flex-direction: row;
+}
+
+.parent-pages {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.parent-pages>h3 {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.pages {
+    margin-top: 1em;
+}
+
+.pages li>a {
+    font-family: "PoppinsLight";
+    font-weight: 300;
+    font-style: normal;
+} 
+
+
+/***Socials***/
+.parent-socials {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.parent-socials>h3 {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.socials {
+    margin-top: 1em;
+}
+
+.facebook {
+    width: 3%;
+}
+
+.instagram {
+    width: 3%;
+}
+
+.youtube {
+    width: 3.5%;
+}
+
+/***Freepik***/
+.freepik {
+    font-family: "PoppinsLight";
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 1em;
+}
+
+.freepik>#freepik-link {
+    font-family: "PoppinsLight";
+    font-weight: 300;
+    font-style: normal;
+}
