@@ -7,13 +7,14 @@
   align-content: center;
   flex-wrap: wrap;
   padding: 15px 10px 15px 10px;
-  gap: 2em;
 }
 
 /* card-wrapper */
 .card-wrapper {
   max-width: 100%;
-  margin: 0 60px 35px;
+  margin: 0 auto;
+  margin: 0 75px 35px 75px;
+  // margin: 0 60px 35px;
   overflow: hidden;
 }
 
@@ -26,35 +27,31 @@
   display: flex;
   align-content: center;
   height: auto !important;
-  max-width: 300px !important;
+  width: 275px !important;
   border: 3px solid #DCAC4D;
   border-radius: 6px;
-  padding: 10px;
+  padding: 10px 0 10px 0;
   margin-bottom: 10px;
 }
 
-.card-item>figure {
-  width: 95%;
+.card-content {
+  width: 240px !important;
   margin: 0 auto;
 }
 
-.card-item figure>img {
+.card-item .card-content figure>img {
   border-radius: 10px;
   margin: 5px 0 10px 0;
 }
 
-.card-item:active {
-  cursor: grabbing;
-}
-
-.card-item .title>h3 {
+.card-item .card-content .title>h3 {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
   text-align: center;
   line-height: 1.6em;
 }
 
-.card-item>.text {
+.card-item .card-content>.text {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -64,7 +61,7 @@
   line-height: 2.5em;
 }
 
-.card-item>.other-infos {
+.card-item .card-content>.other-infos {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -72,6 +69,10 @@
   color: var(--text-color);
   list-style: none;
   line-height: 2em;
+}
+
+.card-item:active {
+  cursor: grabbing;
 }
 
 
