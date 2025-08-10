@@ -16,7 +16,7 @@
 }
 
 .user-pfp-figure {
-    width: 10%;
+    width: 9%;
     position: absolute;
     bottom: 270px;
 }
@@ -71,15 +71,14 @@
 
 .username-and-description>h1 {
     font-weight: 500;
-    font-size: 1.7rem;
-    margin: 0 0 0.8em 0;
+    font-size: 1.5rem;
+    margin: 0 0 0.7em 0;
 }
 
 .username-and-description>p {
     font-family: "PoppinsLightItalic", sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 17px;
     max-width: 50%;
     color: #888888;
     margin: 0 auto;
@@ -192,48 +191,3 @@
   list-style: none;
   line-height: 2em;
 }
-
-// .song-container .songs-infos-result {
-//     width: 100%;
-//     gap: 3em;
-//     margin-bottom: 8em;
-// }
-
-// // Figure
-// .song-container .songs-infos-result>figure {
-//     display: flex;
-//     align-items: center;
-//     width: 50%;
-// }
-
-// // Figure>img
-// .song-container .songs-infos-result figure img {
-//     width: 100%;
-//     border-radius: 10px;
-// }
-
-// //Info-list
-// .infos-list-result {
-//     display: flex;
-//     flex-direction: column;
-//     row-gap: 150px;
-// }
-
-// .infos-list-result>ul {
-//     list-style-type: none;
-// }
-
-// .infos-list-result ul>li {
-//     font-family: "PoppinsRegular";
-//     font-weight: 400;
-//     font-style: normal;
-//     line-height: 2em;
-// }
-
-// .song-name {
-//     font-size: 20px;
-// }
-
-// .infos-list-result .user-song-infos-result {
-//     flex-direction: column;
-// }
