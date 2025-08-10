@@ -43,7 +43,7 @@
 
 .separator {
     border-left: 1px solid #A0A0A0;
-    padding-left: 40px;
+    padding: 30px 0 30px 40px;
 }
 
 
@@ -52,7 +52,6 @@
     flex-direction: row;
     align-items: center;
     gap: 15px;
-    margin-top: 30px;
 }
 
 .profile-picture>figure {
@@ -81,7 +80,7 @@
 
 // profile-form
 .profile-form {
-    margin: 50px 0 30px 0;
+    margin-top: 50px;
 }
 
 .profile-form form>.param {
