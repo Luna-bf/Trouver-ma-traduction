@@ -133,8 +133,8 @@ SEARCH FORM (input)
     font-family: "PoppinsRegular", sans-serif, "FontAwesome";
     height: 38px;
     text-indent: 10px;
-    background-color: #F5F5F5;
-    border: 1px solid #B8B8B8;
+    background-color: $input-bg-color;
+    border: 1px solid $input-border-color;
     border-radius: 8px;
     width: 100%;
 }
@@ -142,5 +142,5 @@ SEARCH FORM (input)
 .input-wrapper>input::placeholder {
     font-weight: 400;
     font-style: normal;
-    color: #888888;
+    color: $input-text-color;
 }
