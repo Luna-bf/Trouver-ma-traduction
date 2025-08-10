@@ -22,12 +22,14 @@ footer>p {
     margin-top: 2em;
 }
 
-footer>p a {
+footer p>a {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
     text-decoration: underline;
     transition: none;
 }
 
-footer>p a:hover {
+footer p>a:hover {
     text-decoration: underline;
     color: #fff;
     transition: none;
