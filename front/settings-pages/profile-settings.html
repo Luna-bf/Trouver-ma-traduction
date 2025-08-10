@@ -36,12 +36,63 @@
 
     <main class="settings-container">
         <section class="settings-parent d-flex">
-            <ul class="all-settings">
-                <li class="border-left"><a href="profile-settings.html" class="d-flex"><i class="fa-solid fa-user"></i>Profil</a></li>
-                <li><a href="preferences.html" class="d-flex"><i class="fa-solid fa-paperclip"></i>Préférences de contenu</a></li>
-                <li><a href="accessibility.html" class="d-flex"><i class="fa-solid fa-universal-access"></i>Accessibilité</a></li>
+            <ul class="all-settings d-flex">
+                <li class="border-left"><a href="profile-settings.html" class="d-flex"><i
+                            class="fa-solid fa-user"></i>Profil</a></li>
+                <li><a href="preferences.html" class="d-flex"><i class="fa-solid fa-paperclip"></i>Préférences de
+                        contenu</a></li>
+                <li><a href="accessibility.html" class="d-flex"><i
+                            class="fa-solid fa-universal-access"></i>Accessibilité</a></li>
                 <li><a href="account.html" class="d-flex"><i class="fa-solid fa-gear"></i>Votre compte</a></li>
             </ul>
+
+            <div class="profile-params">
+                <div class="profile-picture d-flex">
+                    <figure><img src="../../assets/imgs/placeholders/profile-picture-example.png" alt=""></figure>
+                    <ul>
+                        <li>John Doe</li>
+                        <li><a href="upload-profile-picture.html">Changer votre photo de profil</a></li>
+                    </ul>
+                </div>
+
+                <div class="d-flex profile-form">
+                    <form>
+                        <div class="d-flex param">
+                            <label for="username">Nom d'utilisateur</label>
+                            <input type="text" name="username" id="username" placeholder="John Doe">
+                        </div>
+
+                        <div class="d-flex param">
+                            <label for="bio">Biographie</label>
+                            <textarea name="bio" id="bio" placeholder="Lorem ipsum arcu congue ut venenatis tortor eu viverra leo dolor hendrerit quis faucibus venenatis ac leo in aliquetLorem ipsum arcu congue ut venenatis tortor eu viverra leo dolor hendrerit quis faucibus venenatis ac leo in aliquetLorem ipsum arcu congue ut venenatis tortor eu viverra leo dolor hendrerit quis faucibus venenatis ac leo in aliquet tristique mollis dictum arcu ultricies ..."></textarea>
+                        </div>
+
+                        <div class="d-flex param">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="johnDoe@exemple.com">
+                        </div>
+
+                        <div class="d-flex param">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" name="phone" id="phone" placeholder="12 34 56 78 90">
+                        </div>
+
+                        <div class="d-flex param">
+                            <label for="gender">Sexe</label>
+                            <select name="gender" id="gender">
+                                <option value="man" selected>Homme</option>
+                                <option value="woman">Femme</option>
+                                <option value="other">Autre</option>
+                                <option value="none">Ne souhaite pas se prononcer</option>
+                            </select>
+                        </div>
+
+                        <div class="submit-changes">
+                            <button type="submit">Enregistrer les modifications</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -76,14 +127,16 @@
 
                 <ul class="socials">
                     <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img
-                                src="../../assets/imgs/icons/facebook-logo.png" alt="Facebook logo" class="facebook"></a>
+                                src="../../assets/imgs/icons/facebook-logo.png" alt="Facebook logo"
+                                class="facebook"></a>
                     </li>
                     <li><a href="https://www.instagram.com/" target="_blank"><img
                                 src="../../assets/imgs/icons/instagram-logo.png" alt="Instagram logo"
                                 class="instagram"></a>
                     </li>
                     <li><a href="https://www.youtube.com/" target="_blank"><img
-                                src="../../assets/imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></a></li>
+                                src="../../assets/imgs/icons/youtube-logo.png" alt="Youtube logo" class="youtube"></a>
+                    </li>
                 </ul>
             </div>
         </div>
