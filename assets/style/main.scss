@@ -1,18 +1,18 @@
 // Importations
-@import "fonts/fonts.scss";
-@import "variables.scss";
-@import "components/header.scss";
-@import "components/footer.scss";
-@import "themes/themes.scss";
-@import "pages/accueil.scss";
-@import "pages/form.scss";
-@import "pages/accueil-connect.scss";
-@import "components/slider.scss";
-@import "pages/search-result.scss";
-@import "pages/profile.scss";
-@import "pages/upload-file.scss";
-@import "pages/settings-style/profile-settings.scss";
-@import "pages/settings-style/accessibility-settings.scss";
+@forward "fonts/fonts";
+@forward "variables";
+@forward "components/header";
+@forward "components/footer";
+@forward "themes/themes";
+@forward "pages/accueil";
+@forward "pages/form";
+@forward "pages/accueil-connect";
+@forward "components/slider";
+@forward "pages/search-result";
+@forward "pages/profile";
+@forward "pages/upload-file";
+@forward "pages/settings-style/profile-settings";
+@forward "pages/settings-style/accessibility-settings";
 
 
 // Style
@@ -76,4 +76,8 @@ a {
 
 img {
   width: 100%;
+}
+
+.table-form {
+  display: table;
 }
