@@ -1,3 +1,5 @@
+@use '../variables';
+
 p,
 span,
 a,
@@ -60,8 +62,8 @@ label {
 .buttons #choose-file-button>label {
     display: flex;
     align-items: center;
-    background-color: $form-btn-bg-color;
-    border: 1px solid $form-btn-bg-color;
+    background-color: variables.$form-btn-bg-color;
+    border: 1px solid variables.$form-btn-bg-color;
     color: #fff;
     padding: 10px 25px;
     border-radius: 6px;
@@ -79,8 +81,8 @@ label {
 }
 
 .buttons #choose-file-button>label:hover {
-    background-color: $form-btn-bg-color-active;
-    border: 1px solid $form-btn-bg-color-active;
+    background-color: variables.$form-btn-bg-color-active;
+    border: 1px solid variables.$form-btn-bg-color-active;
     cursor: pointer;
 }
 

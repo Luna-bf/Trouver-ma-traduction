@@ -1,3 +1,5 @@
+@use '../variables';
+
 /********************
 HERO, HEADER & NAV
 ********************/
@@ -55,14 +57,14 @@ HERO, HEADER & NAV
 }
 
 .hero-nav>ul li:hover {
-    border: 2px solid $form-btn-bg-color-hover;
-    background-color: $form-btn-bg-color-hover;
+    border: 2px solid variables.$form-btn-bg-color-hover;
+    background-color: variables.$form-btn-bg-color-hover;
     transition: none;
 }
 
 .hero-nav>ul li:active {
-    border: 2px solid $form-btn-bg-color-active;
-    background-color: $form-btn-bg-color-active;
+    border: 2px solid variables.$form-btn-bg-color-active;
+    background-color: variables.$form-btn-bg-color-active;
     transition: none;
 }
 
@@ -133,8 +135,8 @@ SEARCH FORM (input)
     font-family: "PoppinsRegular", sans-serif, "FontAwesome";
     height: 38px;
     text-indent: 10px;
-    background-color: $input-bg-color;
-    border: 1px solid $input-border-color;
+    background-color: variables.$input-bg-color;
+    border: 1px solid variables.$input-border-color;
     border-radius: 8px;
     width: 100%;
 }
@@ -142,5 +144,5 @@ SEARCH FORM (input)
 .input-wrapper>input::placeholder {
     font-weight: 400;
     font-style: normal;
-    color: $input-text-color;
+    color: variables.$input-text-color;
 }
