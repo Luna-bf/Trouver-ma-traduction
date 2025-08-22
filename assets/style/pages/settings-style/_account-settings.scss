@@ -1,0 +1,36 @@
+.account-hr {
+    width: 93%;
+    margin: 1rem 0 1rem 0;
+}
+
+.account-params {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.account-params>h3 {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+// Other actions
+.other-actions {
+    font-family: "PoppinsRegular", sans-serif;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+.other-actions>li {
+    margin-bottom: 1.5rem;
+}
+
+.other-actions>li:nth-child(3) {
+    color: #f5bf53;
+}
+
+.other-actions>li:last-child {
+    color: firebrick;
+    margin-bottom: 2rem;
+}
