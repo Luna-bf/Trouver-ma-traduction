@@ -44,15 +44,35 @@
                 <li><a href="account.html" class="d-flex"><i class="fa-solid fa-gear"></i>Votre compte</a></li>
             </ul>
 
-            <div class="preferences-params separator">
-                <h3>Autres actions</h3>
+            <!--
+                Y améliorer en donnant la possibilité de choisir plusieurs styles et changer le type d'options proposées
+                en conséquences.
+            -->
+            <div class="d-flex accessibility-form separator">
+                <form>
+                    <div class="d-flex param">
+                        <label for="recommendations">Recommendations</label>
+                        <select name="recommendations" id="recommendations">
+                            <option value="songs">Chansons</option>
+                            <option value="books">Livres</option>
+                            <option value="texts">Textes</option>
+                        </select>
+                    </div>
 
-                <!-- <ul class="other-actions">
-                    <li><i class="fa-solid fa-arrows-rotate"></i>&ensp;Réinitialiser le mot de passe</li>
-                    <li><i class="fa-solid fa-download"></i>&ensp;Télécharger mes données</li>
-                    <li><i class="fa-solid fa-lock"></i>&ensp;Désactiver mon compte</li>
-                    <li><i class="fa-solid fa-trash"></i>&ensp;Désactiver mon compte</li>
-                </ul> -->
+                    <!-- Faire comme sur la correction d'Henry (exercice du générateur de blagues) -->
+                    <div class="d-flex param">
+                        <label for="styles">Style(s)</label>
+                        <select name="styles" id="styles">
+                            <option value="fantasy">Fantasy</option>
+                            <option value="horreur">Horreur</option>
+                            <option value="romance">Romance</option>
+                        </select>
+                    </div>
+
+                    <div class="submit-changes">
+                        <button type="submit">Enregistrer les modifications</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
