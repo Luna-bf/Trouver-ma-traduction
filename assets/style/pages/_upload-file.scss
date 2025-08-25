@@ -69,6 +69,7 @@ label {
     font-size: 16px;
     margin-bottom: 14px;
     padding: 11px 15px 11px 15px;
+    transition: none;
 }
 
 .buttons #choose-file-button>label:before {
@@ -84,6 +85,7 @@ label {
     background-color: variables.$form-btn-bg-color-active;
     border: 1px solid variables.$form-btn-bg-color-active;
     cursor: pointer;
+    transition: none;
 }
 
 .buttons #choose-file-button>p {
@@ -102,6 +104,7 @@ label {
     font-size: 16px;
     margin-bottom: 14px;
     padding: 11px 30px 11px 30px;
+    transition: none;
 }
 
 .buttons #choose-file-button>#file-lines:before {
@@ -117,4 +120,5 @@ label {
     background-color: variables.$form-btn-bg-color-active;
     border: 1px solid variables.$form-btn-bg-color-active;
     cursor: pointer;
+    transition: none;
 }
