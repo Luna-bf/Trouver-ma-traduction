@@ -39,7 +39,7 @@ label {
 
 .preview {
     justify-content: center;
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
 }
 
 .preview>figure {
@@ -89,4 +89,32 @@ label {
 .buttons #choose-file-button>p {
     font-size: 15px;
     margin-top: 1.5em;
+}
+
+.buttons #choose-file-button>#file-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: variables.$form-btn-bg-color;
+    border: 1px solid variables.$form-btn-bg-color;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 14px;
+    padding: 11px 30px 11px 30px;
+}
+
+.buttons #choose-file-button>#file-lines:before {
+    font-family: "FontAwesome";
+    content: "\f15c";
+    font-size: 22px;
+    align-content: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.buttons #choose-file-button>#file-lines:hover {
+    background-color: variables.$form-btn-bg-color-active;
+    border: 1px solid variables.$form-btn-bg-color-active;
+    cursor: pointer;
 }

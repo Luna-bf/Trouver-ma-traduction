@@ -16,16 +16,18 @@
             <div class="heading">
                 <h1>Nouvelle publication</h1>
             </div>
-            <div class="preview">
+
+            <div class="d-flex preview">
                 <figure>
-                    <img src="../assets/imgs/placeholders/placeholder-file-upload.png" alt="Choisissez un fichier">
+                    <img src="../assets/imgs/placeholders/placeholder-file.png" alt="Choisissez un fichier">
                 </figure>
             </div>
-            <p class="preview-infos-p"><span class="preview-name">Nom du fichier :</span><span class="preview-format">Format :</span></p>
+
             <div class="buttons">
                 <div id="choose-file-button">
-                    <label for="choose">Choisissez un fichier</label>
-                    <input type="file" id="choose" />
+                    <label for="choose" id="file-lines">Choisissez un fichier</label>
+                    <input type="file" id="choose-translation" />
+                    <p class="preview-infos-p"><span class="preview-name">Nom du fichier :</span>&ensp;&ensp;-&ensp;&ensp;<span class="preview-format">Format :</span></p>
                     <p>(Formats acceptés : pdf, docx.)</p>
                 </div>
             </div>
