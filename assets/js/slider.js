@@ -29,6 +29,3 @@ new Swiper('.card-wrapper', {
         },
     }
 });
-
-
-/***THEME SWITCHER***/
