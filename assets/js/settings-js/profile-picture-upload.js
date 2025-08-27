@@ -11,12 +11,14 @@ const maxSize = 10 * 1024;
 const changePreviewOnUpload = (fileSize, fileType, previewURL) => { // Je passe les clés de l'objet fileObjet en tant que param
 
     if (fileType.includes("image") && fileSize > maxSize) {
+      filePreview.setAttribute("src", "../../../assets/imgs/placeholders/placeholder-picture.png");
       fileSizeMessage.textContent = `Le poids du fichier ne dois pas dépasser ${maxSize}Kb (1280 octets).`;
       fileSizeMessage.style.display = 'block';
 
       // filePreview.style.backgroundImage = previewURL;
 
     } else if(!fileType.includes("image")) {
+      filePreview.setAttribute("src", "../../../assets/imgs/placeholders/placeholder-picture.png");
       fileSizeMessage.textContent = 'Le format du fichier doit être de type "image".';
       fileSizeMessage.style.display = 'block';
 
