@@ -54,11 +54,11 @@ label {
     border-radius: 8px;
 }
 
-.buttons #choose-file-button>input {
+.choose-container>input {
     display: none;
 }
 
-.buttons #choose-file-button>label {
+.choose-container>label {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ label {
     transition: none;
 }
 
-.buttons #choose-file-button>label:before {
+.choose-container>label:before {
     font-family: "FontAwesome";
     content: "\f0ee";
     font-size: 22px;
@@ -81,44 +81,23 @@ label {
     margin-right: 15px;
 }
 
-.buttons #choose-file-button>label:hover {
+.choose-container>label:hover {
     background-color: variables.$form-btn-bg-color-active;
     border: 1px solid variables.$form-btn-bg-color-active;
     cursor: pointer;
     transition: none;
 }
 
-.buttons #choose-file-button>p {
+.choose-container>p {
     font-size: 15px;
     margin-top: 1.5em;
 }
 
-.buttons #choose-file-button>#file-lines {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: variables.$form-btn-bg-color;
-    border: 1px solid variables.$form-btn-bg-color;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 16px;
-    margin-bottom: 14px;
-    padding: 11px 30px 11px 30px;
-    transition: none;
-}
-
-.buttons #choose-file-button>#file-lines:before {
+.choose-container>#file-lines:before {
     font-family: "FontAwesome";
     content: "\f15c";
     font-size: 22px;
     align-content: center;
     color: #fff;
     margin-right: 15px;
-}
-
-.buttons #choose-file-button>#file-lines:hover {
-    background-color: variables.$form-btn-bg-color-active;
-    border: 1px solid variables.$form-btn-bg-color-active;
-    cursor: pointer;
-    transition: none;
 }
