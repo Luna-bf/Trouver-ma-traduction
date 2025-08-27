@@ -76,7 +76,7 @@ label {
     display: none;
 }
 
-.choose-container>label {
+.choose-container>.file-label {
     display: flex;
     align-items: center;
     background-color: variables.$form-btn-bg-color;
@@ -90,7 +90,7 @@ label {
     transition: none;
 }
 
-.choose-container>label:before {
+.choose-container>#cloud:before {
     font-family: "FontAwesome";
     content: "\f0ee";
     font-size: 22px;
@@ -99,7 +99,7 @@ label {
     margin-right: 15px;
 }
 
-.choose-container>label:hover {
+.choose-container>.file-label:hover {
     background-color: variables.$form-btn-bg-color-active;
     border: 1px solid variables.$form-btn-bg-color-active;
     cursor: pointer;
@@ -120,7 +120,7 @@ label {
     margin-right: 15px;
 }
 
-#img-restrictions {
+#img-restrictions, #file-restrictions {
     display: none;
     color: firebrick;
 }

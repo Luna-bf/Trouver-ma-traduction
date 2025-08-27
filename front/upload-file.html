@@ -23,17 +23,16 @@
                 </figure>
             </div>
 
-            <div class="choose-container">
-                <label for="choose-translation" id="file-lines">Choisissez un fichier</label>
+            <div class="d-flex choose-container">
+                <label for="choose-translation" class="file-label" id="file-lines">Choisissez un fichier</label>
                 <input type="file" id="choose-translation" />
-                <p class="preview-infos-p"><span class="preview-name">Nom du fichier
-                        :</span>&ensp;&ensp;-&ensp;&ensp;<span class="preview-format">Format :</span></p>
+                <p id="file-restrictions"></p>
                 <p>(Formats acceptés : pdf, docx.)</p>
             </div>
         </section>
     </main>
 
-    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/file-visualiser.js"></script>
 </body>
 
 </html>
