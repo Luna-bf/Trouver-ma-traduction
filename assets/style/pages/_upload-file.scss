@@ -66,6 +66,12 @@ label {
     border-radius: 8px;
 }
 
+.choose-container {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .choose-container>input {
     display: none;
 }
@@ -73,14 +79,14 @@ label {
 .choose-container>label {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: variables.$form-btn-bg-color;
     border: 1px solid variables.$form-btn-bg-color;
     border-radius: 6px;
     color: #fff;
     font-size: 16px;
-    margin-bottom: 14px;
-    padding: 11px 15px 11px 15px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 11px 25px 11px 25px;
     transition: none;
 }
 
@@ -114,8 +120,7 @@ label {
     margin-right: 15px;
 }
 
-.img-weight {
+.img-restrictions {
     display: none;
     color: firebrick;
-    margin-top: 1.2em;
 }
