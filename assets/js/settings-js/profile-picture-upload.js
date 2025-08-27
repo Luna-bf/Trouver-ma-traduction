@@ -1,7 +1,7 @@
 // DOM ELEMENTS
 const inputFile = document.querySelector('.choose-container>#choose-image');
 const filePreview = document.querySelector('.preview figure>img');
-const fileSizeMessage = document.querySelector('.choose-container>.img-restrictions');
+const fileSizeMessage = document.querySelector('.choose-container>#img-restrictions');
 // const filePreview = document.querySelector('.preview>#image');
 
 // CONSTS/VARS
