@@ -42,27 +42,33 @@ HERO, HEADER & NAV
 
 .hero-nav>ul li {
     list-style-type: none;
+}
+
+.hero-nav>ul li>form {
+    background: transparent;
+}
+
+.hero-nav>ul li form>.hero-input {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background: transparent;
+    color: white;
     border: 2px solid white;
     border-radius: 7px;
     padding: 10px 45px 10px 45px;
     transition: none;
 }
 
-.hero-nav>ul li a {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    color: white;
-}
-
-.hero-nav>ul li:hover {
+.hero-nav>ul li form>.hero-input:hover {
     border: 2px solid variables.$form-btn-bg-color-hover;
     background-color: variables.$form-btn-bg-color-hover;
     transition: none;
+    cursor: pointer;
 }
 
-.hero-nav>ul li:active {
+.hero-nav>ul li form>.hero-input:active {
     border: 2px solid variables.$form-btn-bg-color-active;
     background-color: variables.$form-btn-bg-color-active;
     transition: none;
