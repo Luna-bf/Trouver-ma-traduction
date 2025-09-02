@@ -15,9 +15,8 @@
 @forward "pages/settings-style/account-settings";
 @forward "pages/upload-file";
 @forward "pages/file-viewer";
-@forward "bootstrap-grid.css";
-// @forward "bootstrap.css"; // J'inclus le fichier bootstrap dans main.scss, il sera compilé dans main.css
-
+@forward "bootstrap-grid.css"; // J'inclus le fichier bootstrap dans main.scss, il sera compilé dans main.css
+// @forward "bootstrap.css";
 
 // Style
 
