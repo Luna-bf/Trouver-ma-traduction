@@ -16,7 +16,7 @@ HERO, HEADER & NAV
     justify-content: center;
 }
 
-.hero-nav h1 {
+.hero-div h1 {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -26,11 +26,11 @@ HERO, HEADER & NAV
     line-height: 3em;
 }
 
-.hero-nav>div {
+.hero-div>div {
     justify-content: center;
 }
 
-.hero-nav h2 {
+.hero-div h2 {
     font-family: "PoppinsLight", sans-serif;
     font-weight: 300;
     font-size: 26px;
@@ -40,15 +40,15 @@ HERO, HEADER & NAV
     margin-bottom: 3.5em;
 }
 
-.hero-nav>ul li {
+.hero-div>ul li {
     list-style-type: none;
 }
 
-.hero-nav>ul li>form {
+.hero-div>ul li>form {
     background: transparent;
 }
 
-.hero-nav>ul li form>.hero-input {
+.hero-div>ul li form>.hero-input {
     font-family: "PoppinsRegular", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -61,20 +61,20 @@ HERO, HEADER & NAV
     transition: none;
 }
 
-.hero-nav>ul li form>.hero-input:hover {
+.hero-div>ul li form>.hero-input:hover {
     border: 2px solid variables.$form-btn-bg-color-hover;
     background-color: variables.$form-btn-bg-color-hover;
     transition: none;
     cursor: pointer;
 }
 
-.hero-nav>ul li form>.hero-input:active {
+.hero-div>ul li form>.hero-input:active {
     border: 2px solid variables.$form-btn-bg-color-active;
     background-color: variables.$form-btn-bg-color-active;
     transition: none;
 }
 
-.hero-nav> ul {
+.hero-div> ul {
     display: flex;
     justify-content: center;
     vertical-align: middle;
