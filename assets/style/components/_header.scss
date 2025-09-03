@@ -1,86 +1,8 @@
 @use '../variables';
 
 /********************
-HERO, HEADER & NAV
+HEADER & NAV
 ********************/
-
-/***HERO***/
-.hero {
-    min-height: 100vh;
-    background-image: url("../../../assets/imgs/general/accueil/header-img.png");
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-div h1 {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 45px;
-    color: white;
-    text-align: center;
-    line-height: 3em;
-}
-
-.hero-div>div {
-    justify-content: center;
-}
-
-.hero-div h2 {
-    font-family: "PoppinsLight", sans-serif;
-    font-weight: 300;
-    font-size: 26px;
-    color: #fff;
-    text-align: center;
-    max-width: 1050px;
-    margin-bottom: 3.5em;
-}
-
-.hero-div>ul li {
-    list-style-type: none;
-}
-
-.hero-div>ul li>form {
-    background: transparent;
-}
-
-.hero-div>ul li form>.hero-input {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-    border-radius: 7px;
-    padding: 10px 45px 10px 45px;
-    transition: none;
-}
-
-.hero-div>ul li form>.hero-input:hover {
-    border: 2px solid variables.$form-btn-bg-color-hover;
-    background-color: variables.$form-btn-bg-color-hover;
-    transition: none;
-    cursor: pointer;
-}
-
-.hero-div>ul li form>.hero-input:active {
-    border: 2px solid variables.$form-btn-bg-color-active;
-    background-color: variables.$form-btn-bg-color-active;
-    transition: none;
-}
-
-.hero-div> ul {
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    gap: 10vh;
-}
-
 
 /***HEADER***/
 header {
