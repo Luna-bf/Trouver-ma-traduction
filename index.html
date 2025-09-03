@@ -12,22 +12,13 @@
 
 <body class="bg-color-brown">
     <header class="hero">
-        <nav class="hero-nav">
+        <div class="hero-div">
             <h1>Toutes vos traductions rassemblées à un seul endroit.</h1>
 
             <div class="d-flex">
                 <h2>Chansons, textes, livres... Notre site communautaire rassemble des centaines d'adaptions traduites
                     par des amoureux de la langue et de l'art !</h2>
             </div>
-
-            <!-- Syntaxe valide (à utiliser) -->
-            <!-- <form action="https://google.com">
-                <input type="submit" value="Go to Google">
-            </form> -->
-
-            <!-- <form action="front/signup.html">
-                
-            </form> -->
 
             <ul>
                 <li>
@@ -40,19 +31,18 @@
                         <input type="submit" value="Se connecter" class="hero-input">
                     </form>
                 </li>
-                <!-- <li><a href="">Se connecter</a></li> -->
             </ul>
-        </nav>
+        </div>
     </header>
 
-    <main class="accueil-container">
+    <main class="d-flex accueil-container">
         <section class="translation-titles">
             <span>Avide de lecture, mordu de musique ou bien lecteur occasionnel ?</span>
             <span>Notre site est accessible à tous et propose toute une variété de traductions, tel que :</span>
         </section>
 
-        <section class="translation-parent">
-            <div class="translation-card">
+        <section class="translation-parent row d-flex justify-content-center gy-3 gx-1">
+            <div class="translation-card col-10 col-sm-4 col-md-3">
                 <figure class="book">
                     <img src="assets/imgs/general/accueil/books.png" alt="Livres">
                 </figure>
@@ -63,7 +53,7 @@
                     officiis totam dignissimos magni eveniet aliquid.</p>
             </div>
 
-            <div class="translation-card">
+            <div class="translation-card col-10 col-sm-4 col-md-3">
                 <figure class="card-img">
                     <img src="assets/imgs/general/accueil/music-sheet.png" alt="Chansons">
                 </figure>
@@ -74,7 +64,7 @@
                     officiis totam dignissimos magni eveniet aliquid.</p>
             </div>
 
-            <div class="translation-card">
+            <div class="translation-card col-10 col-sm-4 col-md-3">
                 <figure class="card-img">
                     <img src="assets/imgs/general/accueil/handwritten-text.png" alt="Textes">
                 </figure>
