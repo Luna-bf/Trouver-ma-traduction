@@ -49,9 +49,6 @@ footer p>a:hover {
 
 .parent-logo {
     width: 8%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
 }
 
@@ -76,10 +73,12 @@ footer p>a:hover {
     max-width: 350px;
 }
 
-hr {
+footer>hr {
+    background-color: #000;
     width: 80%;
-    border-bottom: 1px solid #000;
     margin: 0 auto;
+    height: 1px;
+    border: 0;
 }
 
 
@@ -112,7 +111,7 @@ PAGE & SOCIALS
     font-family: "PoppinsLight";
     font-weight: 300;
     font-style: normal;
-} 
+}
 
 
 /***Socials***/
@@ -156,4 +155,110 @@ PAGE & SOCIALS
     font-family: "PoppinsLight";
     font-weight: 300;
     font-style: normal;
+}
+
+
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 576px) {
+    .parent-logo {
+        width: 20%;
+    }
+
+    .logo-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parent-pages {
+        margin: 1em 0 2em 0;
+        margin-bottom: 2em;
+    }
+
+    .parent-text {
+        width: 100%;
+        justify-content: center;
+        margin: 15px 0 15px 0;
+    }
+
+    .text>p {
+        text-align: center;
+        // font-size: 15px;
+    }
+
+    .socials-pages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facebook {
+        margin-bottom: 0.3em;
+        width: 10%;
+    }
+
+    .instagram {
+        margin-bottom: 0.3em;
+        width: 11%;
+    }
+
+    .youtube {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1000px) {
+    .parent-logo {
+        width: 20%;
+    }
+
+    .logo-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer>hr {
+        background-color: #000;
+        width: 90%;
+        margin: 0 auto;
+        height: 0.5px;
+        border: 0;
+    }
+
+    .parent-pages {
+        margin: 1em 0 2em 0;
+        margin-bottom: 2em;
+    }
+
+    .parent-text {
+        width: 100%;
+        justify-content: center;
+        margin: 15px 0 15px 0;
+    }
+
+    .text>p {
+        text-align: center;
+        // font-size: 15px;
+    }
+
+    .socials-pages {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .facebook {
+        margin-bottom: 0.2em;
+        width: 8%;
+    }
+
+    .instagram {
+        margin-bottom: 0.2em;
+        width: 9%;
+    }
+
+    .youtube {
+        width: 10%;
+    }
 }
