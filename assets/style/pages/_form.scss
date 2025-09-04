@@ -1,5 +1,4 @@
 @use '../variables';
-/* Fichier SCSS pour les formulaires de connexion et d'inscription */
 
 /***FONT STYLES***/
 label {
@@ -8,7 +7,8 @@ label {
     font-style: normal;
 }
 
-.account-parent>a, .account-parent div {
+.account-parent>a,
+.account-parent div {
     font-family: "PoppinsLight";
     font-weight: 300;
     font-style: normal;
@@ -72,7 +72,7 @@ label {
     border: 1px solid #B8B8B8;
     border-radius: 3px;
     height: 40px;
-    direction: left; 
+    direction: left;
     text-indent: 10px;
     background-color: #F5F5F5;
 }
@@ -127,7 +127,8 @@ input[type="checkbox"]:checked {
     color: #fff;
     border-radius: 6px;
     padding: 0.7em 2.5em 0.7em 2.5em;
-    margin : 80px auto 25px auto; /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
+    margin: 80px auto 25px auto;
+    /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
     width: 40%;
     transition: none;
 }
@@ -149,7 +150,8 @@ input[type="checkbox"]:checked {
     margin-top: 3em;
 }
 
-.account-parent a, .account-parent div {
+.account-parent a,
+.account-parent div {
     margin-bottom: 14px;
     color: #8A8A8A;
     transition: none;
@@ -170,7 +172,8 @@ input[type="checkbox"]:checked {
 
 
 // margins
-.mt-first-label {
+.mt-first-label, .mt-second-label {
+    width: 100%;
     margin-top: 1.5em;
 }
 
@@ -180,4 +183,42 @@ input[type="checkbox"]:checked {
 
 #username {
     margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .form-parent {
+        flex-direction: column;
+    }
+
+    .form-parent>figure {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1000px) {
+    .form-parent>figure {
+        width: 45%;
+    }
+
+    .form-parent {
+        margin: 1.5em 0 1.5em 0;
+        flex-direction: column;
+    }
+
+    form {
+        width: 95%;
+    }
+
+    .mt-first-label {
+        margin-top: 3em;
+    }
+
+    .account-parent>div {
+        margin-bottom: 0;
+    }
 }
