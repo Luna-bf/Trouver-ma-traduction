@@ -3,14 +3,14 @@ new Swiper('.card-wrapper', {
     loop: true,
     spaceBetween: 50,
 
-    // If we need pagination
+    // Pagination (points sous le slider)
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
         dynamicBullets: true,
     },
 
-    // Navigation arrows
+    // Flèches de navigation
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
