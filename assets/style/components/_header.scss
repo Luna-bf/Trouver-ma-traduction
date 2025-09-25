@@ -13,6 +13,7 @@ header {
 /***NAV***/
 nav {
     // justify-content: space-between;
+    align-items: center;
     padding: 8px;
 }
 
@@ -33,8 +34,8 @@ nav {
 
 .profile-picture-figure {
     align-items: center;
-    width: 4.7%;
-    margin-left: 20em;
+    width: 4%;
+    margin-left: 320px;
 }
 
 .profile-picture-figure a>img {
@@ -42,12 +43,34 @@ nav {
     border-radius: 50%;
 }
 
+.open-menu,
+.close-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.open-menu {
+    color: #000000;
+}
+
+.close-menu {
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
 
 /*** SEARCH FORM (input) ***/
 
 /***Form***/
 .search-form {
-    width: 30%;
+    width: 25%;
     margin-left: 15px;
 }
 
@@ -70,4 +93,57 @@ nav {
     font-weight: 400;
     font-style: normal;
     color: variables.$input-text-color;
+}
+
+
+// Responsive
+@media screen and (max-width: 576px) {
+
+    nav {
+        justify-content: space-between;
+    }
+
+    nav .input-and-profile {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+        height: 100vh;
+        font-size: 21px;
+        background-color: #000000;
+        transition: all 0.2 ease-in-out;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.input-and-profile {
+        right: 0;
+    }
+
+    .search-form {
+        width: 80%;
+        padding: 0;
+        margin: 100px 0 0 0;
+    }
+
+    .nav-logo-figure {
+        width: 10%;
+    }
+
+    .input-wrapper {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .profile-picture-figure {
+        align-items: center;
+        width: 20%;
+        margin: 20px 0 0 0;
+    }
 }
