@@ -12,31 +12,32 @@ header {
 
 /***NAV***/
 nav {
-    justify-content: space-between;
+    // justify-content: space-between;
     padding: 8px;
 }
 
-.logo-input {
-    align-items: center;
-    gap: 15px;
+.nav-logo-figure {
+    width: 5%;
 }
 
-.nav-logo-parent {
-    width: 20%;
-}
-
-.nav-logo {
+.nav-logo-img {
     width: 100%;
     border-radius: 5px;
 }
 
-.figure-nav {
+.input-and-profile {
     align-items: center;
-    width: 3.7%;
-    margin-right: 8px;
+    justify-content: space-between;
+    gap: 15px;
 }
 
-.figure-nav a>img {
+.profile-picture-figure {
+    align-items: center;
+    width: 4.7%;
+    margin-left: 20em;
+}
+
+.profile-picture-figure a>img {
     width: 100%;
     border-radius: 50%;
 }
@@ -46,9 +47,8 @@ nav {
 
 /***Form***/
 .search-form {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    width: 30%;
+    margin-left: 15px;
 }
 
 .input-wrapper {
@@ -57,13 +57,13 @@ nav {
 }
 
 .input-wrapper>input {
+    width: 100%;
     font-family: "PoppinsRegular", sans-serif, "FontAwesome";
     height: 38px;
     text-indent: 10px;
     background-color: variables.$input-bg-color;
     border: 1px solid variables.$input-border-color;
     border-radius: 8px;
-    width: 100%;
 }
 
 .input-wrapper>input::placeholder {
