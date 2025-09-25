@@ -1,6 +1,7 @@
 // Importations
 @forward "fonts/fonts";
-@forward "variables";
+@forward "other/variables";
+@forward "other/params";
 @forward "components/header";
 @forward "components/footer";
 @forward "themes/themes";
@@ -15,67 +16,4 @@
 @forward "pages/settings-style/account-settings";
 @forward "pages/upload-file";
 @forward "pages/file-viewer";
-
-// Style
-
-/***Reset***/
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  transition: all .3s ease;
-  /* Pour changer le mode de façon moins statique */
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100vh;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-}
-
-main {
-  flex: 1;
-}
-
-html,
-body,
-.accueil {
-  min-height: 100vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "PoppinsMedium", sans-serif;
-}
-
-a {
-  color: #000000;
-  text-decoration: none;
-}
-
-
-/***DISPLAY: ...***/
-.d-flex {
-  display: flex;
-}
-
-.d-i-flex {
-  display: inline-flex;
-}
-
-img {
-  width: 100%;
-}
+@forward "other/responsive";
