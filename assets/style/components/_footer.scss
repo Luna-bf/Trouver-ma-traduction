@@ -1,6 +1,5 @@
 footer {
     bottom: 0;
-    z-index: 10;
     background-color: var(--footer-bg-color);
     padding: 1em;
     width: 100%;
@@ -113,36 +112,6 @@ PAGE & SOCIALS
     font-style: normal;
 }
 
-
-/***Socials***/
-.parent-socials {
-    flex-direction: column;
-    justify-content: center;
-    max-width: 50%;
-}
-
-.parent-socials>h3 {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.socials {
-    margin-top: 1em;
-}
-
-.facebook {
-    width: 3%;
-}
-
-.instagram {
-    width: 3%;
-}
-
-.youtube {
-    width: 3.5%;
-}
-
 /***Freepik***/
 .freepik {
     font-family: "PoppinsLight";
@@ -192,20 +161,6 @@ RESPONSIVE
         flex-direction: column;
         align-items: center;
     }
-
-    .facebook {
-        margin-bottom: 0.3em;
-        width: 10%;
-    }
-
-    .instagram {
-        margin-bottom: 0.3em;
-        width: 11%;
-    }
-
-    .youtube {
-        width: 12%;
-    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1000px) {
@@ -246,19 +201,5 @@ RESPONSIVE
     .socials-pages {
         flex-direction: row;
         align-items: center;
-    }
-
-    .facebook {
-        margin-bottom: 0.2em;
-        width: 8%;
-    }
-
-    .instagram {
-        margin-bottom: 0.2em;
-        width: 9%;
-    }
-
-    .youtube {
-        width: 10%;
     }
 }
