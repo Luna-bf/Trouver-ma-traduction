@@ -7,17 +7,7 @@ footer {
     flex-direction: column;
 }
 
-footer ul li {
-    font-family: "PoppinsLight", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    list-style-type: none;
-}
-
 footer>p {
-    font-family: "PoppinsLight", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     margin-top: 2em;
 }
 
@@ -38,7 +28,6 @@ footer p>a:hover {
     margin: 1em 0 1em 0;
 }
 
-
 /***Logo***/
 .logo-text {
     flex-direction: row;
@@ -56,7 +45,6 @@ footer p>a:hover {
     border-radius: 10px;
 }
 
-
 /***Texte***/
 .parent-text {
     width: 50%;
@@ -64,8 +52,6 @@ footer p>a:hover {
 }
 
 .text>p {
-    font-family: "PoppinsLight", sans-serif;
-    font-weight: 300;
     font-style: normal;
     text-align: left;
     margin: 0 auto;
@@ -80,50 +66,14 @@ footer>hr {
     border: 0;
 }
 
-
-/*****************
-PAGE & SOCIALS
-*****************/
-
-/***Pages***/
-.socials-pages {
-    flex-direction: row;
-}
-
-.parent-pages {
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-}
-
-.parent-pages>h3 {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.pages {
-    margin-top: 1em;
-}
-
-.pages li>a {
-    font-family: "PoppinsLight";
-    font-weight: 300;
-    font-style: normal;
-}
-
 /***Freepik***/
 .freepik {
-    font-family: "PoppinsLight";
-    font-weight: 300;
-    font-style: normal;
     padding-bottom: 1em;
 }
 
-.freepik>#freepik-link {
+.freepik>a {
     font-family: "PoppinsLight";
     font-weight: 300;
-    font-style: normal;
 }
 
 
@@ -141,11 +91,6 @@ RESPONSIVE
         align-items: center;
     }
 
-    .parent-pages {
-        margin: 1em 0 2em 0;
-        margin-bottom: 2em;
-    }
-
     .parent-text {
         width: 100%;
         justify-content: center;
@@ -154,12 +99,6 @@ RESPONSIVE
 
     .text>p {
         text-align: center;
-        // font-size: 15px;
-    }
-
-    .socials-pages {
-        flex-direction: column;
-        align-items: center;
     }
 }
 
@@ -181,12 +120,7 @@ RESPONSIVE
         height: 0.5px;
         border: 0;
     }
-
-    .parent-pages {
-        margin: 1em 0 2em 0;
-        margin-bottom: 2em;
-    }
-
+    
     .parent-text {
         width: 100%;
         justify-content: center;
@@ -195,11 +129,5 @@ RESPONSIVE
 
     .text>p {
         text-align: center;
-        // font-size: 15px;
-    }
-
-    .socials-pages {
-        flex-direction: row;
-        align-items: center;
     }
 }

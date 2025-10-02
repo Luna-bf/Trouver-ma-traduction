@@ -1,60 +1,11 @@
 .accueil-connect-container>h2 {
-    font-family: "PoppinsMedium";
-    font-weight: 500;
-    font-style: normal;
     margin: 50px 0 30px 15px;
 }
-
-.slider-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #fff;
-    flex-direction: column;
-}
-
-.infos-list ul>li {
-    font-family: "PoppinsRegular";
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 /************
 RESPONSIVE
 ************/
 @media screen and (max-width: 576px) {
-    // Hero
-    .hero-div h1 {
-        font-size: 24px;
-        line-height: normal;
-        margin-bottom: 2em;
-        padding: 0 0.5em 0 0.5em;
-    }
-
-    .hero-div h2 {
-        font-size: 19px;
-        padding: 0 0.5em 0 0.5em;
-    }
-
-    .hero-div>ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 5vh;
-    }
-
-    .hero-div>ul li form>.hero-input {
-        font-size: 16px;
-        padding: 10px 45px 10px 45px;
-    }
-
-    // Accueil container
-    .accueil-container .translation-titles>span {
-        font-size: 17px;
-        line-height: normal;
-        text-align: center;
-        padding: 0 10px 0 10px;
-    }
-
     .accueil-container .translation-titles>span:first-child {
         margin-bottom: 25px;
     }
@@ -79,24 +30,7 @@ RESPONSIVE
 }
 
 @media screen and (min-width: 577px) and (max-width: 1000px) {
-    // Hero
-    .hero-div h1 {
-        font-size: 26px;
-        line-height: normal;
-        margin-bottom: 2em;
-        padding: 0 0.5em 0 0.5em;
-    }
-
-    .hero-div h2 {
-        font-size: 20px;
-        padding: 0 0.5em 0 0.5em;
-    }
     
-    .hero-div>ul li form>.hero-input {
-        font-size: 16px;
-        padding: 8px 43px 8px 43px;
-    }
-
     // Accueil container
     .accueil-container .translation-titles>span {
         font-size: 20px;

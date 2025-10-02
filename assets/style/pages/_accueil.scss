@@ -9,7 +9,7 @@
 .hero {
     min-height: 100vh;
     background-image: url("../../../assets/imgs/general/accueil/header.png");
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.7);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -31,20 +31,12 @@
     justify-content: center;
 }
 
-.hero-div h2 {
-    font-family: "PoppinsLight", sans-serif;
-    font-weight: 300;
+.hero-div p {
     font-size: 26px;
     color: #fff;
     text-align: center;
-
-
     max-width: 1050px;
     margin-bottom: 3.5em;
-}
-
-.hero-div>ul li {
-    list-style-type: none;
 }
 
 .hero-div>ul li>form {
@@ -52,9 +44,6 @@
 }
 
 .hero-div>ul li form>.hero-input {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 18px;
     background: transparent;
     color: white;
@@ -99,10 +88,7 @@
     padding: 4em 0 3.5em 0;
 }
 
-.accueil-container>.translation-titles span {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.accueil-container .translation-titles>p {
     font-size: 25px;
     color: #fff;
     line-height: 70px;
@@ -146,9 +132,6 @@
 }
 
 .translation-card>p {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     max-width: 260px;
     margin: 25px 0 25px 0;
 }

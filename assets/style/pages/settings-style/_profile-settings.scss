@@ -22,7 +22,6 @@
 }
 
 .all-settings>li {
-    list-style-type: none;
     padding: 25px 5em 25px 20px;
 }
 
@@ -65,12 +64,10 @@
 }
 
 .profile-picture>ul {
-    list-style-type: none;
     line-height: 2em;
 }
 
 .profile-picture ul>li:first-child {
-    font-family: "PoppinsRegular", sans-serif;
     font-size: 18px;
 }
 
@@ -130,7 +127,6 @@
 }
 
 .submit-changes>button {
-    font-family: "PoppinsLight", sans-serif;
     background-color: variables.$form-btn-bg-color;
     border: 1px solid variables.$form-btn-bg-color;
     transition: none;

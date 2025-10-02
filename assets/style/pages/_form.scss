@@ -1,22 +1,5 @@
 @use '../other/variables';
 
-/***FONT STYLES***/
-label {
-    font-family: "PoppinsRegular";
-    font-weight: 400;
-    font-style: normal;
-}
-
-.account-parent>a,
-.account-parent div {
-    font-family: "PoppinsLight";
-    font-weight: 300;
-    font-style: normal;
-}
-
-
-/***CODE***/
-
 // form container
 .form-container {
     align-items: center;
@@ -27,7 +10,6 @@ label {
 .w-50-percent {
     width: 60%;
 }
-
 
 // form parent
 .form-parent {
@@ -46,7 +28,6 @@ label {
     border-radius: 15px;
 }
 
-
 // form
 form {
     background-color: #fff;
@@ -54,13 +35,6 @@ form {
     width: 40%;
     border-radius: 10px;
 }
-
-
-// labels
-label {
-    font-weight: 400;
-}
-
 
 // inputs
 .form-input-parent {
@@ -77,17 +51,14 @@ label {
     background-color: #F5F5F5;
 }
 
-
 // password inputs
 #password-div {
     margin-bottom: 1em;
 }
 
 #forgotten-password {
-    font-weight: 400;
     margin: 7px 0 30px 0;
 }
-
 
 // checkbox
 #remember {
@@ -115,11 +86,8 @@ input[type="checkbox"]:checked {
     accent-color: variables.$form-btn-bg-color;
 }
 
-
 // .submit-btn
 .submit-btn {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
     font-size: 15px;
     text-align: center;
     background-color: variables.$form-btn-bg-color;
@@ -134,13 +102,10 @@ input[type="checkbox"]:checked {
 }
 
 .submit-btn:hover {
-    font-family: "PoppinsRegular", sans-serif;
-    font-weight: 400;
     background-color: variables.$form-btn-bg-color-active;
     border: 2px solid variables.$form-btn-bg-color-active;
     cursor: pointer;
 }
-
 
 // account
 .account-parent {
@@ -160,7 +125,6 @@ input[type="checkbox"]:checked {
 .account-parent div>.connect-register-link {
     font-family: "PoppinsLight", sans-serif;
     font-weight: 300;
-    font-style: normal;
     color: variables.$form-btn-bg-color;
 }
 
@@ -183,6 +147,12 @@ input[type="checkbox"]:checked {
 
 #username {
     margin-bottom: 20px;
+}
+
+.account-parent>a,
+.account-parent div {
+    font-family: "PoppinsLight";
+    font-weight: 300;
 }
 
 
