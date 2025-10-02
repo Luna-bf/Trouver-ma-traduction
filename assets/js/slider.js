@@ -1,7 +1,5 @@
-// Slider
 new Swiper('.card-wrapper', {
     loop: true,
-    spaceBetween: 50,
 
     // Pagination (points sous le slider)
     pagination: {
@@ -16,17 +14,22 @@ new Swiper('.card-wrapper', {
         prevEl: '.swiper-button-prev',
     },
 
-    // Responsive
+    // Responsive (min-width)
     breakpoints: {
-        0: {
-            slidesPerView: 1
+        
+        0: { // Ses paramètres s'appliquent lorsque la largeur de l'écran est supérieure ou égale à 0px (soit de 0px à 575px)
+            slidesPerView: 1,
+            spaceBetween: 5,
         },
 
-        576: {
-            slidesPerView: 1
+        576: { // Ses paramètres s'appliquent lorsque la largeur de l'écran est supérieure ou égale à 576px (soit de 576px à 1023px)
+            slidesPerView: 2,
+            spaceBetween: 25,
         },
-        1024: {
-            slidesPerView: 'auto'
+
+        1024: { // Ses paramètres s'appliquent lorsque la largeur de l'écran est supérieure ou égale à 1024px
+            slidesPerView: 4,
+            spaceBetween: 50,
         },
     }
 });

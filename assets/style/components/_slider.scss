@@ -1,13 +1,5 @@
-/**CARDS**/
-.cards-container {
-  // background-color: #0077B5;
-  width: 100%;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  margin-top: 25px;
+.swiper {
   margin-bottom: 5em;
-  padding: 15px 10px 15px 10px;
 }
 
 /* card-wrapper */
@@ -19,43 +11,32 @@
   overflow: hidden;
 }
 
-.card-list {
-  width: 50%;
-}
-
-// Changer la largeur de card item lors du passage au petit écran
-/* card-item */
-.card-item {
-  display: flex;
-  align-content: center;
-  height: auto !important;
-  width: 275px !important;
+.swiper-slide { // Les paramètres associés à chaque carte du slider
   border: 3px solid #DCAC4D;
   border-radius: 6px;
   padding: 10px 0 10px 0;
   margin-bottom: 10px;
 }
 
-.card-content {
-  width: 240px !important;
+.card-content { // Le conteneur du contenu de la carte
+  width: 235px;
   margin: 0 auto;
 }
 
-.card-item .card-content figure>img {
+.swiper-slide .card-content figure>img {
   border-radius: 10px;
   margin: 5px 0 10px 0;
 }
 
-.card-item .card-content .title>h3 {
+.swiper-slide .card-content .title>h3 {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
   text-align: center;
   line-height: 1.6em;
 }
 
-.card-item .card-content>.text {
+.swiper-slide .card-content>.text {
   font-family: "PoppinsRegular", sans-serif;
-  font-weight: 300;
   font-size: 16px;
   margin: 50px 0 50px 0;
   color: var(--text-color);
@@ -63,7 +44,7 @@
   line-height: 2.5em;
 }
 
-.card-item .card-content>.other-infos {
+.swiper-slide .card-content>.other-infos {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -73,13 +54,14 @@
   line-height: 2em;
 }
 
-.card-item:active {
+.swiper-slide:active {
   cursor: grabbing;
 }
 
 
 // Arrows
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   --swiper-navigation-color: #000;
   --swiper-navigation-size: 28px;
 }
