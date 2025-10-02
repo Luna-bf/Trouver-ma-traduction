@@ -181,8 +181,9 @@ ul,
 a,
 label,
 input,
-button,
-textarea {
+select,
+textarea,
+button {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
 }
@@ -946,53 +947,6 @@ input[type=checkbox]:checked {
   margin: 50px 0 30px 15px;
 }
 
-/************
-RESPONSIVE
-************/
-@media screen and (max-width: 576px) {
-  .accueil-container .translation-titles > span:first-child {
-    margin-bottom: 25px;
-  }
-  .accueil-container .translation-parent {
-    flex-wrap: wrap;
-  }
-  .accueil-container .translation-parent > .translation-card {
-    width: 50%;
-    margin-bottom: 3em;
-  }
-  .accueil-container .translation-parent .translation-card > span {
-    font-size: 20px;
-  }
-  .accueil-container .translation-parent .translation-card > p {
-    font-size: 15px;
-    padding: 0.5em;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 1000px) {
-  .accueil-container .translation-titles > span {
-    font-size: 20px;
-    line-height: normal;
-    text-align: center;
-    padding: 0 5px 0 5px;
-  }
-  .accueil-container .translation-parent {
-    flex-wrap: wrap;
-  }
-  .accueil-container .translation-titles > span:first-child {
-    margin-bottom: 30px;
-  }
-  .accueil-container .translation-parent > .translation-card {
-    width: 40%;
-    margin-bottom: 3em;
-  }
-  .accueil-container .translation-parent .translation-card > span {
-    font-size: 20px;
-  }
-  .accueil-container .translation-parent .translation-card > p {
-    font-size: 15px;
-    padding: 0.8em;
-  }
-}
 .slider-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -1068,6 +1022,9 @@ RESPONSIVE
   --swiper-pagination-color: #7c362c;
 }
 
+/************
+RESPONSIVE
+************/
 .parent-section {
   justify-content: center;
   margin: 4em 0 4em 0;
