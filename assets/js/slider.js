@@ -19,7 +19,6 @@ new Swiper('.card-wrapper', {
         
         0: { // Ses paramètres s'appliquent lorsque la largeur de l'écran est supérieure ou égale à 0px (soit de 0px à 575px)
             slidesPerView: 1,
-            spaceBetween: 5,
         },
 
         576: { // Ses paramètres s'appliquent lorsque la largeur de l'écran est supérieure ou égale à 576px (soit de 576px à 1023px)
