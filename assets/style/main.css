@@ -486,21 +486,6 @@ RESPONSIVE
     text-align: center;
   }
 }
-:root {
-  --base-bg-color: #fff;
-  --text-color: #000000;
-  --nav-bg-color: #fff;
-  --lang-bg-color: #fff;
-  --lang-border-color: #aaa;
-  --lang-bg-color: #fff;
-  --lang-bg-color-hover: #FFFAFA;
-  --sort-color: #000000;
-  --theme-btn-bg-color: #333333;
-  --theme-icon-color: #fff;
-  --translation-bg-color: rgb(220, 235, 255, 0.4);
-  --footer-bg-color: #DCAC4D;
-}
-
 /***Dark mode***/
 .dark-mode {
   --base-bg-color: #333333;
