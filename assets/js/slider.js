@@ -2,11 +2,11 @@ new Swiper('.card-wrapper', {
     loop: true,
 
     // Pagination (points sous le slider)
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-    },
+    // pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    //     dynamicBullets: true,
+    // },
 
     // Flèches de navigation
     navigation: {
