@@ -973,10 +973,6 @@ input[type=checkbox]:checked {
   --swiper-navigation-size: 28px;
 }
 
-.swiper-pagination-bullet-active {
-  --swiper-pagination-color: #7c362c;
-}
-
 /************
 RESPONSIVE
 ************/
