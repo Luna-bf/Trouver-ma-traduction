@@ -1,12 +1,5 @@
-new Swiper('.card-wrapper', {
+new Swiper('.cards-wrapper', {
     loop: true,
-
-    // Pagination (points sous le slider)
-    // pagination: {
-    //     el: '.swiper-pagination',
-    //     clickable: true,
-    //     dynamicBullets: true,
-    // },
 
     // Flèches de navigation
     navigation: {

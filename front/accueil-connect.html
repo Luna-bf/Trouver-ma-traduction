@@ -7,14 +7,13 @@
     <title>Accueil - Trouver Ma Traduction</title>
     <link rel="stylesheet" href="../assets/style/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <!-- Le CSS de Swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" href="../assets/imgs/favicon/favicon-48x48.png">
 </head>
 
 <body>
     <div id="cover-background"></div>
-    
+
     <header>
         <nav class="d-flex">
             <figure class="nav-logo-figure">
@@ -47,172 +46,168 @@
 
         <h2>Nouvelles traductions</h2>
 
-        <div class="slider-container">
-            <div class="swiper"> <!-- Slider -->
-                <div class="card-wrapper">
-                    <article class="swiper-wrapper"> <!-- Cards list -->
-                        <div class="swiper-slide"> <!-- Card item -->
-                            <div class="card-content">  <!-- Card content -->
-                                <figure><img src="../assets/imgs/general/slider/pdf-file-extension.png"
-                                        alt="PDF file extension" />
-                                </figure>
+        <div class="swiper"> <!-- Le conteneur principal du slider -->
+            <div class="cards-wrapper"> <!-- Boîte contenant toutes les cartes, leur style ainsi que les fonctionnalités du slider -->
+                <div class="swiper-wrapper"> <!-- Boîte contenant chaque slides (cartes) individuellement. Toutes les cartes seront les enfants de cet élément -->
+                    <div class="swiper-slide"> <!-- Une seule carte, cette classe permet à Swiper.js de faire défiler les cartes -->
+                        <div class="card-content"> <!-- Le contenu de la carte -->
+                            <figure><img src="../assets/imgs/general/slider/pdf-file-extension.png"
+                                    alt="PDF file extension" />
+                            </figure>
 
-                                <div class="title">
-                                    <h3>Nom de la traduction</h3>
-                                    <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
-                                    </h4>
-                                </div>
-
-                                <ul class="text">
-                                    <li>Type : (Type de contenu)</li>
-                                    <li>Style : (Style)</li>
-                                    <li>Auteur : (Nom de l'auteur)</li>
-                                    <li>Langue : (Langue)</li>
-                                </ul>
-
-                                <ul class="other-infos">
-                                    <li>Par : Nom de l'utilisateur</li>
-                                    <li>Postée le : JJ/MM/AAAA</li>
-                                </ul>
+                            <div class="title">
+                                <h3>Nom de la traduction</h3>
+                                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
+                                </h4>
                             </div>
+
+                            <ul class="text">
+                                <li>Type : (Type de contenu)</li>
+                                <li>Style : (Style)</li>
+                                <li>Auteur : (Nom de l'auteur)</li>
+                                <li>Langue : (Langue)</li>
+                            </ul>
+
+                            <ul class="other-infos">
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
                         </div>
+                    </div>
 
-                        <div class="card-item swiper-slide">
-                            <div class="card-content">
-                                <figure><img src="../assets/imgs/general/slider/docx-file-extension.png"
-                                        alt="PDF file extension" />
-                                </figure>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <figure><img src="../assets/imgs/general/slider/docx-file-extension.png"
+                                    alt="PDF file extension" />
+                            </figure>
 
-                                <div class="title">
-                                    <h3>Nom de la traduction</h3>
-                                    <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
-                                    </h4>
-                                </div>
-
-                                <ul class="text">
-                                    <li>Type : (Type de contenu)</li>
-                                    <li>Style : (Style)</li>
-                                    <li>Auteur : (Nom de l'auteur)</li>
-                                    <li>Langue : (Langue)</li>
-                                </ul>
-
-                                <ul class="other-infos">
-                                    <li>Par : Nom de l'utilisateur</li>
-                                    <li>Postée le : JJ/MM/AAAA</li>
-                                </ul>
+                            <div class="title">
+                                <h3>Nom de la traduction</h3>
+                                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
+                                </h4>
                             </div>
+
+                            <ul class="text">
+                                <li>Type : (Type de contenu)</li>
+                                <li>Style : (Style)</li>
+                                <li>Auteur : (Nom de l'auteur)</li>
+                                <li>Langue : (Langue)</li>
+                            </ul>
+
+                            <ul class="other-infos">
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
                         </div>
+                    </div>
 
-                        <div class="card-item swiper-slide">
-                            <div class="card-content">
-                                <figure><img src="../assets/imgs/general/slider/pdf-file-extension.png"
-                                        alt="PDF file extension" />
-                                </figure>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <figure><img src="../assets/imgs/general/slider/pdf-file-extension.png"
+                                    alt="PDF file extension" />
+                            </figure>
 
-                                <div class="title">
-                                    <h3>Nom de la traduction</h3>
-                                    <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
-                                    </h4>
-                                </div>
-
-                                <ul class="text">
-                                    <li>Type : (Type de contenu)</li>
-                                    <li>Style : (Style)</li>
-                                    <li>Auteur : (Nom de l'auteur)</li>
-                                    <li>Langue : (Langue)</li>
-                                </ul>
-
-                                <ul class="other-infos">
-                                    <li>Par : Nom de l'utilisateur</li>
-                                    <li>Postée le : JJ/MM/AAAA</li>
-                                </ul>
+                            <div class="title">
+                                <h3>Nom de la traduction</h3>
+                                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
+                                </h4>
                             </div>
+
+                            <ul class="text">
+                                <li>Type : (Type de contenu)</li>
+                                <li>Style : (Style)</li>
+                                <li>Auteur : (Nom de l'auteur)</li>
+                                <li>Langue : (Langue)</li>
+                            </ul>
+
+                            <ul class="other-infos">
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
                         </div>
+                    </div>
 
-                        <div class="card-item swiper-slide">
-                            <div class="card-content">
-                                <figure><img src="../assets/imgs/general/slider/docx-file-extension.png"
-                                        alt="PDF file extension" />
-                                </figure>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <figure><img src="../assets/imgs/general/slider/docx-file-extension.png"
+                                    alt="PDF file extension" />
+                            </figure>
 
-                                <div class="title">
-                                    <h3>Nom de la traduction</h3>
-                                    <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
-                                    </h4>
-                                </div>
-
-                                <ul class="text">
-                                    <li>Type : (Type de contenu)</li>
-                                    <li>Style : (Style)</li>
-                                    <li>Auteur : (Nom de l'auteur)</li>
-                                    <li>Langue : (Langue)</li>
-                                </ul>
-
-                                <ul class="other-infos">
-                                    <li>Par : Nom de l'utilisateur</li>
-                                    <li>Postée le : JJ/MM/AAAA</li>
-                                </ul>
+                            <div class="title">
+                                <h3>Nom de la traduction</h3>
+                                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
+                                </h4>
                             </div>
+
+                            <ul class="text">
+                                <li>Type : (Type de contenu)</li>
+                                <li>Style : (Style)</li>
+                                <li>Auteur : (Nom de l'auteur)</li>
+                                <li>Langue : (Langue)</li>
+                            </ul>
+
+                            <ul class="other-infos">
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
                         </div>
+                    </div>
 
-                        <div class="card-item swiper-slide">
-                            <div class="card-content">
-                                <figure><img src="../assets/imgs/general/slider/pdf-file-extension.png"
-                                        alt="PDF file extension" />
-                                </figure>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <figure><img src="../assets/imgs/general/slider/pdf-file-extension.png"
+                                    alt="PDF file extension" />
+                            </figure>
 
-                                <div class="title">
-                                    <h3>Nom de la traduction</h3>
-                                    <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
-                                    </h4>
-                                </div>
-
-                                <ul class="text">
-                                    <li>Type : (Type de contenu)</li>
-                                    <li>Style : (Style)</li>
-                                    <li>Auteur : (Nom de l'auteur)</li>
-                                    <li>Langue : (Langue)</li>
-                                </ul>
-
-                                <ul class="other-infos">
-                                    <li>Par : Nom de l'utilisateur</li>
-                                    <li>Postée le : JJ/MM/AAAA</li>
-                                </ul>
+                            <div class="title">
+                                <h3>Nom de la traduction</h3>
+                                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
+                                </h4>
                             </div>
+
+                            <ul class="text">
+                                <li>Type : (Type de contenu)</li>
+                                <li>Style : (Style)</li>
+                                <li>Auteur : (Nom de l'auteur)</li>
+                                <li>Langue : (Langue)</li>
+                            </ul>
+
+                            <ul class="other-infos">
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
                         </div>
+                    </div>
 
-                        <div class="card-item swiper-slide">
-                            <div class="card-content">
-                                <figure><img src="../assets/imgs/general/slider/docx-file-extension.png"
-                                        alt="PDF file extension" />
-                                </figure>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <figure><img src="../assets/imgs/general/slider/docx-file-extension.png"
+                                    alt="PDF file extension" />
+                            </figure>
 
-                                <div class="title">
-                                    <h3>Nom de la traduction</h3>
-                                    <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
-                                    </h4>
-                                </div>
-
-                                <ul class="text">
-                                    <li>Type : (Type de contenu)</li>
-                                    <li>Style : (Style)</li>
-                                    <li>Auteur : (Nom de l'auteur)</li>
-                                    <li>Langue : (Langue)</li>
-                                </ul>
-
-                                <ul class="other-infos">
-                                    <li>Par : Nom de l'utilisateur</li>
-                                    <li>Postée le : JJ/MM/AAAA</li>
-                                </ul>
+                            <div class="title">
+                                <h3>Nom de la traduction</h3>
+                                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a>
+                                </h4>
                             </div>
+
+                            <ul class="text">
+                                <li>Type : (Type de contenu)</li>
+                                <li>Style : (Style)</li>
+                                <li>Auteur : (Nom de l'auteur)</li>
+                                <li>Langue : (Langue)</li>
+                            </ul>
+
+                            <ul class="other-infos">
+                                <li>Par : Nom de l'utilisateur</li>
+                                <li>Postée le : JJ/MM/AAAA</li>
+                            </ul>
                         </div>
-                    </article>
-
-                    <!-- <div class="swiper-pagination"></div> -->
-
-                    <div class="swiper-slide-button swiper-button-prev"></div>
-                    <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
                 </div>
+
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
             </div>
         </div>
     </main>
@@ -237,10 +232,8 @@
         </p>
     </footer>
 
-
     <!-- Le JS de Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <!-- Mes fichiers JS -->
     <script src="../assets/js/slider.js"></script>
     <script src="../assets/js/app.js"></script>

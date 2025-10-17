@@ -1,34 +1,33 @@
 .accueil-connect-container>h2 {
-    margin: 50px 0 30px 15px;
+  margin: 50px 0 30px 15px;
 }
 
 // Slider
-.slider-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #fff;
-    flex-direction: column;
-}
-
 .swiper {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+  flex-direction: column;
   margin-bottom: 5em;
 }
 
-.card-wrapper {
+.cards-wrapper {
   max-width: 100%;
   margin: 0 auto;
   margin: 0 75px 35px 75px;
   overflow: hidden;
 }
 
-.swiper-slide { // Les paramètres associés à chaque carte du slider
+// Les paramètres associés à une seule carte du slider
+.swiper-slide {
   border: 3px solid #DCAC4D;
   border-radius: 6px;
   padding: 10px 0 10px 0;
   margin-bottom: 10px;
 }
 
-.card-content { // Le conteneur du contenu de la carte
+// Le contenu de la carte
+.card-content {
   width: 235px;
   margin: 0 auto;
 }
@@ -73,20 +72,4 @@
 .swiper-button-prev {
   --swiper-navigation-color: #000;
   --swiper-navigation-size: 28px;
-}
-
-// Bullets
-// .swiper-pagination-bullet-active {
-//   --swiper-pagination-color: #7c362c;
-// }
-
-/************
-RESPONSIVE
-************/
-@media screen and (max-width: 576px) {
-    
-}
-
-@media screen and (min-width: 577px) and (max-width: 1000px) {
-    
 }

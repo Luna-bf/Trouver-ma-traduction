@@ -902,18 +902,15 @@ input[type=checkbox]:checked {
   margin: 50px 0 30px 15px;
 }
 
-.slider-container {
+.swiper {
   max-width: 1400px;
   margin: 0 auto;
   background-color: #fff;
   flex-direction: column;
-}
-
-.swiper {
   margin-bottom: 5em;
 }
 
-.card-wrapper {
+.cards-wrapper {
   max-width: 100%;
   margin: 0 auto;
   margin: 0 75px 35px 75px;
@@ -973,9 +970,6 @@ input[type=checkbox]:checked {
   --swiper-navigation-size: 28px;
 }
 
-/************
-RESPONSIVE
-************/
 .parent-section {
   justify-content: center;
   margin: 4em 0 4em 0;
