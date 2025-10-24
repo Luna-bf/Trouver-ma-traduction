@@ -1147,6 +1147,24 @@ input[type=checkbox]:checked {
   line-height: 2em;
 }
 
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 576px) {
+  .user-pfp-figure {
+    width: 20%;
+    position: absolute;
+    bottom: 115px;
+  }
+  .username-and-description > p {
+    font-family: "PoppinsLightItalic", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 80%;
+    color: #888888;
+    margin: 0 auto;
+  }
+}
 .settings-container {
   max-width: 1080px;
   margin: 0 auto;
