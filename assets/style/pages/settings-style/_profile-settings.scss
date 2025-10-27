@@ -5,7 +5,6 @@
     margin: 0 auto;
 }
 
-// setting-parent (section)
 .settings-parent {
     flex-direction: row;
     margin: 50px 0 50px 0;
@@ -180,7 +179,7 @@ RESPONSIVE
 // Mobile (portrait)
 @media screen and (max-width: 480px) {
     .settings-container {
-        width: 380px;
+        width: 378px;
         margin: 0 auto;
     }
 
