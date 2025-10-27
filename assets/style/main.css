@@ -1641,27 +1641,11 @@ RESPONSIVE
   transition: none;
 }
 
-.choose-container > #cloud:before {
-  font-family: "FontAwesome";
-  content: "\f0ee";
-  font-size: 22px;
-  align-content: center;
-  color: #fff;
-  margin-right: 15px;
-}
-
 .choose-container > .file-label:hover {
   background-color: #DB8535;
   border: 1px solid #DB8535;
   cursor: pointer;
   transition: none;
-}
-
-.choose-container > p {
-  font-family: "PoppinsRegular";
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 1.5em;
 }
 
 .choose-container > #file-lines:before {
@@ -1673,11 +1657,107 @@ RESPONSIVE
   margin-right: 15px;
 }
 
-#img-restrictions, #file-restrictions {
+.choose-container > #cloud:before {
+  font-family: "FontAwesome";
+  content: "\f0ee";
+  font-size: 22px;
+  align-content: center;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.choose-container > p {
+  font-family: "PoppinsRegular";
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 1.5em;
+}
+
+#img-restrictions,
+#file-restrictions {
   display: none;
   color: firebrick;
 }
 
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 480px) {
+  .upload-file-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .app {
+    width: 90%;
+    height: 100%;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 10px 25px #dddddd;
+    padding: 2em 0 2em 0;
+  }
+  .heading {
+    margin-bottom: 2em;
+  }
+  .heading > h1 {
+    font-style: normal;
+    margin: 0.5em 0 0.3em 0;
+    font-size: 20px;
+  }
+  .preview {
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  .preview > figure {
+    width: 70%;
+    border: 1px solid #A0A0A0;
+    border-radius: 6px;
+  }
+  .choose-container > .file-label {
+    display: flex;
+    align-items: center;
+    background-color: #DCAC4D;
+    border: 1px solid #DCAC4D;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+    transition: none;
+  }
+  .choose-container > .file-label:hover {
+    background-color: #DB8535;
+    border: 1px solid #DB8535;
+    cursor: pointer;
+    transition: none;
+  }
+  .choose-container > #file-lines:before {
+    font-family: "FontAwesome";
+    content: "\f15c";
+    font-size: 18px;
+    align-content: center;
+    color: #fff;
+    margin-right: 15px;
+  }
+  .choose-container > #cloud:before {
+    font-family: "FontAwesome";
+    content: "\f0ee";
+    font-size: 15px;
+    align-content: center;
+    color: #fff;
+    margin-right: 15px;
+  }
+  .choose-container > p {
+    font-family: "PoppinsRegular";
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 1.5em;
+  }
+}
 .file-viewer-header {
   background-color: #000000;
   position: sticky;
