@@ -1471,18 +1471,23 @@ RESPONSIVE
 }
 
 .profile-form form > .param {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
 .param {
   flex-direction: row;
 }
 
-.param label, input, textarea, select {
+.param label,
+input,
+textarea,
+select {
   flex-shrink: 0;
 }
 
-.param > input, textarea, select {
+.param > input,
+textarea,
+select {
   width: 100%;
   background-color: #F5F5F5;
   color: #888888;
@@ -1491,14 +1496,14 @@ RESPONSIVE
   margin-left: 15px;
 }
 
-.param > input, select {
+.param > input,
+select {
   font-family: "PoppinsLight", sans-serif;
   height: 30px;
 }
 
 .param > input {
   padding-left: 10px;
-  margin-left: 15px;
 }
 
 .param > textarea {
@@ -1528,6 +1533,105 @@ RESPONSIVE
   cursor: pointer;
 }
 
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 480px) {
+  .settings-container {
+    width: 380px;
+    margin: 0 auto;
+  }
+  .all-settings > li {
+    padding: 25px 1em 25px 20px;
+  }
+  .all-settings li > a {
+    font-size: 0;
+  }
+  .all-settings li a > i {
+    font-size: 22px;
+    margin-right: 0;
+  }
+  .separator {
+    padding: 30px 0 30px 0;
+  }
+  .profile-picture {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .profile-picture > figure {
+    width: 25%;
+  }
+  .profile-picture figure > img {
+    border-radius: 50%;
+  }
+  .profile-picture > ul {
+    line-height: 2em;
+  }
+  .profile-picture ul > li:first-child {
+    font-size: 18px;
+    text-align: center;
+  }
+  .profile-picture ul li > a {
+    font-family: "PoppinsLight", sans-serif;
+    color: #608DFF;
+    text-align: center;
+  }
+  .profile-form {
+    margin-top: 50px;
+  }
+  .profile-form form > .param {
+    flex-direction: column;
+  }
+  .param {
+    margin-left: 40px;
+  }
+  .param label,
+  input,
+  textarea,
+  select {
+    flex-shrink: 0;
+  }
+  .param > input,
+  textarea,
+  select {
+    width: 70%;
+    margin-left: 0;
+  }
+  .param > input,
+  select {
+    font-family: "PoppinsLight", sans-serif;
+    height: 30px;
+  }
+  .param > input {
+    margin-top: 10px;
+  }
+  .param > textarea {
+    font-family: "PoppinsLight", sans-serif;
+    height: 150px;
+    overflow: auto;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+  }
+  .submit-changes {
+    margin-left: 40px;
+  }
+  .submit-changes > button {
+    background-color: #DCAC4D;
+    border: 1px solid #DCAC4D;
+    transition: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+  .submit-changes > button:hover {
+    background-color: #DB8535;
+    border: 1px solid #DB8535;
+    transition: none;
+    cursor: pointer;
+  }
+}
 .accessibility-form {
   flex-direction: column;
   width: 100vw;
@@ -1718,6 +1822,9 @@ RESPONSIVE
     width: 70%;
     border: 1px solid #A0A0A0;
     border-radius: 6px;
+  }
+  .preview figure > img {
+    border-radius: 5px;
   }
   .choose-container > .file-label {
     display: flex;
