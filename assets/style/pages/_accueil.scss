@@ -206,6 +206,10 @@ RESPONSIVE
         flex-wrap: wrap;
     }
 
+    .accueil-container>section .translation-card {
+        border: 2px solid #DCAC4D;
+    }
+
     .accueil-container .translation-parent>.translation-card {
         width: 60%;
         margin-bottom: 3em;
