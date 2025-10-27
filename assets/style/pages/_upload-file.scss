@@ -165,6 +165,10 @@ RESPONSIVE
         border-radius: 6px;
     }
 
+    .preview figure>img {
+        border-radius: 5px;
+    }
+
     .choose-container>.file-label {
         display: flex;
         align-items: center;
