@@ -1630,6 +1630,10 @@ RESPONSIVE
   margin-bottom: 1.5em;
 }
 
+input[type=range] {
+  accent-color: green;
+}
+
 #number-input {
   width: 20%;
 }
@@ -1679,6 +1683,18 @@ RESPONSIVE
   margin-bottom: 2rem;
 }
 
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 480px) {
+  .account-hr {
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+  }
+  .other-actions {
+    margin-left: 20px;
+  }
+}
 .upload-file-container {
   justify-content: center;
   align-items: center;

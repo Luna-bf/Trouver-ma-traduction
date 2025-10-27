@@ -8,6 +8,11 @@
     margin-bottom: 1.5em;
 }
 
+input[type="range"] {
+    accent-color: green;
+    // accent-color: #608dff;
+}
+
 #number-input {
     width: 20%;
 }
