@@ -1996,4 +1996,49 @@ RESPONSIVE
 
 .file-viewer-footer ul li > #next {
   margin-left: 20px;
+}
+
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 480px) {
+  .file-viewer-header ul li > .floppy {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+  }
+  .file-viewer-header ul li > .floppy:before {
+    font-family: "FontAwesome";
+    content: "\f019";
+    font-size: 18px;
+    align-content: center;
+    margin-right: 8px;
+  }
+  .file-viewer-header ul li > .print {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+  }
+  .file-viewer-header ul li > .print:before {
+    font-family: "FontAwesome";
+    content: "\f02f";
+    font-size: 18px;
+    align-content: center;
+    margin-right: 8px;
+  }
+  .file-viewer-footer ul li > #previous {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  .file-viewer-footer ul li > #next {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .pdf-pages span {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
