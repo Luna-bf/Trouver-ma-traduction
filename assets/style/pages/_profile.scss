@@ -81,8 +81,7 @@
     font-weight: 300;
     font-style: italic;
     max-width: 50%;
-    // color: #888888;
-    color: blue;
+    color: #888888;
     margin: 0 auto;
 }
 
@@ -115,6 +114,10 @@ RESPONSIVE
 ************/
 // Mobile (portrait)
 @media screen and (max-width: 480px) {
+
+    .username-and-description>p {
+        color: blue;
+    }
 
     .user-pfp-figure {
         width: 23%;
