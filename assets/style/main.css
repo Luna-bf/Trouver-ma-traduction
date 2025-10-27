@@ -1617,19 +1617,7 @@ RESPONSIVE
     margin-left: 40px;
   }
   .submit-changes > button {
-    background-color: #DCAC4D;
-    border: 1px solid #DCAC4D;
-    transition: none;
-    color: #fff;
-    padding: 10px;
     font-size: 13px;
-    border-radius: 6px;
-  }
-  .submit-changes > button:hover {
-    background-color: #DB8535;
-    border: 1px solid #DB8535;
-    transition: none;
-    cursor: pointer;
   }
 }
 .accessibility-form {
@@ -1637,7 +1625,8 @@ RESPONSIVE
   width: 100vw;
 }
 
-.accessibility-form form > .param, .font-size-param {
+.accessibility-form form > .param,
+.font-size-param {
   margin-bottom: 1.5em;
 }
 
@@ -1645,6 +1634,17 @@ RESPONSIVE
   width: 20%;
 }
 
+/************
+RESPONSIVE
+************/
+@media screen and (max-width: 480px) {
+  .accessibility-form form > .param {
+    flex-direction: column;
+  }
+  .accessibility-form form > .param select {
+    margin-top: 10px;
+  }
+}
 .account-hr {
   width: 93%;
   margin: 1rem 0 1rem 0;
