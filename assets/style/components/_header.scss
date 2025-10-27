@@ -94,8 +94,14 @@ nav {
 }
 
 
-// Responsive
-@media screen and (max-width: 576px) {
+/************
+RESPONSIVE
+************/
+// Mobile (portrait)
+@media screen and (max-width: 480px) {
+    .nav-logo-figure {
+        width: 15%;
+    }
 
     nav {
         justify-content: space-between;
@@ -130,10 +136,6 @@ nav {
         margin: 100px 0 0 0;
     }
 
-    .nav-logo-figure {
-        width: 10%;
-    }
-
     .input-wrapper {
         width: 100%;
         flex-direction: row;
@@ -155,3 +157,9 @@ nav {
         background-color: rgba(0, 0, 0, 0.6);
     }
 }
+
+// Tablette (portrait)
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+// Tablette (paysage)
+@media screen and (min-width: 769px) and (max-width: 1024x) {}

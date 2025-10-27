@@ -73,3 +73,59 @@
   --swiper-navigation-color: #000;
   --swiper-navigation-size: 28px;
 }
+
+
+/************
+RESPONSIVE
+************/
+// Mobile (portrait)
+@media screen and (max-width: 480px) {
+  .accueil-connect-container>h2 {
+    margin: 50px 0 30px 15px;
+    font-size: 21px;
+  }
+
+  .swiper-slide .card-content figure {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  // Le contenu de la carte
+  .card-content {
+    width: 210px;
+    margin: 0 auto;
+  }
+
+  .swiper-slide .card-content .title>h3 {
+    font-family: "PoppinsRegular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.6em;
+  }
+
+  .swiper-slide .card-content>.text {
+    font-family: "PoppinsRegular", sans-serif;
+    font-size: 15px;
+    margin: 50px 0 50px 0;
+    color: var(--text-color);
+    list-style: none;
+    line-height: 2.5em;
+  }
+
+  .swiper-slide .card-content>.other-infos {
+    font-family: "PoppinsRegular", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 20px 0 10px 0;
+    color: var(--text-color);
+    list-style: none;
+    line-height: 2em;
+  }
+}
+
+// Tablette (portrait)
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+// Tablette (paysage)
+@media screen and (min-width: 769px) and (max-width: 1024x) {}
