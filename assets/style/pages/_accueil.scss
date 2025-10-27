@@ -187,11 +187,15 @@ RESPONSIVE
     }
 
     // Accueil container
-    .accueil-container .translation-titles>span {
-        font-size: 17px;
+    .accueil-container .translation-titles>p:first-child {
+        margin-bottom: 30px;
+    }
+
+    .accueil-container .translation-titles>p {
+        font-size: 20px;
         line-height: normal;
         text-align: center;
-        padding: 0 10px 0 10px;
+        padding: 0 5px 0 5px;
     }
 
     .accueil-container .translation-titles>span:first-child {
@@ -203,7 +207,7 @@ RESPONSIVE
     }
 
     .accueil-container .translation-parent>.translation-card {
-        width: 50%;
+        width: 60%;
         margin-bottom: 3em;
     }
 
