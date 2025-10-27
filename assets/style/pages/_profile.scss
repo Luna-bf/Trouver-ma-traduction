@@ -85,7 +85,6 @@
     margin: 0 auto;
 }
 
-// .activity-infos
 .activity-infos {
     flex-direction: row;
     justify-content: center;
@@ -116,7 +115,7 @@ RESPONSIVE
 @media screen and (max-width: 480px) {
 
     .username-and-description>p {
-        color: blue;
+        color: pink;
     }
 
     .user-pfp-figure {

@@ -1344,7 +1344,7 @@ RESPONSIVE
 ************/
 @media screen and (max-width: 480px) {
   .username-and-description > p {
-    color: blue;
+    color: pink;
   }
   .user-pfp-figure {
     width: 23%;
