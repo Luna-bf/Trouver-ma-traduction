@@ -280,20 +280,7 @@ RESPONSIVE
     }
 
     .submit-changes>button {
-        background-color: variables.$form-btn-bg-color;
-        border: 1px solid variables.$form-btn-bg-color;
-        transition: none;
-        color: #fff;
-        padding: 10px;
         font-size: 13px;
-        border-radius: 6px;
-    }
-
-    .submit-changes>button:hover {
-        background-color: variables.$form-btn-bg-color-active;
-        border: 1px solid variables.$form-btn-bg-color-active;
-        transition: none;
-        cursor: pointer;
     }
 }
 
