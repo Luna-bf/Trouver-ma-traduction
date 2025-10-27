@@ -1082,7 +1082,7 @@ RESPONSIVE
     margin: 0 auto;
   }
   .swiper-slide {
-    border: 2cap solid #DCAC4D;
+    border: 2px solid #DCAC4D;
   }
   .swiper-slide .card-content .title > h3 {
     font-family: "PoppinsRegular", sans-serif;
