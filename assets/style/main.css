@@ -691,10 +691,14 @@ RESPONSIVE
     width: 60%;
     margin-bottom: 3em;
   }
-  .accueil-container .translation-parent .translation-card > span {
+  .accueil-container .translation-parent .translation-card .summary > span {
     font-size: 20px;
   }
-  .accueil-container .translation-parent .translation-card > p {
+  .accueil-container .translation-parent .translation-card .summary > p {
+    font-size: 15px;
+    padding: 0.5em;
+  }
+  .accueil-container .translation-parent .translation-card .summary > a {
     font-size: 15px;
     padding: 0.5em;
   }
@@ -933,7 +937,7 @@ input[type=checkbox]:checked {
     width: 100%;
   }
   .submit-btn {
-    text-align: center;
+    width: 45%;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
