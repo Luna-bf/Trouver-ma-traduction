@@ -700,7 +700,6 @@ RESPONSIVE
   }
   .accueil-container .translation-parent .translation-card .summary > a {
     font-size: 15px;
-    padding: 0.5em;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
