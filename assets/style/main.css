@@ -1347,13 +1347,10 @@ RESPONSIVE
 RESPONSIVE
 ************/
 @media screen and (max-width: 480px) {
-  .username-and-description > p {
-    color: pink;
-  }
   .user-pfp-figure {
     width: 23%;
     position: absolute;
-    top: 427px;
+    top: 450px;
   }
   .user-pfp-figure > img {
     width: 100%;
