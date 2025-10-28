@@ -277,7 +277,6 @@ nav {
   display: none;
 }
 
-/*** SEARCH FORM (input) ***/
 .search-form {
   width: 25%;
   margin-left: 15px;
@@ -351,7 +350,7 @@ RESPONSIVE
   }
   .profile-picture-figure {
     align-items: center;
-    width: 25%;
+    width: 22%;
     margin: 20px 0 0 0;
   }
   .cover {
