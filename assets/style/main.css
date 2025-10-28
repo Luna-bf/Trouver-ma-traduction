@@ -935,6 +935,9 @@ input[type=checkbox]:checked {
   form {
     width: 100%;
   }
+  input[type=checkbox] {
+    transform: scale(1);
+  }
   .submit-btn {
     width: 50%;
   }
