@@ -1268,7 +1268,6 @@ RESPONSIVE
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* PROFILE */
 .profile-infos {
   flex-direction: column;
   align-items: center;
@@ -1350,7 +1349,7 @@ RESPONSIVE
   .user-pfp-figure {
     width: 23%;
     position: absolute;
-    top: 450px;
+    top: 455px;
   }
   .user-pfp-figure > img {
     width: 100%;
