@@ -12,29 +12,29 @@
     <link rel="icon" href="../assets/imgs/favicon/favicon-48x48.png">
 </head>
 
-<body>
+<body class="forms-body">
     <main class="form-container d-flex">
         <div class="form-parent d-flex">
-            <figure>
+            <!-- <figure>
                 <img src="../assets/imgs/general/form/form-image.png" alt="Form img">
-            </figure>
+            </figure> -->
 
             <form action="form.php" class="d-flex">
 
                 <div class="w-50-percent d-i-flex form-input-parent" id="mt-first-input">
-                    <label for="username-email" class="w-50-percent mb-10 mt-first-label">Nom d'utilisateur ou
+                    <label for="username-email" class="w-50-percent mb-10 mt-first-label sign-label">Nom d'utilisateur ou
                         email</label>
                     <input type="text" class="form-input mb-50" id="username-email">
                 </div>
 
                 <div class="w-50-percent d-i-flex form-input-parent">
-                    <label for="password" class="mb-10">Mot de passe</label>
+                    <label for="password" class="mb-10 sign-label">Mot de passe</label>
                     <input type="password" id="password" class="form-input">
 
                     <div id="remember">
                         <input type="checkbox" name="remember" id="remember-input">
                         <span class="checkmark"></span>
-                        <label for="remember-input">Se souvenir de moi</label>
+                        <label for="remember-input" class="sign-label">Se souvenir de moi</label>
                     </div>
                 </div>
 
