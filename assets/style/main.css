@@ -701,46 +701,117 @@ RESPONSIVE
     width: 95%;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 561px) {
   .hero-div h1 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: normal;
     margin-bottom: 2em;
     padding: 0 0.5em 0 0.5em;
   }
-  .hero-div h2 {
-    font-size: 20px;
+  .hero-div > p {
+    font-size: 19px;
     padding: 0 0.5em 0 0.5em;
+  }
+  .hero-div > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
   }
   .hero-div > ul li form > .hero-input {
     font-size: 16px;
-    padding: 8px 43px 8px 43px;
+    padding: 10px 45px 10px 45px;
   }
-  .accueil-container .translation-titles > span {
+  .accueil-container .translation-titles > p:first-child {
+    margin-bottom: 30px;
+  }
+  .accueil-container .translation-titles > p {
     font-size: 20px;
     line-height: normal;
     text-align: center;
     padding: 0 5px 0 5px;
   }
+  .accueil-container .translation-titles > span:first-child {
+    margin-bottom: 25px;
+  }
   .accueil-container .translation-parent {
     flex-wrap: wrap;
+    flex-direction: row;
   }
-  .accueil-container .translation-titles > span:first-child {
-    margin-bottom: 30px;
+  .accueil-container > section .translation-card {
+    border: 2px solid #DCAC4D;
   }
   .accueil-container .translation-parent > .translation-card {
-    width: 40%;
+    width: 60%;
     margin-bottom: 3em;
   }
-  .accueil-container .translation-parent .translation-card > span {
+  .accueil-container .translation-parent .translation-card .summary > span {
     font-size: 20px;
   }
-  .accueil-container .translation-parent .translation-card > p {
+  .accueil-container .translation-parent .translation-card .summary > p {
     font-size: 15px;
-    padding: 0.8em;
+    padding: 0.5em;
+  }
+  .accueil-container .translation-parent .translation-card .summary > a {
+    font-size: 15px;
+    padding: 0.5em;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024x) {
+@media screen and (min-width: 562px) and (max-width: 768px) {
+  .hero-div h1 {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 2em;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .hero-div > p {
+    font-size: 19px;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .hero-div > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+  }
+  .hero-div > ul li form > .hero-input {
+    font-size: 16px;
+    padding: 10px 45px 10px 45px;
+  }
+  .accueil-container .translation-titles > p:first-child {
+    margin-bottom: 30px;
+  }
+  .accueil-container .translation-titles > p {
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    padding: 0 5px 0 5px;
+  }
+  .accueil-container .translation-titles > span:first-child {
+    margin-bottom: 25px;
+  }
+  .accueil-container .translation-parent {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .accueil-container > section .translation-card {
+    border: 2px solid #DCAC4D;
+  }
+  .accueil-container .translation-parent > .translation-card {
+    width: 50%;
+    margin-bottom: 3em;
+  }
+  .accueil-container .translation-parent .translation-card .summary > span {
+    font-size: 20px;
+  }
+  .accueil-container .translation-parent .translation-card .summary > p {
+    font-size: 15px;
+    padding: 0.5em;
+  }
+  .accueil-container .translation-parent .translation-card .summary > a {
+    font-size: 15px;
+    width: 95%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero-div h1 {
     font-size: 26px;
     line-height: normal;
