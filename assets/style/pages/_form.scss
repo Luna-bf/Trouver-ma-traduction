@@ -1,5 +1,12 @@
 @use '../other/variables';
 
+.forms-body {
+    background-image: url("../../assets/imgs/general/form/paysage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 60em rgba(0, 0, 0, 0.4) inset;
+}
+
 // form container
 .form-container {
     align-items: center;
@@ -28,11 +35,17 @@
     border-radius: 15px;
 }
 
+.sign-label {
+    font-family: "PoppinsLight", sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
 // form
 form {
-    background-color: #fff;
+    // background-color: #fff;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -45,7 +58,7 @@ form {
 .form-input {
     border: 1px solid #B8B8B8;
     border-radius: 3px;
-    height: 40px;
+    height: 37px;
     direction: left;
     text-indent: 10px;
     background-color: #F5F5F5;
@@ -94,7 +107,7 @@ input[type="checkbox"]:checked {
     border: 2px solid variables.$form-btn-bg-color;
     color: #fff;
     border-radius: 6px;
-    padding: 0.7em 2.5em 0.7em 2.5em;
+    padding: 0.7em 1em 0.7em 1em;
     margin: 80px auto 25px auto;
     /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
     width: 40%;
@@ -118,7 +131,7 @@ input[type="checkbox"]:checked {
 .account-parent a,
 .account-parent div {
     margin-bottom: 14px;
-    color: #8A8A8A;
+    color: #fff;
     transition: none;
 }
 
