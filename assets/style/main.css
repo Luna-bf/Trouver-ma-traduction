@@ -870,7 +870,7 @@ RESPONSIVE
 }
 
 .form-parent {
-  flex-direction: row;
+  flex-direction: column; /* A changer en flex-direction: row; si je décide de revenir à l'ancienne configuration */
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
@@ -883,6 +883,13 @@ RESPONSIVE
 .form-parent figure > img {
   width: 100%;
   border-radius: 15px;
+}
+
+.form-parent > h1 {
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .sign-label {
@@ -1116,7 +1123,7 @@ input[type=checkbox]:checked {
 
 .swiper-slide .card-content figure > img {
   border-radius: 10px;
-  margin: 5px 0 10px 0;
+  margin: 5px 0 15px 0;
 }
 
 .swiper-slide .card-content .title > h3 {
