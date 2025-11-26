@@ -230,7 +230,7 @@ nav {
 }
 
 .nav-logo-figure {
-  width: 5%;
+  width: 4%;
 }
 
 .nav-logo-img {
@@ -401,7 +401,7 @@ footer p > a:hover {
 }
 
 .parent-logo {
-  width: 8%;
+  width: 6%;
   margin: 0 auto;
 }
 
@@ -1121,12 +1121,21 @@ input[type=checkbox]:checked {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
   text-align: center;
-  line-height: 1.6em;
+  font-size: 17px;
+}
+
+.see-translation-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.see-translation-link > a {
+  font-family: "PoppinsSemibold", sans-serif;
 }
 
 .swiper-slide .card-content > .text {
   font-family: "PoppinsRegular", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   margin: 50px 0 50px 0;
   color: var(--text-color);
   list-style: none;
@@ -1249,16 +1258,6 @@ RESPONSIVE
   line-height: 2em;
 }
 
-.see-translation-link {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.see-translation-link > a {
-  font-family: "PoppinsSemibold", sans-serif;
-  font-weight: 600;
-}
-
 .m-t-song {
   margin-top: 4em;
 }
@@ -1340,15 +1339,15 @@ RESPONSIVE
 }
 
 .user-pfp-figure {
-  width: 9%;
+  width: 7%;
   position: absolute;
-  bottom: 250px;
+  bottom: 243px;
 }
 
 .user-pfp-figure > img {
   width: 100%;
   border-radius: 50%;
-  border: 4px solid #DCAC4D;
+  border: 3.5px solid #DCAC4D;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -1391,8 +1390,8 @@ RESPONSIVE
 
 .username-and-description > h1 {
   font-weight: 500;
-  font-size: 1.5rem;
-  margin: 0 0 0.7em 0;
+  font-size: 24px;
+  margin: 3px 0 0.7em 0;
 }
 
 .username-and-description > p {
@@ -1414,13 +1413,13 @@ RESPONSIVE
 .activity-infos div > p {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .activity-infos .translations:before {
   font-family: "FontAwesome";
   content: "\f31c";
-  font-size: 22px;
+  font-size: 20px;
   align-content: center;
   color: #1B9675;
   margin-right: 13px;
