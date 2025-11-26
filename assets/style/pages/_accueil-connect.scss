@@ -41,12 +41,21 @@
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
   text-align: center;
-  line-height: 1.6em;
+  font-size: 17px;
+}
+
+.see-translation-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.see-translation-link>a {
+  font-family: "PoppinsSemibold", sans-serif;
 }
 
 .swiper-slide .card-content>.text {
   font-family: "PoppinsRegular", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   margin: 50px 0 50px 0;
   color: var(--text-color);
   list-style: none;
