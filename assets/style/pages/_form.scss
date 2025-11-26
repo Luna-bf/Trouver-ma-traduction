@@ -4,7 +4,7 @@
     background-image: url("../../assets/imgs/general/form/paysage.png");
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 60em rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 60em rgba(0, 0, 0, 0.5) inset;
 }
 
 // form container
@@ -36,8 +36,7 @@
 }
 
 .sign-label {
-    font-family: "PoppinsLight", sans-serif;
-    font-weight: 300;
+    font-family: "PoppinsExtraLight", sans-serif;
     color: #fff;
 }
 
@@ -165,7 +164,7 @@ input[type="checkbox"]:checked {
 
 .account-parent>a,
 .account-parent div {
-    font-family: "PoppinsLight";
+    font-family: "PoppinsExtraLight", sans-serif;
     font-weight: 300;
 }
 

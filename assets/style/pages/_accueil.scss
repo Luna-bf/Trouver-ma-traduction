@@ -30,7 +30,7 @@
 }
 
 .hero-div>p {
-    font-family: "PoppinsLight", sans-serif;
+    font-family: "PoppinsExtraLight", sans-serif;
     font-size: 22px;
     color: #fff;
     text-align: center;
@@ -39,7 +39,7 @@
 }
 
 .hero-div>ul {
-    margin-top: 8em;
+    margin-top: 6em;
 }
 
 .hero-div>ul li>form {
@@ -47,7 +47,7 @@
 }
 
 .hero-div>ul li form>.hero-input {
-    font-family: "PoppinsLight", sans-serif;
+    font-family: "PoppinsExtraLight", sans-serif;
     font-size: 17px;
     background: transparent;
     color: white;
@@ -93,6 +93,7 @@
 }
 
 .accueil-container .translation-titles>p {
+    font-family: "PoppinsExtraLight", sans-serif;
     font-size: 24px;
     color: #fff;
     line-height: 70px;

@@ -520,7 +520,7 @@ RESPONSIVE
 }
 
 .hero-div > p {
-  font-family: "PoppinsLight", sans-serif;
+  font-family: "PoppinsExtraLight", sans-serif;
   font-size: 22px;
   color: #fff;
   text-align: center;
@@ -529,7 +529,7 @@ RESPONSIVE
 }
 
 .hero-div > ul {
-  margin-top: 8em;
+  margin-top: 6em;
 }
 
 .hero-div > ul li > form {
@@ -537,7 +537,7 @@ RESPONSIVE
 }
 
 .hero-div > ul li form > .hero-input {
-  font-family: "PoppinsLight", sans-serif;
+  font-family: "PoppinsExtraLight", sans-serif;
   font-size: 17px;
   background: transparent;
   color: white;
@@ -581,6 +581,7 @@ RESPONSIVE
 }
 
 .accueil-container .translation-titles > p {
+  font-family: "PoppinsExtraLight", sans-serif;
   font-size: 24px;
   color: #fff;
   line-height: 70px;
@@ -856,7 +857,7 @@ RESPONSIVE
   background-image: url("../../assets/imgs/general/form/paysage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 60em rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 60em rgba(0, 0, 0, 0.5) inset;
 }
 
 .form-container {
@@ -885,8 +886,7 @@ RESPONSIVE
 }
 
 .sign-label {
-  font-family: "PoppinsLight", sans-serif;
-  font-weight: 300;
+  font-family: "PoppinsExtraLight", sans-serif;
   color: #fff;
 }
 
@@ -1005,7 +1005,7 @@ input[type=checkbox]:checked {
 
 .account-parent > a,
 .account-parent div {
-  font-family: "PoppinsLight";
+  font-family: "PoppinsExtraLight", sans-serif;
   font-weight: 300;
 }
 
@@ -1136,7 +1136,7 @@ input[type=checkbox]:checked {
 }
 
 .swiper-slide .card-content > .text {
-  font-family: "PoppinsRegular", sans-serif;
+  font-family: "PoppinsLight", sans-serif;
   font-size: 15px;
   margin: 50px 0 50px 0;
   color: var(--text-color);
@@ -1145,7 +1145,7 @@ input[type=checkbox]:checked {
 }
 
 .swiper-slide .card-content > .other-infos {
-  font-family: "PoppinsRegular", sans-serif;
+  font-family: "PoppinsLight", sans-serif;
   font-weight: 300;
   font-size: 15px;
   margin: 20px 0 10px 0;
@@ -1343,7 +1343,7 @@ RESPONSIVE
 .user-pfp-figure {
   width: 7%;
   position: absolute;
-  bottom: 251px;
+  bottom: 250px;
 }
 
 .user-pfp-figure > img {
