@@ -1198,7 +1198,6 @@ RESPONSIVE
     line-height: 1.6em;
   }
   .swiper-slide .card-content > .text {
-    font-family: "PoppinsRegular", sans-serif;
     font-size: 15px;
     margin: 50px 0 50px 0;
     color: var(--text-color);
@@ -1206,7 +1205,6 @@ RESPONSIVE
     line-height: 2.5em;
   }
   .swiper-slide .card-content > .other-infos {
-    font-family: "PoppinsRegular", sans-serif;
     font-weight: 300;
     font-size: 15px;
     margin: 20px 0 10px 0;
@@ -1252,6 +1250,7 @@ RESPONSIVE
 }
 
 .simple-card-item .simple-card-content > .simple-text {
+  font-family: "PoppinsLight", sans-serif;
   font-size: 16px;
   margin: 50px 0 50px 0;
   color: var(--text-color);
@@ -1260,6 +1259,7 @@ RESPONSIVE
 }
 
 .simple-card-item .simple-card-content > .simple-other-infos {
+  font-family: "PoppinsLight", sans-serif;
   font-size: 15px;
   margin: 20px 0 10px 0;
   color: var(--text-color);
@@ -1311,10 +1311,11 @@ RESPONSIVE
   }
   .simple-card-item .simple-card-content > .simple-text {
     font-size: 15px;
+    margin: 20px 0 10px 10px;
   }
   .simple-card-item .simple-card-content > .simple-other-infos {
     font-size: 15px;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 10px 10px;
     color: var(--text-color);
     list-style: none;
     line-height: 2em;
@@ -1350,7 +1351,7 @@ RESPONSIVE
 .user-pfp-figure {
   width: 7%;
   position: absolute;
-  bottom: 250px;
+  bottom: 253px;
 }
 
 .user-pfp-figure > img {
@@ -1439,9 +1440,9 @@ RESPONSIVE
 ************/
 @media screen and (max-width: 480px) {
   .user-pfp-figure {
-    width: 23%;
+    width: 21%;
     position: absolute;
-    top: 455px;
+    top: 440px;
   }
   .user-pfp-figure > img {
     width: 100%;
