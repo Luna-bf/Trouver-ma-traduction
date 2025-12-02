@@ -1341,7 +1341,7 @@ RESPONSIVE
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 55vh;
   justify-content: center;
@@ -1357,8 +1357,7 @@ RESPONSIVE
 .user-pfp-figure > img {
   width: 100%;
   border-radius: 50%;
-  border: 3.5px solid #DCAC4D;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+  border: 4px solid #fff;
 }
 
 .profile-infos {
@@ -1445,10 +1444,7 @@ RESPONSIVE
     top: 440px;
   }
   .user-pfp-figure > img {
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid #DCAC4D;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    border: 3.5px solid #fff;
   }
   .username-and-description > h1 {
     font-weight: 500;
