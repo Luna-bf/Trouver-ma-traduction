@@ -43,7 +43,7 @@
 }
 
 .sign-label {
-    font-family: "PoppinsExtraLight", sans-serif;
+    font-family: "PoppinsLight", sans-serif;
     color: #fff;
 }
 
@@ -107,6 +107,7 @@ input[type="checkbox"]:checked {
 
 // .submit-btn
 .submit-btn {
+    font-family: "PoppinsLight", sans-serif;
     font-size: 15px;
     text-align: center;
     background-color: variables.$form-btn-bg-color;

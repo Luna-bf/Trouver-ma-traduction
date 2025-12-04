@@ -537,7 +537,7 @@ RESPONSIVE
 }
 
 .hero-div > ul li form > .hero-input {
-  font-family: "PoppinsExtraLight", sans-serif;
+  font-family: "PoppinsLight", sans-serif;
   font-size: 17px;
   background: transparent;
   color: white;
@@ -893,7 +893,7 @@ RESPONSIVE
 }
 
 .sign-label {
-  font-family: "PoppinsExtraLight", sans-serif;
+  font-family: "PoppinsLight", sans-serif;
   color: #fff;
 }
 
@@ -951,6 +951,7 @@ input[type=checkbox]:checked {
 }
 
 .submit-btn {
+  font-family: "PoppinsLight", sans-serif;
   font-size: 15px;
   text-align: center;
   background-color: #DCAC4D;
@@ -1351,7 +1352,7 @@ RESPONSIVE
 .user-pfp-figure {
   width: 7%;
   position: absolute;
-  bottom: 253px;
+  bottom: 250px;
 }
 
 .user-pfp-figure > img {
