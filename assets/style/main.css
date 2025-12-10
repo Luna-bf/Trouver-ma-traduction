@@ -427,7 +427,7 @@ footer > hr {
   background-color: #000;
   width: 80%;
   margin: 0 auto;
-  height: 1px;
+  height: 0.5px;
   border: 0;
 }
 
@@ -911,7 +911,7 @@ form {
 .form-input {
   border: 1px solid #B8B8B8;
   border-radius: 3px;
-  height: 37px;
+  height: 35px;
   direction: left;
   text-indent: 10px;
   background-color: #F5F5F5;
@@ -1379,7 +1379,7 @@ RESPONSIVE
 .user-profile .hr-profile > #separator {
   background-color: #A0A0A0;
   width: 80%;
-  height: 1px;
+  height: 0.5px;
   border: 0;
   margin: 0 auto;
 }
@@ -1408,7 +1408,7 @@ RESPONSIVE
   font-family: "PoppinsLightItalic", sans-serif;
   font-weight: 300;
   font-style: italic;
-  max-width: 50%;
+  max-width: 55%;
   color: #888888;
   margin: 0 auto;
 }
@@ -1569,15 +1569,15 @@ RESPONSIVE
 }
 
 .param label,
-input,
-textarea,
-select {
+.profile-input,
+.profile-textarea,
+.profile-select {
   flex-shrink: 0;
 }
 
-.param > input,
-textarea,
-select {
+.param > .profile-input,
+.profile-textarea,
+.profile-select {
   width: 100%;
   background-color: #F5F5F5;
   color: #888888;
@@ -1586,17 +1586,17 @@ select {
   margin-left: 15px;
 }
 
-.param > input,
-select {
+.param > .profile-input,
+.profile-select {
   font-family: "PoppinsLight", sans-serif;
   height: 30px;
 }
 
-.param > input {
+.param > .profile-input {
   padding-left: 10px;
 }
 
-.param > textarea {
+.param > .profile-textarea {
   font-family: "PoppinsLight", sans-serif;
   height: 150px;
   overflow: auto;
