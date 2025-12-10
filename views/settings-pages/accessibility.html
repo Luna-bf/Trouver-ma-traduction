@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibilité - Trouver Ma Traduction</title>
+    <link rel="stylesheet" href="../../assets/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="../../assets/imgs/favicon/favicon-48x48.png">
+</head>
+
+<body>
+    <div id="cover-background"></div>
+
+    <header>
+        <nav class="d-flex">
+            <figure class="nav-logo-figure">
+                <a href="#"><img src="../../assets/imgs/logo-160x160.png" alt="Website logo" class="nav-logo-img"></a>
+            </figure>
+
+            <input type="checkbox" id="check">
+
+            <div class="d-flex input-and-profile">
+                <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+
+                <form action="" class="search-form">
+                    <div class="d-flex input-wrapper">
+                        <input type="search" class="input-icon" placeholder="&#xf002;&ensp;&ensp;Recherche...">
+                    </div>
+                </form>
+
+                <figure class="d-flex profile-picture-figure">
+                    <a href="../profile.html"><img src="../../assets/imgs/placeholders/default-pfp.png"
+                            alt="Profile picture"></a>
+                </figure>
+            </div>
+
+            <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+        </nav>
+    </header>
+
+    <main class="settings-container">
+        <section class="settings-parent d-flex">
+            <ul class="all-settings">
+                <li><a href="profile-settings.html" class="d-flex"><i class="fa-solid fa-user"></i>Profil</a></li>
+                <li><a href="preferences.html" class="d-flex"><i class="fa-solid fa-paperclip"></i>Préférences de
+                        contenu</a></li>
+                <li class="border-left"><a href="accessibility.html" class="d-flex"><i
+                            class="fa-solid fa-universal-access"></i>Accessibilité</a></li>
+                <li><a href="account.html" class="d-flex"><i class="fa-solid fa-gear"></i>Votre compte</a></li>
+            </ul>
+
+            <div class="d-flex accessibility-form separator">
+                <form>
+                    <div class="d-flex param theme-select">
+                        <label for="theme">Thème</label>
+                        <select name="theme" id="theme">
+                            <option value="light" id="light" selected>Lumineux</option>
+                            <option value="dark" id="dark">Sombre</option>
+                        </select>
+                    </div>
+
+                    <div class="d-flex param language-select">
+                        <label for="language">Langue</label>
+                        <select name="language" id="language">
+                            <option value="french" selected>Français</option>
+                            <option value="english">English</option>
+                        </select>
+                    </div>
+
+                    <div class="d-flex param">
+                        <label for="font-size">Taille de la police</label>
+                        <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+                        <input type="number" id="number-input" value="">
+                    </div>
+
+                    <div class="d-flex param">
+                        <label for="text-to-speech">Synthèse vocale</label>
+                        <select name="text-to-speech" id="text-to-speech">
+                            <option value="enabled">Activée</option>
+                            <option value="disabled" selected>Désactivée</option>
+                        </select>
+                    </div>
+
+                    <div class="submit-changes">
+                        <button type="submit">Enregistrer les modifications</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="d-flex">
+        <div class="d-flex logo-text margin-foot">
+            <figure class="parent-logo">
+                <a href="#"><img src="../../assets/imgs/logo-160x160.png" alt="website logo"></a>
+            </figure>
+
+            <div class="d-flex parent-text">
+                <div class="text">
+                    <p>Ce site a été réalisé dans le cadre de la formation "TP - Développeur Web" de l'AFEC.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <p class="freepik">Toutes les images viennent de <a href="https://www.freepik.com/" target="_blank">Freepik</a>
+    </footer>
+
+    <!-- Mes fichiers JS -->
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/settings-js/slide-bar.js"></script>
+    <script src="../../assets/js/settings-js/theme.js"></script>
+</body>
+
+</html>

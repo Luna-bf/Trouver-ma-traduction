@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préférences de contenu - Trouver Ma Traduction</title>
+    <link rel="stylesheet" href="../../assets/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="../../assets/imgs/favicon/favicon-48x48.png">
+</head>
+
+<body>
+    <div id="cover-background"></div>
+    
+    <header>
+        <nav class="d-flex">
+            <figure class="nav-logo-figure">
+                <a href="#"><img src="../../assets/imgs/logo-160x160.png" alt="Website logo" class="nav-logo-img"></a>
+            </figure>
+
+            <input type="checkbox" id="check">
+
+            <div class="d-flex input-and-profile">
+                <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+
+                <form action="" class="search-form">
+                    <div class="d-flex input-wrapper">
+                        <input type="search" class="input-icon" placeholder="&#xf002;&ensp;&ensp;Recherche...">
+                    </div>
+                </form>
+
+                <figure class="d-flex profile-picture-figure">
+                    <a href="../profile.html"><img src="../../assets/imgs/placeholders/default-pfp.png"
+                            alt="Profile picture"></a>
+                </figure>
+            </div>
+
+            <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+        </nav>
+    </header>
+
+    <main class="settings-container">
+        <section class="settings-parent d-flex">
+            <ul class="all-settings d-flex">
+                <li><a href="profile-settings.html" class="d-flex"><i class="fa-solid fa-user"></i>Profil</a></li>
+                <li class="border-left"><a href="preferences.html" class="d-flex"><i
+                            class="fa-solid fa-paperclip"></i>Préférences de contenu</a></li>
+                <li><a href="accessibility.html" class="d-flex"><i
+                            class="fa-solid fa-universal-access"></i>Accessibilité</a></li>
+                <li><a href="account.html" class="d-flex"><i class="fa-solid fa-gear"></i>Votre compte</a></li>
+            </ul>
+
+            <!--
+                Y améliorer en donnant la possibilité de choisir plusieurs styles et changer le type d'options proposées
+                en conséquences.
+            -->
+            <div class="d-flex accessibility-form separator">
+                <form>
+                    <div class="d-flex param">
+                        <label for="recommendations">Recommendations</label>
+                        <select name="recommendations" id="recommendations">
+                            <option value="songs">Chansons</option>
+                            <option value="books">Livres</option>
+                            <option value="texts">Textes</option>
+                        </select>
+                    </div>
+
+                    <!-- Faire comme sur la correction d'Henry (exercice du générateur de blagues) -->
+                    <div class="d-flex param">
+                        <label for="styles">Style(s)</label>
+                        <select name="styles" id="styles">
+                            <option value="fantasy">Fantasy</option>
+                            <option value="horreur">Horreur</option>
+                            <option value="romance">Romance</option>
+                        </select>
+                    </div>
+
+                    <div class="submit-changes">
+                        <button type="submit">Enregistrer les modifications</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="d-flex">
+        <div class="d-flex logo-text margin-foot">
+            <figure class="parent-logo">
+                <a href="#"><img src="../../assets/imgs/logo-160x160.png" alt="website logo"></a>
+            </figure>
+
+            <div class="d-flex parent-text">
+                <div class="text">
+                    <p>Ce site a été réalisé dans le cadre de la formation "TP - Développeur Web" de l'AFEC.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <p class="freepik">Toutes les images viennent de <a href="https://www.freepik.com/" target="_blank">Freepik</a>
+    </footer>
+
+    <!-- Mon fichier JS -->
+    <script src="../../assets/js/app.js"></script>
+</body>
+
+</html>
