@@ -85,15 +85,15 @@
 }
 
 .param label,
-input,
-textarea,
-select {
+.profile-input,
+.profile-textarea,
+.profile-select {
     flex-shrink: 0;
 }
 
-.param>input,
-textarea,
-select {
+.param>.profile-input,
+.profile-textarea,
+.profile-select {
     width: 100%;
     background-color: variables.$input-bg-color;
     color: variables.$input-text-color;
@@ -102,17 +102,17 @@ select {
     margin-left: 15px;
 }
 
-.param>input,
-select {
+.param>.profile-input,
+.profile-select {
     font-family: "PoppinsLight", sans-serif;
     height: 30px;
 }
 
-.param>input {
+.param>.profile-input {
     padding-left: 10px;
 }
 
-.param>textarea {
+.param>.profile-textarea {
     font-family: "PoppinsLight", sans-serif;
     height: 150px;
     overflow: auto;
