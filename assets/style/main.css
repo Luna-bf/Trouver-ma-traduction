@@ -870,7 +870,8 @@ RESPONSIVE
 }
 
 .form-parent {
-  flex-direction: column; /* A changer en flex-direction: row; si je décide de revenir à l'ancienne configuration */
+  flex-direction: column;
+  /* A changer en flex-direction: row; si je décide de revenir à l'ancienne configuration */
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
@@ -909,12 +910,27 @@ form {
 }
 
 .form-input {
+  font-family: "PoppinsLight", sans-serif;
   border: 1px solid #B8B8B8;
   border-radius: 3px;
   height: 35px;
+  font-size: 14.5px;
   direction: left;
   text-indent: 10px;
   background-color: #F5F5F5;
+}
+
+.form-input[type=file] {
+  text-indent: 0;
+}
+
+.form-input[type=file]::file-selector-button {
+  font-family: "PoppinsLight", sans-serif;
+  border: 2px solid #B8B8B8;
+  background-color: #B8B8B8;
+  margin-right: 15px;
+  height: 35px;
+  cursor: pointer;
 }
 
 #password-div {
@@ -952,22 +968,22 @@ input[type=checkbox]:checked {
 
 .submit-btn {
   font-family: "PoppinsLight", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   background-color: #DCAC4D;
-  border: 2px solid #DCAC4D;
+  border: 1px solid #DCAC4D;
   color: #fff;
   border-radius: 6px;
-  padding: 0.7em 1em 0.7em 1em;
+  padding: 0.5em 0 0.5em 0;
   margin: 80px auto 25px auto;
   /*Raccourci pour : margin: 0 auto; , margin-top: 80px;*/
-  width: 40%;
+  width: 35%;
   transition: none;
 }
 
 .submit-btn:hover {
   background-color: #DB8535;
-  border: 2px solid #DB8535;
+  border: 1px solid #DB8535;
   cursor: pointer;
 }
 
@@ -1423,7 +1439,7 @@ RESPONSIVE
 .activity-infos div > p {
   font-family: "PoppinsRegular", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .activity-infos .translations:before {
@@ -1432,7 +1448,7 @@ RESPONSIVE
   font-size: 20px;
   align-content: center;
   color: #1B9675;
-  margin-right: 13px;
+  margin-right: 8px;
 }
 
 /************
