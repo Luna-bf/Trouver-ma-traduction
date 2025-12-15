@@ -498,7 +498,7 @@ RESPONSIVE
 /***HERO***/
 .hero {
   min-height: 100vh;
-  background-image: url("../imgs/general/accueil/header.png");
+  background-image: url("../assets/imgs/general/accueil/header.png");
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-position: center center;
@@ -1284,7 +1284,7 @@ RESPONSIVE
   line-height: 2em;
 }
 
-.m-t-song {
+.search-result-container > :first-child {
   margin-top: 4em;
 }
 
