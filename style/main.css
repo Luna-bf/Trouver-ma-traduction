@@ -365,7 +365,7 @@ RESPONSIVE
 }
 footer {
   bottom: 0;
-  background-color: #DCAC4D;
+  background-color: var(--form-btn-bg-color);
   padding: 1em;
   width: 100%;
   text-align: center;
@@ -1354,7 +1354,7 @@ RESPONSIVE
 }
 
 .profile-banner {
-  background-image: url("../imgs/placeholders/placeholder-picture.png");
+  background-image: url("../assets/imgs/placeholders/placeholder-picture.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
