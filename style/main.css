@@ -365,7 +365,7 @@ RESPONSIVE
 }
 footer {
   bottom: 0;
-  background-color: var(--form-btn-bg-color);
+  background-color: #DCAC4D;
   padding: 1em;
   width: 100%;
   text-align: center;
@@ -1114,7 +1114,7 @@ input[type=checkbox]:checked {
 .swiper {
   max-width: 1400px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #C24040;
   flex-direction: column;
   margin-bottom: 5em;
 }
