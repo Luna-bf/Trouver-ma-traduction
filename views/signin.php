@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Trouver Ma Traduction</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="/assets/imgs/favicon/favicon-48x48.png">
+</head>
+
+<body class="forms-body">
+    <main class="form-container d-flex">
+        <div class="form-parent d-flex">
+            <!-- <figure>
+                <img src="../assets/imgs/general/form/form-image.png" alt="Form img">
+            </figure> -->
+            <h1>Connexion</h1>
+
+            <form action="form.php" class="d-flex">
+
+                <div class="w-50-percent d-i-flex form-input-parent" id="mt-first-input">
+                    <label for="username-email" class="w-50-percent mb-10 mt-first-label sign-label">Nom d'utilisateur ou
+                        email</label>
+                    <input type="text" class="form-input mb-50" id="username-email">
+                </div>
+
+                <div class="w-50-percent d-i-flex form-input-parent">
+                    <label for="password" class="mb-10 sign-label">Mot de passe</label>
+                    <input type="password" id="password" class="form-input">
+
+                    <div id="remember">
+                        <input type="checkbox" name="remember" id="remember-input">
+                        <span class="checkmark"></span>
+                        <label for="remember-input" class="sign-label">Se souvenir de moi</label>
+                    </div>
+                </div>
+
+                <div class="d-i-flex">
+                    <button type="submit" class="submit-btn">Se connecter</button>
+                </div>
+
+                <div class="account-parent d-flex">
+                    <a href="accueil-connect.php">Page d'accueil</a>
+                    <a href="#">Mot de passe oublié ?</a>
+                    <div>Vous n'avez pas de compte ?&ensp;<a href="signup.php"
+                            class="connect-register-link">Inscrivez-vous</a></div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
