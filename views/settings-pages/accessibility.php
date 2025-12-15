@@ -45,9 +45,9 @@
                 </div>
 
                 <div class="d-flex param">
-                    <label for="font-size">Taille de la police</label>
+                    <label for="myRange">Taille de la police</label>
                     <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
-                    <input type="number" id="number-input" value="">
+                    <input type="number" id="number-input" class="profile-input" value="">
                 </div>
 
                 <div class="d-flex param">
@@ -72,7 +72,7 @@
 <!-- Mes fichiers JS -->
 <script src="/js/app.js"></script>
 <script src="/js/settings-js/slide-bar.js"></script>
-<script src="/js/settings-js/theme.js"></script>
+<!-- <script src="/js/settings-js/theme.js"></script> -->
 </body>
 
 </html>

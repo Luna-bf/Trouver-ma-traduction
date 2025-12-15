@@ -930,6 +930,8 @@ form {
   background-color: #B8B8B8;
   margin-right: 15px;
   height: 35px;
+  padding: 0 10px 0 10px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -1114,7 +1116,7 @@ input[type=checkbox]:checked {
 .swiper {
   max-width: 1400px;
   margin: 0 auto;
-  background-color: #C24040;
+  background-color: #fff;
   flex-direction: column;
   margin-bottom: 5em;
 }
@@ -1481,8 +1483,8 @@ RESPONSIVE
 }
 
 .delete-posts {
-  border: 1px solid #dc3545;
-  color: #dc3545;
+  border: 1px solid #b22222;
+  color: #b22222;
   padding: 8px 18px 8px 18px;
   border-radius: 5px;
   font-size: 15.5px;
@@ -1491,7 +1493,7 @@ RESPONSIVE
 }
 
 .delete-posts:hover {
-  background-color: #dc3545;
+  background-color: #b22222;
   color: #fff;
   transition: all 0.2s;
 }
@@ -1743,9 +1745,9 @@ RESPONSIVE
   select {
     flex-shrink: 0;
   }
-  .param > input,
-  textarea,
-  select {
+  .param > .profile-input,
+  .profile-textarea,
+  .profile-select {
     width: 70%;
     margin-left: 0;
   }

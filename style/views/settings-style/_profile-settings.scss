@@ -249,9 +249,9 @@ RESPONSIVE
         flex-shrink: 0;
     }
 
-    .param>input,
-    textarea,
-    select {
+    .param>.profile-input,
+    .profile-textarea,
+    .profile-select {
         width: 70%;
         margin-left: 0;
     }
