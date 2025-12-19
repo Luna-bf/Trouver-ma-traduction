@@ -82,7 +82,7 @@
     </main>
 
     <!-- Footer -->
-    <?php require_once('views/components/_footer.php'); ?>
+    <?php require_once('views/inc/_footer.php'); ?>
 </body>
 
 </html>

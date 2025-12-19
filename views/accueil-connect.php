@@ -12,7 +12,7 @@
 </head>
 
 <!-- Header -->
-<?php require_once('components/_header.php') ?>
+<?php require_once('inc/_header.php') ?>
 
 <main class="accueil-connect-container">
     <a href="search-result.php">Soumettre form</a>
@@ -23,7 +23,7 @@
         <div class="cards-wrapper"> <!-- Boîte contenant toutes les cartes, leur style ainsi que les fonctionnalités du slider -->
             <div class="swiper-wrapper"> <!-- Boîte contenant chaque slides (cartes) individuellement. Toutes les cartes seront les enfants de cet élément -->
 
-                <?php require_once('components/_swiper-slide.php') ?>
+                <?php require_once('inc/_swiper-slide.php') ?>
 
                 <div class="swiper-slide-button swiper-button-prev"></div>
                 <div class="swiper-slide-button swiper-button-next"></div>
@@ -32,7 +32,7 @@
 </main>
 
 <!-- Footer -->
-<?php require_once('components/_footer.php'); ?>
+<?php require_once('inc/_footer.php'); ?>
 
 <!-- Le JS de Swiper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

@@ -11,7 +11,7 @@
 </head>
 
 <!-- Header -->
-<?php require_once('../components/_header.php') ?>
+<?php require_once('../inc/_header.php') ?>
 
 <main class="settings-container">
     <section class="settings-parent d-flex">
@@ -67,7 +67,7 @@
 </main>
 
 <!-- Footer -->
-<?php require_once('../components/_footer.php') ?>
+<?php require_once('../inc/_footer.php') ?>
 
 <!-- Mon fichier JS -->
 <script src="/js/app.js"></script>

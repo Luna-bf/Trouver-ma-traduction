@@ -12,7 +12,7 @@
 </head>
 
 <!-- Header -->
-<?php require_once('components/_header.php') ?>
+<?php require_once('inc/_header.php') ?>
 
 <!-- Main -->
 <main class="profile-container">
@@ -59,11 +59,11 @@
             <a href="#" class="delete-posts"><i class="fa-solid fa-minus"></i>Supprimer des posts</a>
         </div>
 
-        <?php require_once('components/_simple-card.php'); ?>
+        <?php require_once('inc/_simple-card.php'); ?>
 </main>
 
 <!-- Footer -->
-<?php require_once('components/_footer.php'); ?>
+<?php require_once('inc/_footer.php'); ?>
 
 <!-- Mon fichier JS -->
 <script src="/js/app.js"></script>
