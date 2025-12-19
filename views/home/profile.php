@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Trouver Ma Traduction</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="icon" href="/assets/imgs/favicon/favicon-48x48.png">
+</head>
+
+<!-- Header -->
+<?php require_once('../inc/_header.php') ?>
+
+<!-- Main -->
+<main class="profile-container">
+    <div class="profile-banner d-flex">
+        <figure class="user-pfp-figure">
+            <img src="/assets/imgs/placeholders/default-pfp.png" alt="User profile picture">
+        </figure>
+    </div>
+
+    <section class="profile-infos d-flex">
+        <article class="user-profile">
+            <div class="parameters-icons d-flex">
+                <!-- <div>
+                        <a href="settings-pages/profile-settings.php" class="logout"><i
+                                class="fa-solid fa-arrow-right-from-bracket"></i>Paramètres du profil</a>
+                    </div> -->
+                <a href="../settings-pages/profile-settings.php" class="fa-solid fa-gear"></a>
+                <a href="../accueil.php" class="fa-solid fa-right-from-bracket"></a>
+            </div>
+
+            <div class="username-and-description">
+                <h1>John Doe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestias asperiores alias suscipit
+                    voluptas nisi quisquam tenetur, eos exercitationem ipsa. Placeat sed cupiditate repudiandae
+                    sequi.</p>
+            </div>
+
+            <div class="hr-profile d-flex">
+                <hr id="separator">
+            </div>
+
+            <div class="activity-infos d-flex">
+                <div class="translations d-flex">
+                    <p>Traductions postées : 6</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="buttons-and-songs d-flex">
+        <div class="posts-btns d-flex">
+            <a href="../posts/new-upload.php" class="create-post"><i class="fa-solid fa-plus"></i>Créer
+                un nouveau post</a>
+            <a href="#" class="delete-posts"><i class="fa-solid fa-minus"></i>Supprimer des posts</a>
+        </div>
+
+        <?php require_once('../inc/_simple-card.php'); ?>
+</main>
+
+<!-- Footer -->
+<?php require_once('../inc/_footer.php'); ?>
+
+<!-- Mon fichier JS -->
+<script src="/js/app.js"></script>
+</body>
+
+</html>
