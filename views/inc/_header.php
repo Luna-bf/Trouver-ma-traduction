@@ -19,7 +19,7 @@
                 </form>
 
                 <figure class="d-flex profile-picture-figure">
-                    <a href="/views/profile.php"><img src="/assets/imgs/placeholders/default-pfp.png"
+                    <a href="../home/profile.php"><img src="/assets/imgs/placeholders/default-pfp.png"
                             alt="Profile picture"></a>
                 </figure>
             </div>
