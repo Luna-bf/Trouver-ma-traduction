@@ -18,12 +18,12 @@
 
             <ul>
                 <li>
-                    <form action="signup.php">
+                    <form action="form/signup.php">
                         <input type="submit" value="S'inscrire" class="hero-input">
                     </form>
                 </li>
                 <li>
-                    <form action="signin.php">
+                    <form action="form/signin.php">
                         <input type="submit" value="Se connecter" class="hero-input">
                     </form>
                 </li>
@@ -48,7 +48,7 @@
                     <p>Fantasy, roman policier, histoires à l'eau de rose... Tout les types de récits sont proposés sur
                         le site et n'attendent plus que
                         vous pour les découvrir !</p>
-                    <a href="signup.php">Commencez vos recherches dès maintenant</a>
+                    <a href="form/signup.php">Commencez vos recherches dès maintenant</a>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
                     <p>Replongez dans vos chansons préférées grâce aux traductions proposées : pop, rock, jazz... Tout
                         les
                         styles de musique sont présents !</p>
-                    <a href="signup.php">Commencez vos recherches dès maintenant</a>
+                    <a href="form/signup.php">Commencez vos recherches dès maintenant</a>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                     <span>Textes</span>
                     <p>Vous favorisez les récits condencés ? Les traductions de poèmes, de nouvelles et autres textes
                         courts seront parfaites pour vous !</p>
-                    <a href="signup.php">Commencez vos recherches dès maintenant</a>
+                    <a href="form/signup.php">Commencez vos recherches dès maintenant</a>
                 </div>
             </div>
         </section>
