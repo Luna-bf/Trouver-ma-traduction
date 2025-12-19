@@ -6,7 +6,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -30,7 +30,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -54,7 +54,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -80,7 +80,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -104,7 +104,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -128,7 +128,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -154,7 +154,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -178,7 +178,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -202,7 +202,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="file-viewer.html">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="../file/file-viewer.php">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
