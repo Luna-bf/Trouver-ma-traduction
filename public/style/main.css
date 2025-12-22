@@ -509,10 +509,10 @@ RESPONSIVE
 
 .hero-div h1 {
   font-family: "PoppinsLight", sans-serif;
-  font-size: 43px;
+  font-size: 45px;
   color: white;
   text-align: center;
-  line-height: 3em;
+  line-height: 3.5em;
 }
 
 .hero-div > div {
@@ -536,7 +536,7 @@ RESPONSIVE
   background: transparent;
 }
 
-.hero-div > ul li form > .hero-input {
+.hero-div > ul li > .redirect-form-btn > .hero-input {
   font-family: "PoppinsLight", sans-serif;
   font-size: 17px;
   background: transparent;
@@ -547,14 +547,14 @@ RESPONSIVE
   transition: none;
 }
 
-.hero-div > ul li form > .hero-input:hover {
+.hero-div > ul li > .redirect-form-btn > .hero-input:hover {
   border: 2px solid #DAA520;
   background-color: #DAA520;
   transition: none;
   cursor: pointer;
 }
 
-.hero-div > ul li form > .hero-input:active {
+.hero-div > ul li > .redirect-form-btn > .hero-input:active {
   border: 2px solid #DB8535;
   background-color: #DB8535;
   transition: none;
