@@ -11,19 +11,19 @@
 </head>
 
 <!-- Header -->
-<?php require_once('../inc/_header.php') ?>
+<?php require_once('../views/inc/_header.php') ?>
 
 <main class="settings-container">
     <section class="settings-parent d-flex">
         <!-- Settings pages links -->
         <ul class="all-settings d-flex">
-            <li><a href="profile-settings.php" class="d-flex"><i
+            <li><a href="/settings/profile-settings" class="d-flex"><i
                         class="fa-solid fa-user"></i>Profil</a></li>
-            <li class="border-left"><a href="preferences.php" class="d-flex"><i class="fa-solid fa-paperclip"></i>Préférences de
+            <li class="border-left"><a href="/settings/preferences" class="d-flex"><i class="fa-solid fa-paperclip"></i>Préférences de
                     contenu</a></li>
-            <li><a href="accessibility.php" class="d-flex"><i
+            <li><a href="/settings/accessibility" class="d-flex"><i
                         class="fa-solid fa-universal-access"></i>Accessibilité</a></li>
-            <li><a href="account.php" class="d-flex"><i class="fa-solid fa-gear"></i>Votre compte</a></li>
+            <li><a href="/settings/account" class="d-flex"><i class="fa-solid fa-gear"></i>Votre compte</a></li>
         </ul>
 
         <!--
@@ -60,7 +60,7 @@
 </main>
 
 <!-- Footer -->
-<?php require_once('../inc/_footer.php') ?>
+<?php require_once('../views/inc/_footer.php') ?>
 
 <!-- Mon fichier JS -->
 <script src="/js/app.js"></script>

@@ -12,7 +12,7 @@
 </head>
 
 <!-- Header -->
-<?php require_once('../inc/_header.php') ?>
+<?php require_once('../views/inc/_header.php') ?>
 
 <!-- Main -->
 <main class="profile-container">
@@ -29,8 +29,8 @@
                         <a href="settings-pages/profile-settings.php" class="logout"><i
                                 class="fa-solid fa-arrow-right-from-bracket"></i>Paramètres du profil</a>
                     </div> -->
-                <a href="../settings-pages/profile-settings.php" class="fa-solid fa-gear"></a>
-                <a href="../accueil.php" class="fa-solid fa-right-from-bracket"></a>
+                <a href="/settings/profile-settings" class="fa-solid fa-gear"></a>
+                <a href="/" class="fa-solid fa-right-from-bracket"></a>
             </div>
 
             <div class="username-and-description">
@@ -54,16 +54,16 @@
 
     <section class="buttons-and-songs d-flex">
         <div class="posts-btns d-flex">
-            <a href="../posts/new-upload.php" class="create-post"><i class="fa-solid fa-plus"></i>Créer
+            <a href="/posts/new-upload" class="create-post"><i class="fa-solid fa-plus"></i>Créer
                 un nouveau post</a>
             <a href="#" class="delete-posts"><i class="fa-solid fa-minus"></i>Supprimer des posts</a>
         </div>
 
-        <?php require_once('../inc/_simple-card.php'); ?>
+        <?php require_once('../views/inc/_simple-card.php'); ?>
 </main>
 
 <!-- Footer -->
-<?php require_once('../inc/_footer.php'); ?>
+<?php require_once('../views/inc/_footer.php'); ?>
 
 <!-- Mon fichier JS -->
 <script src="/js/app.js"></script>
