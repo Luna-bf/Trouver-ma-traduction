@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="account-parent d-flex">
-                    <div>Vous avez déjà un compte ? <a href="signin.php"
+                    <div>Vous avez déjà un compte ? <a href="signin"
                             class="connect-register-link">Connectez-vous</a></div>
                 </div>
             </form>
