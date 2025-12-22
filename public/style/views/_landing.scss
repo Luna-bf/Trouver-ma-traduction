@@ -19,10 +19,10 @@
 
 .hero-div h1 {
     font-family: "PoppinsLight", sans-serif;
-    font-size: 43px;
+    font-size: 45px;
     color: white;
     text-align: center;
-    line-height: 3em;
+    line-height: 3.5em;
 }
 
 .hero-div>div {
@@ -46,7 +46,7 @@
     background: transparent;
 }
 
-.hero-div>ul li form>.hero-input {
+.hero-div>ul li>.redirect-form-btn>.hero-input {
     font-family: "PoppinsLight", sans-serif;
     font-size: 17px;
     background: transparent;
@@ -57,14 +57,14 @@
     transition: none;
 }
 
-.hero-div>ul li form>.hero-input:hover {
+.hero-div>ul li>.redirect-form-btn>.hero-input:hover {
     border: 2px solid variables.$form-btn-bg-color-hover;
     background-color: variables.$form-btn-bg-color-hover;
     transition: none;
     cursor: pointer;
 }
 
-.hero-div>ul li form>.hero-input:active {
+.hero-div>ul li>.redirect-form-btn>.hero-input:active {
     border: 2px solid variables.$form-btn-bg-color-active;
     background-color: variables.$form-btn-bg-color-active;
     transition: none;

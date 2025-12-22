@@ -15,17 +15,16 @@
             <h1>Toutes vos traductions rassemblées à un seul endroit.</h1>
             <p>Chansons, textes, livres... Notre site communautaire rassemble des centaines d'adaptions traduites
                 par des amoureux de la langue et de l'art !</p>
-
             <ul>
                 <li>
-                    <form action="../form/signup.php">
-                        <input type="submit" value="S'inscrire" class="hero-input">
-                    </form>
+                    <div class="redirect-form-btn">
+                        <a href="../form/signup" class="hero-input">S'inscrire</a>
+                    </div>
                 </li>
                 <li>
-                    <form action="../form/signin.php">
-                        <input type="submit" value="Se connecter" class="hero-input">
-                    </form>
+                    <div class="redirect-form-btn">
+                        <a href="../form/signin" class="hero-input">Se connecter</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -48,7 +47,7 @@
                     <p>Fantasy, roman policier, histoires à l'eau de rose... Tout les types de récits sont proposés sur
                         le site et n'attendent plus que
                         vous pour les découvrir !</p>
-                    <a href="../form/signup.php">Commencez vos recherches dès maintenant</a>
+                    <a href="../form/signup">Commencez vos recherches dès maintenant</a>
                 </div>
             </div>
 
@@ -60,9 +59,8 @@
                 <div class="summary d-flex">
                     <span>Chansons</span>
                     <p>Replongez dans vos chansons préférées grâce aux traductions proposées : pop, rock, jazz... Tout
-                        les
-                        styles de musique sont présents !</p>
-                    <a href="../form/signup.php">Commencez vos recherches dès maintenant</a>
+                        les styles de musique sont présents !</p>
+                    <a href="../form/signup">Commencez vos recherches dès maintenant</a>
                 </div>
             </div>
 
@@ -75,14 +73,14 @@
                     <span>Textes</span>
                     <p>Vous favorisez les récits condencés ? Les traductions de poèmes, de nouvelles et autres textes
                         courts seront parfaites pour vous !</p>
-                    <a href="../form/signup.php">Commencez vos recherches dès maintenant</a>
+                    <a href="../form/signup">Commencez vos recherches dès maintenant</a>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <?php require_once('../inc/_footer.php'); ?>
+    <?php require_once('../views/inc/_footer.php'); ?>
 </body>
 
 </html>
