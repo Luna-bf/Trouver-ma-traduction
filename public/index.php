@@ -1,17 +1,18 @@
 <?php
 
-// Les requêtes de fichier seront effectuées ici (voir dossier "Ventes" dans htdocs)
+// Ajouter la logique PHP pour ce projet (pdo)
 
 // Je défini le chemin d'accès de chaque dossier ici :
 define('ROOT', dirname(__DIR__)); // dirname(__DIR__) va récupérer le nom du dossier parent (ici "Trouver-Ma-Traduction") et le stocker dans la constante nommée "ROOT"
+// print_r(ROOT); // Affiche bien le chemin jusqu'au dossier parent du projet
 
 /* Je déclare une constante nommée "VIEWS" qui prend comme valeur la racine du projet concaténé avec la chaine de caractères
 "/views", ce qui donne le chemin complet suivant : racine_du_projet/views
-*/ 
+*/
 define('VIEWS', ROOT . '/views');
 
 // Appels des controllers :
-require_once ROOT . '/src/HomeController.php';
+require_once ROOT . '/src/HomeController.php'; // Chemin d'accès : Trouver-Ma-Traduction/src/HomeController.php
 require_once ROOT . '/src/FormController.php';
 require_once ROOT . '/src/FileController.php';
 require_once ROOT . '/src/PostController.php';
@@ -21,7 +22,6 @@ require_once ROOT . '/src/SettingsController.php';
 (un tableau contenant des données de type clé=>valeur) */
 switch ($_SERVER['REQUEST_URI']) { // J'utilise un switch pour gérer les différents appels de fichiers
 
-    // Racine (j'ai une erreur dans la console quand je lance le serveur, trouver pourquoi et demande à Henry si j'y arrive pas)
     case '/': // Ce chemin défini landing.php comme page d'accueil, j'arriverais sur cette page lorsque je lancerais le serveur
         (new HomeController())->landing(); // Je créé un objet HomeController() et j'appelle la méthode landing() afin d'appeler le fichier landing.php
         break;
