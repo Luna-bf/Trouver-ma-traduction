@@ -8,6 +8,6 @@ class FileController extends BaseController { // Les méthodes de cette classe v
 
     // J'appelle la méthode render() dans d'autres méthodes qui vont chacunes appeler le chemin d'accès d'un fichier spécifique
     public function fileViewer() { // Cette méthode va appeler le fichier file-viewer.php
-        $this->render('file-viewer.php');
+        $this->render('file/file-viewer.php');
     }
 }

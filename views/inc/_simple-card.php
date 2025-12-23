@@ -1,77 +1,86 @@
-<section class="song-container d-flex">
-    <div class="simple-card-item">
-        <div class="simple-card-content">
-            <figure><img src="/assets/imgs/general/slider/docx-file-extension.png" alt="File extension" />
+<?php
+
+for ($i = 0; $i < 6; $i++) {
+    echo "
+    <section class='song-container d-flex'>
+    <div class='simple-card-item'>
+        <div class='simple-card-content'>
+            <figure><img src='/assets/imgs/general/slider/docx-file-extension.png' alt='File extension' />
             </figure>
 
-            <div class="simple-title">
+            <div class='simple-title'>
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class='see-translation-link'><a href='/file/file-viewer'>Voir la traduction</a></h4>
             </div>
 
-            <ul class="simple-text">
+            <ul class='simple-text'>
                 <li>Type : (Type de contenu)</li>
                 <li>Style : (Style)</li>
                 <li>Auteur : (Nom de l'auteur)</li>
                 <li>Langue : (Langue)</li>
             </ul>
 
-            <ul class="simple-other-infos">
+            <ul class='simple-other-infos'>
                 <li>Par : Nom de l'utilisateur</li>
                 <li>Postée le : JJ/MM/AAAA</li>
             </ul>
         </div>
     </div>
 
-    <div class="simple-card-item">
-        <div class="simple-card-content">
-            <figure><img src="/assets/imgs/general/slider/pdf-file-extension.png" alt="File extension" />
+    <div class='simple-card-item'>
+        <div class='simple-card-content'>
+            <figure><img src='/assets/imgs/general/slider/pdf-file-extension.png' alt='File extension' />
             </figure>
 
-            <div class="simple-title">
+            <div class='simple-title'>
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class='see-translation-link'><a href='/file/file-viewer'>Voir la traduction</a></h4>
             </div>
 
-            <ul class="simple-text">
+            <ul class='simple-text'>
                 <li>Type : (Type de contenu)</li>
                 <li>Style : (Style)</li>
                 <li>Auteur : (Nom de l'auteur)</li>
                 <li>Langue : (Langue)</li>
             </ul>
 
-            <ul class="simple-other-infos">
+            <ul class='simple-other-infos'>
                 <li>Par : Nom de l'utilisateur</li>
                 <li>Postée le : JJ/MM/AAAA</li>
             </ul>
         </div>
     </div>
 
-    <div class="simple-card-item">
-        <div class="simple-card-content">
-            <figure><img src="/assets/imgs/general/slider/docx-file-extension.png" alt="File extension" />
+    <div class='simple-card-item'>
+        <div class='simple-card-content'>
+            <figure><img src='/assets/imgs/general/slider/docx-file-extension.png' alt='File extension' />
             </figure>
 
-            <div class="simple-title">
+            <div class='simple-title'>
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class='see-translation-link'><a href='/file/file-viewer'>Voir la traduction</a></h4>
             </div>
 
-            <ul class="simple-text">
+            <ul class='simple-text'>
                 <li>Type : (Type de contenu)</li>
                 <li>Style : (Style)</li>
                 <li>Auteur : (Nom de l'auteur)</li>
                 <li>Langue : (Langue)</li>
             </ul>
 
-            <ul class="simple-other-infos">
+            <ul class='simple-other-infos'>
                 <li>Par : Nom de l'utilisateur</li>
                 <li>Postée le : JJ/MM/AAAA</li>
             </ul>
         </div>
     </div>
 </section>
+    ";
+    $i++;
+}
 
+?>
+<!-- 
 <section class="song-container d-flex">
     <div class="simple-card-item">
         <div class="simple-card-content">
@@ -80,7 +89,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="/file/file-viewer">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -104,7 +113,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="/file/file-viewer">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -128,7 +137,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="/file/file-viewer">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -154,7 +163,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="/file/file-viewer">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -178,7 +187,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="/file/file-viewer">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -202,7 +211,7 @@
 
             <div class="simple-title">
                 <h3>Nom de la traduction</h3>
-                <h4 class="see-translation-link"><a href="/file/file-viewer.php">Voir la traduction</a></h4>
+                <h4 class="see-translation-link"><a href="/file/file-viewer">Voir la traduction</a></h4>
             </div>
 
             <ul class="simple-text">
@@ -218,4 +227,4 @@
             </ul>
         </div>
     </div>
-</section>
+</section> -->

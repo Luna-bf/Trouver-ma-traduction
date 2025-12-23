@@ -1,5 +1,11 @@
 <?php
 
+/* Le dossier public contient toutes les informations non sensibles (images, style, js), le dossier public est le point de départ
+du serveur : on fait démarrer le serveur depuis ce dossier (il agit comme la racine du projet) donc tous les dossiers présent
+dans public sont aussi accessible par le navigateur. */
+
+// Tout ce qui se trouve en dehors du dossier public n'est pas accessible par le serveur, ce sont 
+
 // Ajouter la logique PHP pour ce projet (pdo)
 
 // Je défini le chemin d'accès de chaque dossier ici :
